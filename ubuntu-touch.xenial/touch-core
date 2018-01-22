@@ -87,6 +87,7 @@ Task-Metapackage: ubuntu-touch-core
  * xauth
  * vpnc
  * vim-nox
+ * timekeeper
 
 == Multimedia ==
 
