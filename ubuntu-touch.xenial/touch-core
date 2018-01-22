@@ -68,7 +68,8 @@ Task-Metapackage: ubuntu-touch-core
  * nuntium
  * libnss-extrausers
  * udisks2
- * ciborium
+# ciborium disabled until we have multiarch builds
+# * ciborium                   
  * openvpn
  * qtubuntu-sensors
 # Credential storage
