@@ -1,0 +1,141 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Ubuntu touch
+Task-Extended-Description: This task provides the Ubuntu touch environment.
+Task-Key: ubuntu-touch
+Task-Name: ubuntu-touch
+Task-Metapackage: ubuntu-touch
+Task-Seeds: touch-android touch-core
+
+ * Feature: no-follow-recommends
+
+== init ==
+# We need to keep that until we switch Touch to systemd
+ * upstart-sysv
+ * ntpdate                     # will be obsoleted by systemd-timesyncd
+
+== Core ==
+
+ * ttf-ubuntu-font-family
+ * fonts-wqy-microhei
+ * fonts-nanum
+ * fonts-takao-pgothic
+ * fonts-lohit-deva
+ * fonts-lohit-guru
+ * fonts-tlwg-kinnari
+ * ubuntu-keyboard-english
+ * ubuntu-keyboard-arabic
+ * ubuntu-keyboard-azerbaijani
+ * ubuntu-keyboard-bosnian
+ * ubuntu-keyboard-catalan
+ * ubuntu-keyboard-chinese-pinyin
+ * ubuntu-keyboard-croatian
+ * ubuntu-keyboard-czech
+ * ubuntu-keyboard-danish
+ * ubuntu-keyboard-dutch
+ * ubuntu-keyboard-emoji
+ * ubuntu-keyboard-finnish
+ * ubuntu-keyboard-french
+ * ubuntu-keyboard-german
+ * ubuntu-keyboard-greek
+ * ubuntu-keyboard-hebrew
+ * ubuntu-keyboard-hungarian
+ * ubuntu-keyboard-icelandic
+ * ubuntu-keyboard-italian
+ * ubuntu-keyboard-japanese
+ * ubuntu-keyboard-norwegian-bokmal
+ * ubuntu-keyboard-polish
+ * ubuntu-keyboard-portuguese
+ * ubuntu-keyboard-romanian
+ * ubuntu-keyboard-russian
+ * ubuntu-keyboard-scottish-gaelic
+ * ubuntu-keyboard-serbian
+ * ubuntu-keyboard-slovenian
+ * ubuntu-keyboard-spanish
+ * ubuntu-keyboard-swedish
+ * ubuntu-keyboard-ukrainian
+ * account-plugin-tools
+ * account-plugin-twitter
+ * account-plugin-facebook
+ * account-plugin-flickr
+ * suru-icon-theme
+ * account-plugin-ubuntuone
+ * account-plugin-google
+ * upstart-watchdog
+ * bluez-obexd
+# note: drop this here once we put it back into touch-core
+ * ubuntu-touch-customization-hooks
+ * system-image-cli
+
+== Shell ==
+
+ * ubuntu-touch-session
+ * unity8
+ * indicator-bluetooth
+ * indicator-datetime
+ * indicator-display
+ * indicator-location
+ * indicator-messages
+ * indicator-network
+ * indicator-power
+ * indicator-session
+ * indicator-sound
+ * indicator-transfer
+ * indicator-transfer-download-manager
+ * unity-scope-scopes
+ * unity-scope-click
+ * unity-scope-mediascanner2
+ * url-dispatcher
+ * thumbnailer-service
+
+== Apps ==
+
+ * webbrowser-app
+ * webapp-container # container
+ * dialer-app
+ * messaging-app
+ * address-book-app
+ * mediaplayer-app
+ * syncevolution
+ * sync-monitor-uoa
+ * ubuntu-touch-settings
+ * ubuntu-system-settings
+ * ubuntu-system-settings-online-accounts
+# Modifies some policykit policies to ensure that actions work the way we want
+# them.
+ * policykit-desktop-privileges
+ * qtdeclarative5-ubuntu-ui-extras0.2
+ * qtorganizer5-eds
+ * unity-webapps-qml
+
+= Multimedia =
+
+Preferred set of codecs for oxide.
+
+ * oxideqt-codecs-extra
+
+== Wrapper for HERE Location Service provider ==
+
+ * ubuntu-location-provider-here
+
+== Themes ==
+
+ * ubuntu-touch-sounds
+
+== language support ==
+# these are trimmed for the touch seeds and only get built if they have at
+# least 70% coverage, so we want them all
+
+ * /^language-pack-touch-/
+
+== X86 Emulator ==
+
+ * libqt5gui5-gles [amd64 i386]
+ * libqt5opengl5-gles [amd64 i386]
+ * libqt5quick5-gles [amd64 i386]
+ * libqt5quickparticles5-gles [amd64 i386]
+ * libqt5multimediawidgets5-gles [amd64 i386]
+ * libqt5location5-gles [amd64 i386]
+ * qtdeclarative5-qtlocation-plugin-gles [amd64 i386]
+ * qtdeclarative5-ubuntu-ui-toolkit-plugin-gles [amd64 i386]
+ * qml-module-qtmultimedia-gles [amd64 i386]

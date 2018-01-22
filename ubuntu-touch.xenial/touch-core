@@ -1,0 +1,132 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Ubuntu touch core
+Task-Extended-Description: This task provides the core Ubuntu touch environment.
+Task-Key: ubuntu-touch-core
+Task-Name: ubuntu-touch-core
+Task-Metapackage: ubuntu-touch-core
+
+ * Feature: no-follow-recommends
+
+== Core ==
+
+ * isc-dhcp-client
+ * net-tools
+ * network-manager
+ * bluez
+ * ca-certificates
+ * alsa-base
+ * alsa-utils
+ * powerd
+ * urfkill
+ * telepathy-gabble
+ * telepathy-ofono-ril-mc-plugin
+ * libmessaging-menu0
+ * signon-plugin-oauth2
+ * signon-apparmor-extension
+ * python3-gi
+ * python3-pkg-resources
+ * python3-oauthlib
+ * gir1.2-accounts-1.0
+ * software-properties-common
+ * mobile-broadband-provider-info
+ * click
+ * click-ubuntu-policy
+ * debsig-verify
+ * packagekit
+ * packagekit-plugin-click
+ * click-apparmor
+ * apparmor-easyprof-ubuntu
+ * ufw
+ * wget
+ * bluetooth-touch
+# TODO: needs porting to systemd, and move upstart-sysv dep to upstart
+# does not currently work on desktop-next images anyway
+#* ubuntu-touch-customization-hooks
+ * pulseaudio
+ * pulseaudio-module-bluetooth
+ * pulseaudio-module-trust-store
+ * rtkit
+ * content-hub
+ * ubuntu-location-service-bin
+ * mtp-server
+# Plugin for showing camera viewfinder in Qt as well as the video surface in 
+# the media-player
+ * qtvideonode-plugin
+# Library that coordinates qtvideo-node, qtubuntu-camera and qtubuntu-media
+# across thread contexts.
+ * libqtubuntu-media-signals1
+ # can take advantage to fine-tune removals; also useful for debugging
+ * ubuntu-app-launch-tools
+ * usensord
+ * libtinyxml2-2v5              # camera/gallery
+ * libzen0v5                    # camera/gallery
+ * ubuntu-push-client
+ * account-polld               # ubuntu-push-client account notifications
+# MMS support
+ * nuntium
+ * libnss-extrausers
+ * udisks2
+ * ciborium
+ * openvpn
+ * qtubuntu-sensors
+# Credential storage
+ * gnome-keyring
+ * libp11-kit-gnome-keyring
+ * libpam-gnome-keyring
+ * cgroup-lite
+
+== Multimedia ==
+
+ * gstreamer1.0-pulseaudio
+ * gstreamer1.0-fluendo-mp3    # MP3 support
+ * gstreamer1.0-plugins-good
+ * gstreamer1.0-plugins-bad-faad # for h264parse/faad / streaming
+ * gstreamer1.0-plugins-bad-videoparsers # for h264parse/faad / streaming
+ * gstreamer1.0-plugins-ugly-amr # AMR support
+ * media-hub                   # centralized media playback
+ * qtubuntu-media              # for media-hub
+ * libmediainfo0v5             # camera/gallery
+ * libqtubuntu-media-signals1  # camera/gallery
+
+== Apps ==
+
+ * pay-service
+
+== Debug ==
+
+ * nano
+ * wireless-tools
+ * openssh-server
+ * smemstat
+ * forkstat
+ * cpustat
+ * eventstat
+ * powerstat
+ * health-check
+# Tools added for debugging which should be removed in non-developer builds
+ * strace
+ * lsof
+ * ltrace
+ * tcptraceroute
+ * gdbserver
+
+== Utils ==
+
+ * ofono-scripts
+ * mir-utils	# screencast
+ * packagekit-tools
+ * pulseaudio-utils # pactl
+ * fbset # to dynamically detect framebuffer / screen size for phablet-screenshot
+ * gir1.2-ubuntu-app-launch-2
+ * iw
+
+# Platform API testing utils (sensors, gps, etc)
+ * ubuntu-application-api3-examples
+
+== Error Reporting ==
+
+ * whoopsie
+ * apport
+ * apport-noui
+

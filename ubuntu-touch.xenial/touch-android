@@ -1,0 +1,44 @@
+The touch-android seed exists to allow sharing a common touch-core between
+touch and desktop-next without pulling Android-specific bits into desktop-next.
+It does not have an associated metapackage as it is not expected to be
+installable on its own.
+
+ * Feature: no-follow-recommends
+
+== Core Device Specific ==
+
+# Here we list _preferred_ alternatives. These must be specified
+# first, otherwise packages that depend on alternatives can pull in
+# the wrong one (e.g. X11 or mesa based ones)
+
+# Touch uses the android-based mir platform backends by default
+ * mir-graphics-drivers-android
+ * qtmir-android
+
+== Core ==
+
+ * libhybris
+ * libhybris-test
+ * libhybris-utils
+# Copyrights of the AOSP portion of the image
+ * android-copyright
+
+== Multimedia ==
+
+# A QtMultimedia camera plugin that talks to Android by using hybris
+ * cameraplugin-aal
+ * gstreamer1.0-hybris
+ * pulseaudio-module-droid
+
+== Apps ==
+
+ * qtubuntu-android
+
+== Container Related ==
+
+ * initramfs-tools-ubuntu-touch
+ * ubuntu-touch-generic-initrd [armhf]
+ * android-tools-adbd
+ * lxc-android-config
+ * dbus-property-service
+

@@ -1,0 +1,12 @@
+include platform.xenial
+feature no-follow-recommends
+sdk-libs: required
+sdk-libs-dev: sdk-libs build-essential
+sdk-libs-tools: sdk-libs-dev
+sdk: sdk-libs-dev
+touch-android: minimal
+touch-core: minimal sdk-libs
+touch: touch-android touch-core
+touch-tests: touch
+supported: touch
+pocket-desktop: touch

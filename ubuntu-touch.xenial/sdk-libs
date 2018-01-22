@@ -1,0 +1,68 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Ubuntu SDK Libraries
+Task-Extended-Description: This task provides the Ubuntu SDK runtime libraries.
+Task-Key: ubuntu-touch
+Task-Name: ubuntu-sdk-libs
+Task-Metapackage: ubuntu-sdk-libs
+
+ * Feature: no-follow-recommends
+
+= Qt 5 APIs =
+
+ * libqt5keychain0
+ * qml-module-qtgraphicaleffects
+ * libqt5sql5-sqlite
+ * qml-module-qt-websockets
+ * libqt5multimedia5-plugins
+ * qtdeclarative5-u1db1.0
+ * qml-module-ubuntu-onlineaccounts
+ * qml-module-qt-labs-folderlistmodel
+ * qml-module-qtquick-localstorage
+ * qml-module-ubuntu-onlineaccounts-client
+ * qml-module-qtquick-particles2
+ * qml-module-qtquick-layouts
+ * qml-module-qtmultimedia
+ * qml-module-qtpositioning
+ * qml-module-qtpurchasing
+ * qml-module-qtqml-models2
+ * qml-module-qtqml-statemachine
+ * qml-module-qtquick2
+ * qml-module-qtsensors
+ * qml-module-qtquick-window2
+ * qml-module-qtquick-xmllistmodel
+ * qml-module-qtlocation
+ * qtdeclarative5-poppler1.0
+ * qml-module-qt-labs-settings
+ * libcontent-hub0
+ * qtdeclarative5-ubuntu-content1
+ * qtdeclarative5-usermetrics0.1
+ * qml-module-qtorganizer
+ * qtdeclarative5-ubuntu-download-manager0.1
+ * qtdeclarative5-ubuntu-mediascanner0.1
+ * qtdeclarative5-ubuntu-push-plugin
+ * qtdeclarative5-ubuntu-syncmonitor0.1
+ * qtdeclarative5-ubuntu-telephony-phonenumber0.1
+ * qt5-image-formats-plugins
+ * qml-module-qtbluetooth
+
+= Scope facing APIs =
+
+ * libjsoncpp1
+ * libnet-cpp2
+ * libprocess-cpp3
+
+= Ubuntu UI Toolkit =
+
+ * qtdeclarative5-ubuntu-ui-toolkit-plugin
+ * ubuntu-ui-toolkit-theme
+
+= HTML5 Toolkit =
+
+ * ubuntu-html5-theme
+ * ubuntu-html5-container
+
+= Tools =
+
+ * qmlscene
+ * qtchooser
