@@ -17,6 +17,7 @@ Task-Seeds: touch-android touch-core
 == Core ==
 
  * ttf-ubuntu-font-family
+ * fonts-emojione
  * fonts-wqy-microhei
  * fonts-nanum
  * fonts-takao-pgothic
