@@ -29,6 +29,7 @@ Task-Seeds: touch-android touch-core
  * ubuntu-keyboard-azerbaijani
  * ubuntu-keyboard-bosnian
  * ubuntu-keyboard-catalan
+ * ubuntu-keyboard-chinese-chewing
  * ubuntu-keyboard-chinese-pinyin
  * ubuntu-keyboard-croatian
  * ubuntu-keyboard-czech
@@ -70,6 +71,7 @@ Task-Seeds: touch-android touch-core
 # note: drop this here once we put it back into touch-core
  * ubuntu-touch-customization-hooks
  * system-image-cli
+ * system-image-dbus
 
 == Shell ==
 
