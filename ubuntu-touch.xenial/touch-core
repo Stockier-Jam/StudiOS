@@ -76,6 +76,7 @@ Task-Metapackage: ubuntu-touch-core
  * libp11-kit-gnome-keyring
  * libpam-gnome-keyring
  * cgroup-lite
+ * davfs2
 
 == Multimedia ==
 
