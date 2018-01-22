@@ -78,6 +78,8 @@ Task-Metapackage: ubuntu-touch-core
  * cgroup-lite
  * davfs2
  * bash-completion
+ * libnotify-bin
+ * htop
 
 == Multimedia ==
 
