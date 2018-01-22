@@ -54,13 +54,15 @@ Task-Seeds: touch-android touch-core
  * ubuntu-keyboard-spanish
  * ubuntu-keyboard-swedish
  * ubuntu-keyboard-ukrainian
- * account-plugin-tools
- * account-plugin-twitter
  * account-plugin-facebook
  * account-plugin-flickr
- * suru-icon-theme
- * account-plugin-ubuntuone
  * account-plugin-google
+ * account-plugin-owncloud
+ * account-plugin-tools
+ * account-plugin-twitter
+ * account-plugin-ubuntuone
+ * account-polld-plugins-go
+ * suru-icon-theme
  * upstart-watchdog
  * bluez-obexd
 # note: drop this here once we put it back into touch-core
