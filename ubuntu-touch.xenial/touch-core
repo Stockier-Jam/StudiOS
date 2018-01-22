@@ -80,6 +80,11 @@ Task-Metapackage: ubuntu-touch-core
  * bash-completion
  * libnotify-bin
  * htop
+ * libmaliit-glib0
+ * libxmuu1
+ * maliit-inputcontext-gtk2
+ * maliit-inputcontext-gtk3
+ * xauth
 
 == Multimedia ==
 
