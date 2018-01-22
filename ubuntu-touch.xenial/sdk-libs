@@ -29,6 +29,7 @@ Task-Metapackage: ubuntu-sdk-libs
  * qml-module-qtqml-statemachine
  * qml-module-qtquick2
  * qml-module-qtsensors
+ * qml-module-qtsysteminfo
  * qml-module-qtquick-window2
  * qml-module-qtquick-xmllistmodel
  * qml-module-qtlocation
