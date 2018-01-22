@@ -20,6 +20,7 @@ Task-Metapackage: ubuntu-touch-core
  * powerd
  * urfkill
  * telepathy-gabble
+ * telepathy-ofono
  * telepathy-ofono-ril-mc-plugin
  * libmessaging-menu0
  * signon-plugin-oauth2
