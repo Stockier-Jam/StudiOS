@@ -61,6 +61,7 @@ Task-Seeds: touch-android touch-core
  * account-plugin-tools
  * account-plugin-twitter
  * account-plugin-ubuntuone
+ * account-plugin-nextcloud
  * account-polld-plugins-go
  * suru-icon-theme
  * upstart-watchdog
