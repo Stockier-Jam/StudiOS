@@ -13,6 +13,7 @@ Task-Metapackage: ubuntu-sdk-libs
  * libqt5keychain0
  * qml-module-qtgraphicaleffects
  * libqt5sql5-sqlite
+ * libqt5script5
  * qml-module-qt-websockets
  * libqt5multimedia5-plugins
  * qtdeclarative5-u1db1.0
