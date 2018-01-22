@@ -78,6 +78,7 @@ Task-Seeds: touch-android touch-core
  * indicator-bluetooth
  * indicator-datetime
  * indicator-display
+ * indicator-keyboard
  * indicator-location
  * indicator-messages
  * indicator-network
