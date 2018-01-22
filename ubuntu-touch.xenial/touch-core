@@ -91,7 +91,7 @@ Task-Metapackage: ubuntu-touch-core
  * vim-nox
  * timekeeper
  * cups
- * aethercast
+ * aethercast [armhf]
 
 == Multimedia ==
 
