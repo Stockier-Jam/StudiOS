@@ -125,6 +125,7 @@ Task-Metapackage: ubuntu-touch-core
 
 == Utils ==
 
+ * ofono
  * ofono-scripts
  * mir-utils	# screencast
  * packagekit-tools
