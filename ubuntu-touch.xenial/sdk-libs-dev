@@ -29,6 +29,10 @@ Task-Metapackage: ubuntu-sdk-libs-dev
  # delivers the ubuntu-click
  * ubuntu-sdk-qmake-extras
 
+= Other APIs =
+
+ * libboost1.58-dev
+
 = Scope facing APIs =
 
  * google-mock
