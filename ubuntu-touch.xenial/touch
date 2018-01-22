@@ -97,6 +97,7 @@ Task-Seeds: touch-android touch-core
  * dialer-app
  * messaging-app
  * address-book-app
+ * address-book-updater
  * mediaplayer-app
  * syncevolution
  * sync-monitor-uoa
