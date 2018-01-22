@@ -44,6 +44,7 @@ Task-Metapackage: ubuntu-sdk-libs
  * qtdeclarative5-ubuntu-telephony-phonenumber0.1
  * qt5-image-formats-plugins
  * qml-module-qtbluetooth
+ * qml-module-io-thp-pyotherside
 
 = Scope facing APIs =
 
