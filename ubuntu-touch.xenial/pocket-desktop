@@ -11,5 +11,6 @@ Task-Metapackage: ubuntu-pocket-desktop
 == Core ==
 
  * libertine-tools
+ * python3-libertine-chroot
  * xmir
 
