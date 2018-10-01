@@ -98,8 +98,8 @@ Task-Seeds: touch-android touch-core
 
 == Apps ==
 
- * webbrowser-app
- * webapp-container # container
+ * morph-browser
+ * morph-webapp-container # container
  * dialer-app
  * messaging-app
  * address-book-app
@@ -119,9 +119,6 @@ Task-Seeds: touch-android touch-core
 
 = Multimedia =
 
-Preferred set of codecs for oxide.
-
- * oxideqt-codecs-extra
 
 == Wrapper for HERE Location Service provider ==
 
