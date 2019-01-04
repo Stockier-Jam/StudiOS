@@ -52,7 +52,7 @@ Task-Metapackage: ubuntu-touch-core
  * ubuntu-location-service-bin
  * ubuntu-location-provider-geoclue2
  * mtp-server
-# Plugin for showing camera viewfinder in Qt as well as the video surface in 
+# Plugin for showing camera viewfinder in Qt as well as the video surface in
 # the media-player
  * qtvideonode-plugin
 # Library that coordinates qtvideo-node, qtubuntu-camera and qtubuntu-media
@@ -70,7 +70,7 @@ Task-Metapackage: ubuntu-touch-core
  * libnss-extrausers
  * udisks2
 # ciborium disabled until we have multiarch builds
-# * ciborium                   
+# * ciborium
  * openvpn
  * qtubuntu-sensors
 # Credential storage
@@ -93,6 +93,13 @@ Task-Metapackage: ubuntu-touch-core
  * timekeeper
  * cups
  * aethercast [armhf]
+ * libertine-scope
+ * libertine-tools
+ * python3-libertine-chroot
+ * xmir
+ * libsmbclient
+ * xauth
+ * timekeeper
 
 == Multimedia ==
 
@@ -138,10 +145,3 @@ Task-Metapackage: ubuntu-touch-core
 
 # Platform API testing utils (sensors, gps, etc)
  * ubuntu-application-api3-examples
-
-== Error Reporting ==
-
- * whoopsie
- * apport
- * apport-noui
-

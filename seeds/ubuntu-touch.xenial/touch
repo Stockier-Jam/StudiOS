@@ -57,6 +57,9 @@ Task-Seeds: touch-android touch-core
  * ubuntu-keyboard-spanish
  * ubuntu-keyboard-swedish
  * ubuntu-keyboard-ukrainian
+ * ubuntu-keyboard-swiss-french
+ * ubuntu-keyboard-turkish
+ * ubuntu-keyboard-korean
  * account-plugin-facebook
  * account-plugin-flickr
  * account-plugin-google
@@ -64,6 +67,8 @@ Task-Seeds: touch-android touch-core
  * account-plugin-tools
  * account-plugin-twitter
  * account-plugin-ubuntuone
+ * account-plugin-nextcloud
+ * account-plugin-vk
  * account-plugin-nextcloud
  * account-polld-plugins-go
  * suru-icon-theme
@@ -110,6 +115,7 @@ Task-Seeds: touch-android touch-core
  * ubuntu-touch-settings
  * ubuntu-system-settings
  * ubuntu-system-settings-online-accounts
+ * ubuntu-system-settings-libertine
 # Modifies some policykit policies to ensure that actions work the way we want
 # them.
  * policykit-desktop-privileges
@@ -119,10 +125,6 @@ Task-Seeds: touch-android touch-core
 
 = Multimedia =
 
-
-== Wrapper for HERE Location Service provider ==
-
- * ubuntu-location-provider-here
 
 == Themes ==
 

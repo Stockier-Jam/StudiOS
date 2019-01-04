@@ -32,6 +32,7 @@ Task-Metapackage: ubuntu-sdk-libs-dev
 = Other APIs =
 
  * libboost1.58-dev
+ * kirigami2-dev
 
 = Scope facing APIs =
 
@@ -46,4 +47,3 @@ Task-Metapackage: ubuntu-sdk-libs-dev
 
  * ubuntu-ui-toolkit-doc
  * (ubuntu-html5-theme-examples)
-
