@@ -62,7 +62,7 @@ Task-Metapackage: ubuntu-touch-core
  * ubuntu-app-launch-tools
  * usensord
  * libtinyxml2-2v5              # camera/gallery
- # * libzen0v5                    # camera/gallery
+ * libzen0v5                    # camera/gallery
  * ubuntu-push-client
  * account-polld               # ubuntu-push-client account notifications
 # MMS support

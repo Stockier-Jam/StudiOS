@@ -5,7 +5,7 @@ Task-Extended-Description: This task provides the Ubuntu touch environment.
 Task-Key: ubuntu-touch
 Task-Name: ubuntu-touch
 Task-Metapackage: ubuntu-touch
-Task-Seeds: touch-android touch-core
+Task-Seeds: touch-core
 
  * Feature: no-follow-recommends
 
