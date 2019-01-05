@@ -69,8 +69,7 @@ Task-Metapackage: ubuntu-touch-core
  * nuntium
  * libnss-extrausers
  * udisks2
-# ciborium disabled until we have multiarch builds
-# * ciborium
+ * ciborium
  * openvpn
  * qtubuntu-sensors
 # Credential storage
@@ -92,7 +91,7 @@ Task-Metapackage: ubuntu-touch-core
  * vim-nox
  * timekeeper
  * cups
- * aethercast [armhf]
+ * aethercast
  * libertine-scope
  * libertine-tools
  * python3-libertine-chroot
@@ -100,6 +99,7 @@ Task-Metapackage: ubuntu-touch-core
  * libsmbclient
  * xauth
  * timekeeper
+ * ubports-qa-scripts
 
 == Multimedia ==
 
@@ -109,6 +109,8 @@ Task-Metapackage: ubuntu-touch-core
  * gstreamer1.0-plugins-bad-faad # for h264parse/faad / streaming
  * gstreamer1.0-plugins-bad-videoparsers # for h264parse/faad / streaming
  * gstreamer1.0-plugins-ugly-amr # AMR support
+ * gstreamer0.10-plugins-good
+ * gstreamer0.10-pulseaudio
  * media-hub                   # centralized media playback
  * qtubuntu-media              # for media-hub
  * libmediainfo0v5             # camera/gallery

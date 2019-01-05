@@ -22,6 +22,8 @@ Task-Metapackage: ubuntu-sdk-libs-dev
  * qttools5-dev
  * libssl-dev
  * qtpim5-dev
+ * qtconnectivity5-dev
+ * qtscript5-dev
 
  # forces Qt5 as the default; conflicts with Qt4 -- XXX should be a Recommends?
  * qt5-default

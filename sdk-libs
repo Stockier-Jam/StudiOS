@@ -55,6 +55,15 @@ Task-Metapackage: ubuntu-sdk-libs
  * qml-module-qtwebengine
  * qml-module-qtquick-controls2
  * qml-module-qtquick-controls2-suru
+ * qtdeclarative5-folderlistmodel-plugin
+ * qtdeclarative5-localstorage-plugin
+ * qtdeclarative5-online-accounts-client0.1
+ * qtdeclarative5-particles-plugin
+ * qtdeclarative5-qtorganizer-plugin
+ * qtdeclarative5-qtquick2-plugin
+ * qtdeclarative5-window-plugin
+ * qtdeclarative5-xmllistmodel-plugin
+ * qml-module-org-kde-kirigami2
 
 = Scope facing APIs =
 

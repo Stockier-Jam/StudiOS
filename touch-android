@@ -13,6 +13,7 @@ installable on its own.
 
 # Touch uses the android-based mir platform backends by default
  * mir-graphics-drivers-android
+ * mir-graphics-drivers-android-caf
  * qtmir-android
 
 == Core ==
@@ -38,7 +39,7 @@ installable on its own.
 == Container Related ==
 
  * initramfs-tools-ubuntu-touch
- * ubuntu-touch-generic-initrd [armhf]
+ * ubuntu-touch-generic-initrd
  * android-tools-adbd
  * lxc-android-config
  * dbus-property-service

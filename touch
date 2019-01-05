@@ -60,6 +60,8 @@ Task-Seeds: touch-android touch-core
  * ubuntu-keyboard-swiss-french
  * ubuntu-keyboard-turkish
  * ubuntu-keyboard-korean
+ * ubuntu-keyboard-lithuanian
+ * ubuntu-keyboard-bulgarian
  * account-plugin-facebook
  * account-plugin-flickr
  * account-plugin-google
@@ -122,6 +124,7 @@ Task-Seeds: touch-android touch-core
  * qtdeclarative5-ubuntu-ui-extras0.2
  * qtorganizer5-eds
  * unity-webapps-qml
+ * ubuntu-touch-coreapps
 
 = Multimedia =
 
