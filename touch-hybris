@@ -5,7 +5,6 @@ Task-Extended-Description: This task provides the Ubuntu touch environment, with
 Task-Key: ubuntu-touch-hybris
 Task-Name: ubuntu-touch-hybris
 Task-Metapackage: ubuntu-touch-hybris
-Task-Seeds: touch-core touch
 
  * Feature: no-follow-recommends
 
