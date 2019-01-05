@@ -99,7 +99,6 @@ Task-Seeds: touch-android touch-core
  * indicator-transfer-download-manager
  * unity-scope-scopes
  * unity-scope-click
- * unity-scope-mediascanner2
  * url-dispatcher
  * thumbnailer-service
 
@@ -124,7 +123,7 @@ Task-Seeds: touch-android touch-core
  * qtdeclarative5-ubuntu-ui-extras0.2
  * qtorganizer5-eds
  * unity-webapps-qml
- * ubuntu-touch-coreapps
+ # * ubuntu-touch-coreapps
 
 = Multimedia =
 

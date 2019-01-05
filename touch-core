@@ -62,7 +62,7 @@ Task-Metapackage: ubuntu-touch-core
  * ubuntu-app-launch-tools
  * usensord
  * libtinyxml2-2v5              # camera/gallery
- * libzen0v5                    # camera/gallery
+ # * libzen0v5                    # camera/gallery
  * ubuntu-push-client
  * account-polld               # ubuntu-push-client account notifications
 # MMS support
@@ -78,19 +78,19 @@ Task-Metapackage: ubuntu-touch-core
  * libpam-gnome-keyring
  * cgroup-lite
  * cgroupfs-mount
- * davfs2
+ # * davfs2
  * bash-completion
- * libnotify-bin
+ # * libnotify-bin
  * htop
- * libmaliit-glib0
- * libxmuu1
- * maliit-inputcontext-gtk2
- * maliit-inputcontext-gtk3
+ # * libmaliit-glib0
+ # * libxmuu1
+ # * maliit-inputcontext-gtk2
+ # * maliit-inputcontext-gtk3
  * xauth
- * vpnc
- * vim-nox
+ # * vpnc
+ # * vim-nox
  * timekeeper
- * cups
+ # * cups
  * aethercast
  * libertine-scope
  * libertine-tools
@@ -132,7 +132,6 @@ Task-Metapackage: ubuntu-touch-core
  * lsof
  * ltrace
  * tcptraceroute
- * gdbserver
 
 == Utils ==
 
