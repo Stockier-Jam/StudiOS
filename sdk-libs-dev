@@ -43,7 +43,6 @@ Task-Metapackage: ubuntu-sdk-libs-dev
  * libnet-cpp-dev
  * libprocess-cpp-dev
  * libproperties-cpp-dev
- * libunity-scopes-dev
 
 = Documentation and example code =
 
