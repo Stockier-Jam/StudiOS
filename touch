@@ -96,8 +96,6 @@ Task-Metapackage: ubuntu-touch
  * indicator-sound
  * indicator-transfer
  * indicator-transfer-download-manager
- * unity-scope-scopes
- * unity-scope-click
  * url-dispatcher
  * thumbnailer-service
 

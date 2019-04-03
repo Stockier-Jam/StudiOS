@@ -92,7 +92,6 @@ Task-Metapackage: ubuntu-touch-core
  * timekeeper
  # * cups
  * aethercast
- * libertine-scope
  * libertine-tools
  * python3-libertine-chroot
  * xmir
