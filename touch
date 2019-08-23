@@ -103,7 +103,7 @@ Task-Metapackage: ubuntu-touch
 
  * morph-browser
  * morph-webapp-container # container
- * qml-module-ubuntu-web # Oxide container
+ * qml-module-ubuntu-web [armhf] # Legacy oxide, only for armhf
  * dialer-app
  * messaging-app
  * address-book-app
