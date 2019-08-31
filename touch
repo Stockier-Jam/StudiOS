@@ -136,14 +136,15 @@ Task-Metapackage: ubuntu-touch
 
  * /^language-pack-touch-/
 
-== X86 Emulator ==
-
- * libqt5gui5-gles [amd64 i386]
- * libqt5opengl5-gles [amd64 i386]
- * libqt5quick5-gles [amd64 i386]
- * libqt5quickparticles5-gles [amd64 i386]
- * libqt5multimediawidgets5-gles [amd64 i386]
- * libqt5location5-gles [amd64 i386]
- * qtdeclarative5-qtlocation-plugin-gles [amd64 i386]
- * qtdeclarative5-ubuntu-ui-toolkit-plugin-gles [amd64 i386]
- * qml-module-qtmultimedia-gles [amd64 i386]
+# Gles disabled as we dont have emulator nor gles builds
+#== X86 Emulator ==
+#
+# * libqt5gui5-gles [amd64 i386]
+# * libqt5opengl5-gles [amd64 i386]
+# * libqt5quick5-gles [amd64 i386]
+# * libqt5quickparticles5-gles [amd64 i386]
+# * libqt5multimediawidgets5-gles [amd64 i386]
+# * libqt5location5-gles [amd64 i386]
+# * qtdeclarative5-qtlocation-plugin-gles [amd64 i386]
+# * qtdeclarative5-ubuntu-ui-toolkit-plugin-gles [amd64 i386]
+# * qml-module-qtmultimedia-gles [amd64 i386]
