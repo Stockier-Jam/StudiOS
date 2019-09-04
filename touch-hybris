@@ -35,6 +35,7 @@ Task-Metapackage: ubuntu-touch-hybris
  * gstreamer1.0-hybris
  * pulseaudio-module-droid
  * pulseaudio-modules-droid-24
+ * pulseaudio-modules-droid-glue-24
 
 == Apps ==
 
