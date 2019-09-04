@@ -67,7 +67,6 @@ Task-Metapackage: ubuntu-touch
  * account-plugin-owncloud
  * account-plugin-tools
  * account-plugin-twitter
- * account-plugin-ubuntuone
  * account-plugin-nextcloud
  * account-plugin-vk
  * account-plugin-nextcloud
