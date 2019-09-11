@@ -24,6 +24,7 @@ Task-Metapackage: ubuntu-touch
  * fonts-lohit-guru
  * fonts-tlwg-kinnari
  * ubuntu-keyboard-english
+ * ubuntu-keyboard-english-dvorak
  * ubuntu-keyboard-arabic
  * ubuntu-keyboard-azerbaijani
  * ubuntu-keyboard-bosnian
