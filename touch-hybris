@@ -18,6 +18,7 @@ Task-Metapackage: ubuntu-touch-hybris
  * mir-graphics-drivers-android
  * mir-graphics-drivers-android-caf
  * qtmir-android
+ * ubuntu-touch-session-mir
 
 == Core ==
 
