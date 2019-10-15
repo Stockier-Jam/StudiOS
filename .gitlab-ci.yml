@@ -1,0 +1,28 @@
+image: ubports/build-essential:bionic 
+
+build:
+  stage: build
+  script:
+    - git clone https://github.com/ubports/ubuntu-touch-meta.git build
+    - cd build
+    - git checkout xenial_-_edge
+    - ./update
+  cache:
+    policy: push
+    paths:
+      - build
+
+publish:
+  stage: deploy
+  image: ubports/git-push
+  only:
+    - xenial
+  script:
+    - cd build
+    - git add -A
+    - git commit -m "Automatic germinate refresh from gitlab"
+    - git-push git@github.com:ubports/ubuntu-touch-meta.git xenial_-_edge
+  cache:
+    policy: pull
+    paths:
+      - build
