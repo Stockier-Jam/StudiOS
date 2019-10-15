@@ -64,6 +64,7 @@ Task-Metapackage: ubuntu-sdk-libs
  * qtdeclarative5-window-plugin
  * qtdeclarative5-xmllistmodel-plugin
  * qml-module-org-kde-kirigami2
+ * qml-module-qtcharts
 
 = Scope facing APIs =
 
