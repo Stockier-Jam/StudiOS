@@ -70,7 +70,9 @@ Task-Metapackage: ubuntu-touch-core
  * udisks2
  * ciborium
  * openvpn
- * qtubuntu-sensors
+ * libsensorfw-qt5-configs
+ * libsensorfw-qt5-plugins
+ * libqt5sensors5-sensorfw
 # Credential storage
  * gnome-keyring
  * libp11-kit-gnome-keyring
