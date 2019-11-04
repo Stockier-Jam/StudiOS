@@ -1,27 +1,30 @@
 image: ubports/build-essential:bionic 
 
-build:
+build-xenial:
   stage: build
   script:
     - git clone https://github.com/ubports/ubuntu-touch-meta.git build
     - cd build
-    - git checkout xenial_-_edge
+    - git checkout xenial
     - ./update
   cache:
     policy: push
     paths:
       - build
 
-publish:
+publish-xenial:
   stage: deploy
   image: ubports/git-push
   only:
     - xenial
   script:
     - cd build
+    - sed "s/UNRELEASED/xenial/g" -i debian/changelog
+    - git config --global user.email "developers@ubports.com"
+    - git config --global user.name "UBports developers"
     - git add -A
     - git commit -m "Automatic germinate refresh from gitlab"
-    - git-push git@github.com:ubports/ubuntu-touch-meta.git xenial_-_edge
+    - DISABLE_FORCE_PUSH=1 CI_COMMIT_SHA=HEAD git-push git@github.com:ubports/ubuntu-touch-meta.git xenial
   cache:
     policy: pull
     paths:
