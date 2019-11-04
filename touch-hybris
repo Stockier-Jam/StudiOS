@@ -28,6 +28,7 @@ Task-Metapackage: ubuntu-touch-hybris
  * libhybris-utils
 # Copyrights of the AOSP portion of the image
  * android-copyright
+ * qtubuntu-sensors
 
 == Multimedia ==
 

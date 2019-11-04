@@ -12,3 +12,6 @@ Task-Metapackage: ubuntu-touch-mainline
 
  * mir-graphics-drivers-desktop
  * ubuntu-touch-session-wayland
+ * libsensorfw-qt5-configs
+ * libsensorfw-qt5-plugins
+ * libqt5sensors5-sensorfw
