@@ -11,3 +11,4 @@ Task-Metapackage: ubuntu-touch-mainline
 == Core Device Specific ==
 
  * mir-graphics-drivers-desktop
+ * ubuntu-touch-session-wayland
