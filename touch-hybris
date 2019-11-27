@@ -35,6 +35,12 @@ Task-Metapackage: ubuntu-touch-hybris
 # A QtMultimedia camera plugin that talks to Android by using hybris
  * cameraplugin-aal
  * gstreamer1.0-hybris
+
+# Alternative method to talks to camera via GStreamer
+ * gstreamer1.0-droid
+ * nemo-qtmultimedia-plugins
+
+# Pulseaudio module that talks to audio chip via Audio HAL
  * pulseaudio-module-droid
  * pulseaudio-modules-droid-24
  * pulseaudio-modules-droid-glue-24
