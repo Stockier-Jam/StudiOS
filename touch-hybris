@@ -45,8 +45,6 @@ Task-Metapackage: ubuntu-touch-hybris
 
 == Container Related ==
 
- * initramfs-tools-ubuntu-touch
- * ubuntu-touch-generic-initrd
  * android-tools-adbd
  * lxc-android-config
  * dbus-property-service
