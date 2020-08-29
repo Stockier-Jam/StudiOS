@@ -5,8 +5,10 @@ build-xenial:
   script:
     - git clone https://github.com/ubports/ubuntu-touch-meta.git build
     - cd build
-    - git checkout xenial
+    - git checkout ${CI_COMMIT_BRANCH} || git checkout xenial
+    - 'echo "dist: ${CI_COMMIT_BRANCH}" >> update.cfg'
     - ./update
+    - git checkout update.cfg
   cache:
     policy: push
     paths:
@@ -15,8 +17,6 @@ build-xenial:
 publish-xenial:
   stage: deploy
   image: ubports/git-push
-  only:
-    - xenial
   script:
     - cd build
     - sed "s/UNRELEASED/xenial/g" -i debian/changelog
@@ -24,7 +24,7 @@ publish-xenial:
     - git config --global user.name "UBports developers"
     - git add -A
     - git commit -m "Automatic germinate refresh from gitlab"
-    - DISABLE_FORCE_PUSH=1 CI_COMMIT_SHA=HEAD git-push git@github.com:ubports/ubuntu-touch-meta.git xenial
+    - DISABLE_FORCE_PUSH=1 CI_COMMIT_SHA=HEAD git-push git@github.com:ubports/ubuntu-touch-meta.git ${CI_COMMIT_BRANCH}
   cache:
     policy: pull
     paths:
