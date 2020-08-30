@@ -59,7 +59,6 @@ Task-Metapackage: ubuntu-touch-core
  * libqtubuntu-media-signals1
  # can take advantage to fine-tune removals; also useful for debugging
  * ubuntu-app-launch-tools
- * usensord
  * libtinyxml2-2v5              # camera/gallery
  * libzen0v5                    # camera/gallery
  * ubuntu-push-client
@@ -99,6 +98,8 @@ Task-Metapackage: ubuntu-touch-core
  * qtubuntu-appmenutheme      # Provides theme and platform features to Qt apps
 # Filesystem
  * f2fs-tools
+ * hfd-service
+ * libqt5feedback5-hfd
 
 == Multimedia ==
 

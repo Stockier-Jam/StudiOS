@@ -53,6 +53,7 @@ Task-Metapackage: ubuntu-sdk-libs
  * qtdeclarative5-archives0.1
  * qtdeclarative5-nemo-qml-plugin-folderlistmodel
  * qtdeclarative5-placesmodel0.1
+ * qml-module-hfd
 
 = Lomiri Components =
 
