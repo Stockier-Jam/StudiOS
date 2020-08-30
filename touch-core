@@ -98,6 +98,9 @@ Task-Metapackage: ubuntu-touch-core
  * qtubuntu-appmenutheme      # Provides theme and platform features to Qt apps
 # Filesystem
  * f2fs-tools
+ * libsensorfw-qt5-configs
+ * libqt5sensors5-sensorfw
+ * qtubuntu-position
  * hfd-service
  * libqt5feedback5-hfd
 
