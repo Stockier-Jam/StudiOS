@@ -29,6 +29,7 @@ Task-Metapackage: ubuntu-touch-hybris
 # Copyrights of the AOSP portion of the image
  * android-copyright
  * qtubuntu-sensors
+ * jumpercable
 
 == Multimedia ==
 
