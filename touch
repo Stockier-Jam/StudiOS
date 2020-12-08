@@ -104,7 +104,7 @@ Task-Metapackage: ubuntu-touch
 
  * morph-browser
  * morph-webapp-container # container
- * qml-module-ubuntu-web [armhf] # Legacy oxide, only for armhf
+ * qml-module-ubuntu-web-compat # Compatibility API for Ubuntu.Web component
  * dialer-app
  * messaging-app
  * address-book-app
@@ -121,7 +121,6 @@ Task-Metapackage: ubuntu-touch
  * policykit-desktop-privileges
  * qtdeclarative5-ubuntu-ui-extras0.2
  * qtorganizer5-eds
- * unity-webapps-qml
  # * ubuntu-touch-coreapps
 
 = Multimedia =
