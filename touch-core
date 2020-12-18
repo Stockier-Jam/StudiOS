@@ -91,7 +91,6 @@ Task-Metapackage: ubuntu-touch-core
  * aethercast
  * libertine-tools
  * python3-libertine-chroot
- * python3-libertine-lxd
  * xmir
  * libsmbclient
  * xauth
