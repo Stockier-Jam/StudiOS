@@ -30,9 +30,9 @@ Task-Metapackage: ubuntu-touch-hybris
  * android-copyright
  * qtubuntu-sensors
  * jumpercable
-# Workaround some legacy devices with problemetic Android's libc.so causing
+# Workaround some conflicts with Android's TLS slots causing some apps to
 # crash on Qt 5.12. See the package's description for how it works.
- * tls-padding [armhf]
+ * tls-padding
 
 == Multimedia ==
 
