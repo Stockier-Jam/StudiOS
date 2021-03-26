@@ -58,3 +58,9 @@ Task-Metapackage: ubuntu-touch-hybris
  * android-tools-adbd
  * lxc-android-config
  * dbus-property-service
+
+== NFC ==
+
+ * nfcd
+ * nfcd-repowerd-plugin
+ * nfcd-binder-plugin
