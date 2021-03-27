@@ -22,6 +22,7 @@ Task-Metapackage: ubuntu-sdk-libs
  * qml-module-qtcharts
  * qml-module-qtgraphicaleffects
  * qml-module-qtmultimedia
+ * qml-module-qtnfc
  * qml-module-qtpositioning
  * qml-module-qtqml-models2
  * qml-module-qtqml-statemachine
