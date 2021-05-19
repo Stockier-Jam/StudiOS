@@ -52,6 +52,7 @@ Task-Metapackage: ubuntu-touch-hybris
 == Apps ==
 
  * qtubuntu-android
+ * ubuntu-application-api3-touch
 
 == Container Related ==
 
