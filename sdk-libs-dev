@@ -11,6 +11,7 @@ Task-Metapackage: ubuntu-sdk-libs-dev
  * libqt5sensors5-dev
  * libqt5svg5-dev
  * libqt5websockets5-dev
+ * libqt5webview5-dev
  * libqt5xmlpatterns5-dev
  * qt3d5-dev
  * qtbase5-dev
