@@ -43,6 +43,7 @@ Task-Metapackage: ubuntu-sdk-libs
  * qml-module-qtwebchannel
  * qml-module-qtwebengine
  * qml-module-qtwebsockets
+ * qml-module-qtwebview                       # so apps can use a cross-platform webview
  * qt5-image-formats-plugins
 
 = Additional third party Qt APIs =
