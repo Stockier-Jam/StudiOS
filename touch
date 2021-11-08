@@ -16,13 +16,15 @@ Task-Metapackage: ubuntu-touch
 == Core ==
 
  * ttf-ubuntu-font-family
+ * fonts-beng
  * fonts-emojione
- * fonts-wqy-microhei
- * fonts-nanum
- * fonts-takao-pgothic
+ * fonts-khmeros
  * fonts-lohit-deva
  * fonts-lohit-guru
+ * fonts-nanum
+ * fonts-takao-pgothic
  * fonts-tlwg-kinnari
+ * fonts-wqy-microhei
  * ubuntu-keyboard-english
  * ubuntu-keyboard-english-dvorak
  * ubuntu-keyboard-arabic
