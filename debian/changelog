@@ -1,0 +1,2673 @@
+ubuntu-touch-meta (1.433xenial1ubports37) xenial; urgency=medium
+
+  * Merge ubuntu-touch and ubuntu-touch-meta and generate packages without
+    intermediary steps
+
+ -- Guido Berhoerster <guido+ubports@berhoerster.name>  Thu, 18 Nov 2021 14:57:47 +0100
+
+ubuntu-touch-meta (1.433xenial1ubports36) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-beng to touch
+  * Added fonts-khmeros to touch
+
+ -- root <root@runner-0277ea0f-project-10211609-concurrent-0>  Mon, 08 Nov 2021 15:32:29 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports35) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Removed address-book-updater from touch
+
+ -- root <root@runner-fa6cab46-project-10211609-concurrent-0>  Fri, 24 Sep 2021 19:21:24 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports34) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added tree to touch-core
+
+ -- root <root@runner-fa6cab46-project-10211609-concurrent-0>  Tue, 21 Sep 2021 12:33:10 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports33) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added libqt5webview5-dev to sdk-libs-dev
+  * Added qml-module-qtwebview to sdk-libs
+
+ -- root <root@runner-72989761-project-10211609-concurrent-0>  Fri, 16 Jul 2021 16:49:13 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports32) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-application-api3-touch to touch-hybris
+
+ -- root <root@runner-fa6cab46-project-10211609-concurrent-0>  Wed, 19 May 2021 20:02:46 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports31) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-keyboard-belarusian to touch
+
+ -- root <root@runner-72989761-project-10211609-concurrent-0>  Wed, 19 May 2021 19:39:25 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports30) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-keyboard-macedonian to touch
+
+ -- root <root@runner-ed2dce3a-project-10211609-concurrent-0>  Sat, 10 Apr 2021 15:42:36 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports29) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added nfcd to touch-hybris
+  * Added nfcd-binder-plugin to touch-hybris
+  * Added nfcd-repowerd-plugin to touch-hybris
+  * Added qml-module-qtnfc to sdk-libs
+
+ -- root <root@runner-0277ea0f-project-10211609-concurrent-0>  Sat, 27 Mar 2021 22:27:16 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports28) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added tls-padding to touch-hybris [amd64 arm64]
+
+ -- root <root@runner-72989761-project-10211609-concurrent-0>  Wed, 10 Feb 2021 15:31:26 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports27) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added gstreamer1.0-droid to touch-hybris
+  * Added nemo-qtmultimedia-plugins to touch-hybris
+
+ -- root <root@runner-0277ea0f-project-10211609-concurrent-0>  Mon, 08 Feb 2021 23:50:55 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports26) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added qml-module-qt-labs-qmlmodels to sdk-libs
+  * Added qml-module-qtquick-shapes to sdk-libs
+
+ -- root <root@runner-72989761-project-10211609-concurrent-0>  Mon, 18 Jan 2021 15:23:20 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports25) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Removed qt5-qmake-arm-linux-gnueabihf from sdk-libs-tools [amd64]
+
+ -- root <root@runner-fa6cab46-project-10211609-concurrent-0>  Tue, 05 Jan 2021 18:03:21 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports24) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added qml-module-qtwebchannel to sdk-libs
+  * Added qml-module-qtwebsockets to sdk-libs
+  * Added qml-module-ubuntu-components to sdk-libs
+  * Added qml-module-ubuntu-mediascanner0.1 to sdk-libs
+  * Added tls-padding to touch-hybris [armhf]
+  * Removed libjsoncpp1 from sdk-libs
+  * Removed libnet-cpp2 from sdk-libs
+  * Removed libprocess-cpp3 from sdk-libs
+  * Removed qtdeclarative5-folderlistmodel-plugin from sdk-libs
+  * Removed qtdeclarative5-localstorage-plugin from sdk-libs
+  * Removed qtdeclarative5-online-accounts-client0.1 from sdk-libs
+  * Removed qtdeclarative5-particles-plugin from sdk-libs
+  * Removed qtdeclarative5-qtorganizer-plugin from sdk-libs
+  * Removed qtdeclarative5-qtquick2-plugin from sdk-libs
+  * Removed qtdeclarative5-ubuntu-mediascanner0.1 from sdk-libs
+  * Removed qtdeclarative5-ubuntu-ui-toolkit-plugin from sdk-libs
+  * Removed qtdeclarative5-window-plugin from sdk-libs
+  * Removed qtdeclarative5-xmllistmodel-plugin from sdk-libs
+
+ -- root <root@runner-0277ea0f-project-10211609-concurrent-0>  Tue, 05 Jan 2021 17:22:01 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports23) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Removed python3-libertine-lxd from touch-core
+
+ -- root <root@runner-72989761-project-10211609-concurrent-0>  Fri, 18 Dec 2020 16:10:54 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports22) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added qml-module-ubuntu-web-compat to touch
+  * Removed qml-module-ubuntu-web from touch [armhf]
+  * Removed unity-webapps-qml from touch
+
+ -- root <root@runner-ed2dce3a-project-10211609-concurrent-0>  Thu, 17 Dec 2020 19:14:01 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports21) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added python3-libertine-lxd to touch-core
+
+ -- root <root@runner-ed2dce3a-project-10211609-concurrent-0>  Thu, 17 Dec 2020 18:55:10 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports20) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added anbox-ubuntu-touch to touch-core
+  * Added android-tools-adb to touch-core
+
+ -- root <root@runner-72989761-project-10211609-concurrent-0>  Thu, 17 Dec 2020 18:41:28 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports19) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-keyboard-thai to touch
+
+ -- root <root@runner-fa6cab46-project-10211609-concurrent-0>  Mon, 30 Nov 2020 17:50:36 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports18) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added jumpercable to touch-hybris
+
+ -- root <root@runner-72989761-project-10211609-concurrent-0>  Fri, 16 Oct 2020 19:22:18 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports17) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added qtubuntu-appmenutheme to touch-core
+
+ -- root <root@runner-fa6cab46-project-10211609-concurrent-0>  Wed, 17 Jun 2020 13:56:24 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports16) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Removed initramfs-tools-ubuntu-touch from touch-hybris
+  * Removed ubuntu-touch-generic-initrd from touch-hybris
+
+ -- root <root@runner-ed2dce3a-project-10211609-concurrent-0>  Wed, 20 May 2020 01:18:28 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports15) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added libqt5feedback5-hfd to touch-mainline
+
+ -- root <root@runner-0277ea0f-project-10211609-concurrent-0>  Mon, 04 May 2020 23:37:21 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports14) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added qml-module-qt-labs-platform to sdk-libs
+
+ -- root <root@runner-ed2dce3a-project-10211609-concurrent-0>  Sun, 23 Feb 2020 23:27:19 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports13) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added libqt5sensors5-sensorfw to touch-mainline
+  * Added libsensorfw-qt5-configs to touch-mainline
+  * Added libsensorfw-qt5-plugins to touch-mainline
+  * Added qtubuntu-sensors to touch-hybris
+  * Removed qtubuntu-sensors from touch-core
+
+ -- root <root@runner-72989761-project-10211609-concurrent-0>  Tue, 18 Feb 2020 16:12:30 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports12) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-keyboard-english-dvorak to touch
+  * Added ubuntu-touch-session-mir to touch-hybris
+  * Added ubuntu-touch-session-wayland to touch-mainline
+
+ -- root <root@runner-72989761-project-10211609-concurrent-0>  Tue, 05 Nov 2019 20:29:34 +0000
+
+ubuntu-touch-meta (1.433xenial1ubports11) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added pulseaudio-modules-droid-glue-24 to touch-hybris
+  * Added qml-module-qtcharts to sdk-libs
+  * Removed account-plugin-ubuntuone from touch
+
+ -- Marius Gripsgard <marius@ubports.com>  Sun, 03 Nov 2019 05:49:49 +0100
+
+ubuntu-touch-meta (1.433xenial1ubports10) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libqt5gui5-gles from touch [amd64]
+  * Removed libqt5location5-gles from touch [amd64]
+  * Removed libqt5multimediawidgets5-gles from touch [amd64]
+  * Removed libqt5opengl5-gles from touch [amd64]
+  * Removed libqt5quick5-gles from touch [amd64]
+  * Removed libqt5quickparticles5-gles from touch [amd64]
+  * Removed qml-module-qtmultimedia-gles from touch [amd64]
+  * Removed qtdeclarative5-qtlocation-plugin-gles from touch [amd64]
+  * Removed qtdeclarative5-ubuntu-ui-toolkit-plugin-gles from touch
+    [amd64]
+
+ -- Marius Gripsgard <marius@ubports.com>  Sun, 01 Sep 2019 21:31:34 +0200
+
+ubuntu-touch-meta (1.433xenial1ubports9) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Removed qml-module-ubuntu-web from touch [amd64 arm64]
+
+ -- Marius Gripsgard <marius@ubports.com>  Fri, 23 Aug 2019 18:34:39 +0200
+
+ubuntu-touch-meta (1.433xenial1ubports8) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added pulseaudio-modules-droid-24 to touch-hybris
+  * Removed ubuntu-location-provider-geoclue2 from touch-core
+
+ -- Marius Gripsgard <marius@ubports.com>  Fri, 23 Aug 2019 15:19:39 +0200
+
+ubuntu-touch-meta (1.433xenial1ubports7) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added qml-module-ubuntu-web to touch [arm64 armhf]
+
+ -- Marius <mariogrip@mariogrip-XPS-13-9360>  Sat, 11 May 2019 16:51:35 +0200
+
+ubuntu-touch-meta (1.433xenial1ubports6) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Removed htop from touch-core
+  * Removed libertine-scope from touch-core
+  * Removed libunity-scopes-dev from sdk-libs-dev
+  * Removed unity-scope-click from touch
+  * Removed unity-scope-scopes from touch
+
+ -- Marius Gripsgard <marius@ubports.com>  Thu, 04 Apr 2019 00:08:34 +0200
+
+ubuntu-touch-meta (1.433xenial1ubports5) xenial; urgency=medium
+
+  * Added core and hybris package
+  * Let touch depend on core and let hybris depend on touch
+
+  * Refreshed dependencies
+  * Added account-polld-plugins-go to touch [amd64]
+  * Added language-pack-touch-br to touch
+  * Added language-pack-touch-cy to touch
+  * Added ntpdate to touch [amd64]
+  * Added qml-module-io-thp-pyotherside to sdk-libs
+  * Added qml-module-org-kde-kirigami2 to sdk-libs
+  * Added qml-module-qt-labs-folderlistmodel to sdk-libs
+  * Added qml-module-qtorganizer to sdk-libs
+  * Added qml-module-qtquick-localstorage to sdk-libs
+  * Added qml-module-qtquick-particles2 to sdk-libs
+  * Added qml-module-qtquick-window2 to sdk-libs
+  * Added qml-module-qtquick-xmllistmodel to sdk-libs
+  * Added qml-module-qtquick2 to sdk-libs
+  * Added qml-module-ubuntu-onlineaccounts-client to sdk-libs
+  * Added qtdeclarative5-doc to sdk
+  * Added qtfeedback5-doc to sdk
+  * Added qtlocation5-doc to sdk
+  * Added qtpim5-doc to sdk
+  * Added qtsensors5-doc to sdk
+  * Added qtwebsockets5-doc to sdk
+  * Added qtxmlpatterns5-doc to sdk
+
+ -- Marius Gripsgard <marius@ubports.com>   Sat, 05 Jan 2019 12:28:19 +0100
+
+ubuntu-touch-meta (1.433xenial1ubports4) xenial; urgency=medium
+
+  * Add mir caf platform
+
+ -- Marius Gripsgard <marius@ubports.com>  Sat, 29 Dec 2018 02:56:18 +0100
+
+ubuntu-touch-meta (1.433xenial1ubports3) xenial; urgency=medium
+
+  * Add QtQuick COntrols 2
+  * Add qqc2-suru style
+
+ -- Dan Chapman <dan@ubports.com>  Sun, 06 May 2018 18:29:33 +0000
+
+ubuntu-touch-meta (1.333xenial1ubports2) xenial; urgency=medium
+
+  * Bump to libjsoncpp1 on amd64 & i386
+  * Bump to libnet-cpp2 on amd64 & i386
+  * Bump to libprocess-cpp3 on amd64 & i386
+
+ -- Dan Chapman <dan@ubports.com>  Sun, 18 Feb 2018 09:37:12 +0000
+
+ubuntu-touch-meta (1.333xenial1ubports1) xenial; urgency=medium
+
+  * Sync with xenial
+  * Add arm64
+
+ -- Marius Gripsgard <marius@ubports.com>  Wed, 17 Jan 2018 03:06:17 +0100
+
+ubuntu-touch-meta (1.222xenial48ubports3) xenial; urgency=medium
+
+  * Imported to UBports
+  * Bump to xenial
+
+ -- Marius Gripsgard <marius@ubports.com>  Wed, 11 Oct 2017 01:48:42 +0200
+
+ubuntu-touch-meta (1.221vivid48ubports2) vivid; urgency=medium
+
+  * Add account-polld-plugins-go
+
+ -- Marius Gripsgard <mariogrip@ubuntu.com>  Sat, 03 Jun 2017 22:13:47 +0200
+
+ubuntu-touch-meta (1.221vivid48ubports1) vivid; urgency=medium
+
+  * Add ubuntu-location-provider-geoclue2
+
+ -- Marius Gripsgard <mariogrip@ubuntu.com>  Mon, 22 May 2017 18:27:59 +0200
+
+ubuntu-touch-meta (1.221vivid48) vivid; urgency=medium
+
+  * Add gstreamer0.10-opus to touch and desktop.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Thu, 10 Nov 2016 12:08:37 +0200
+
+ubuntu-touch-meta (1.221vivid47) vivid; urgency=medium
+
+  * Added address-book-updater to touch
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Wed, 21 Sep 2016 18:09:40 +0200
+
+ubuntu-touch-meta (1.221vivid46) vivid; urgency=medium
+
+  * Added aethercast to touch (LP: #1625068)
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Mon, 19 Sep 2016 13:50:42 +0200
+
+ubuntu-touch-meta (1.221vivid45) vivid; urgency=medium
+
+  * Added ofono, system-image-dbus and telepathy-ofono to touch
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Fri, 09 Sep 2016 11:21:57 -0400
+
+ubuntu-touch-meta (1.221vivid44) vivid; urgency=medium
+
+  * Added ubuntu-keyboard-latvian to touch
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Wed, 10 Aug 2016 17:58:18 +0200
+
+ubuntu-touch-meta (1.221vivid43) vivid; urgency=medium
+
+  * Added account-plugin-owncloud to touch
+  * Added indicator-keyboard to touch
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Wed, 03 Aug 2016 16:33:42 +0200
+
+ubuntu-touch-meta (1.221vivid42) vivid; urgency=medium
+
+  * Add the new ubuntu-sdk-15.04.7 frameworks.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Tue, 12 Jul 2016 17:10:25 +0200
+
+ubuntu-touch-meta (1.221vivid41) vivid; urgency=medium
+
+  * Added fonts-emojione to touch (color emoji support)
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Tue, 28 Jun 2016 09:46:55 +0200
+
+ubuntu-touch-meta (1.221vivid40) vivid; urgency=medium
+
+  * Added language-pack-touch-br to touch
+  * Added language-pack-touch-cy to touch
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Mon, 27 Jun 2016 17:54:17 +0200
+
+ubuntu-touch-meta (1.221vivid39) vivid; urgency=medium
+
+  * Add the new ubuntu-sdk-15.04.6 frameworks.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Thu, 23 Jun 2016 14:57:27 +0200
+
+ubuntu-touch-meta (1.221vivid38) vivid; urgency=medium
+
+  * Added qml-module-qtsysteminfo to sdk-libs
+  * Removed ubuntu-html5-container from sdk-libs
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Thu, 16 Jun 2016 13:59:56 +0300
+
+ubuntu-touch-meta (1.221vivid37) vivid; urgency=medium
+
+  * Added libertine-tools to touch
+  * Added python3-libertine-chroot to touch
+  * Removed pocket-desktop meta-package and related seeds as it's all part of
+    ubuntu-touch now (LP: #1583271)
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Tue, 14 Jun 2016 10:58:51 +0300
+
+ubuntu-touch-meta (1.221vivid36) vivid; urgency=medium
+
+  * Remove deprecated touch frameworks (LP: #1555782):
+    - ubuntu-sdk-13.10
+    - ubuntu-sdk-14.04-dev1
+    - ubuntu-sdk-14.04-html-dev1
+    - ubuntu-sdk-14.04-papi-dev1
+    - ubuntu-sdk-14.04-qml-dev1
+    - ubuntu-sdk-14.10-dev2
+    - ubuntu-sdk-14.10-html-dev2
+    - ubuntu-sdk-14.10-qml-dev2
+    - ubuntu-sdk-14.10-qml-dev3
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Thu, 02 Jun 2016 13:49:30 +0200
+
+ubuntu-touch-meta (1.221vivid35) vivid; urgency=medium
+
+  * Removed policykit-unity8 from touch (causes regressions)
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Tue, 10 May 2016 16:09:17 +0200
+
+ubuntu-touch-meta (1.221vivid34) vivid; urgency=medium
+
+  * Added ubuntu-keyboard-chinese-chewing to touch
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Mon, 09 May 2016 20:01:01 +0200
+
+ubuntu-touch-meta (1.221vivid33) vivid; urgency=medium
+
+  * Added qtconnectivity5-dev to sdk-libs-dev
+  * Added policykit-unity8 to touch
+  * Add the new ubuntu-sdk-15.04.5 frameworks.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Fri, 06 May 2016 21:14:26 +0200
+
+ubuntu-touch-meta (1.221vivid32) vivid; urgency=medium
+
+  * Removed mir-test-tools from touch
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Tue, 29 Mar 2016 12:36:15 +0200
+
+ubuntu-touch-meta (1.221vivid31) vivid; urgency=medium
+
+  * Added indicator-session to touch as per new OOBE requirements.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Wed, 23 Mar 2016 12:16:45 +0100
+
+ubuntu-touch-meta (1.221vivid30) vivid; urgency=medium
+
+  * Replaced ttf-punjabi-fonts with fonts-lohit-guru in touch (LP: #1539361)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Fri, 04 Mar 2016 13:42:26 -0500
+
+ubuntu-touch-meta (1.221vivid29) vivid; urgency=medium
+
+  * Added ttf-punjabi-fonts to touch (LP: #1539361)
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 03 Mar 2016 13:20:21 -0500
+
+ubuntu-touch-meta (1.221vivid28) vivid; urgency=medium
+
+  * Added ubuntu-keyboard-japanese to touch.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Tue, 23 Feb 2016 10:29:11 +0100
+
+ubuntu-touch-meta (1.221vivid27) vivid; urgency=medium
+
+  * Added gnome-keyring to touch
+  * Added language-pack-touch-hr to touch
+  * Added libp11-kit-gnome-keyring to touch
+  * Added libpam-gnome-keyring to touch
+  * Removed liboxideqt-qmlplugin from sdk-libs
+  * Re-added the previously reverted ubuntu-sdk-15.04.4 frameworks
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Wed, 17 Feb 2016 17:41:27 +0100
+
+ubuntu-touch-meta (1.221vivid26) vivid; urgency=medium
+
+  * Revert the previous framework addition - the necessary features did not
+    land so its introduction does not make any sense.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Mon, 15 Feb 2016 17:08:45 +0100
+
+ubuntu-touch-meta (1.221vivid25) vivid; urgency=medium
+
+  * Add the new ubuntu-sdk-15.04.4 frameworks.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Wed, 27 Jan 2016 18:06:41 +0100
+
+ubuntu-touch-meta (1.221vivid23) vivid; urgency=medium
+
+  * Add gdbserver. Needed by QtCreator debugging applications and scopes.
+    (LP: #1364872)
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Thu, 17 Dec 2015 16:05:23 +0200
+
+ubuntu-touch-meta (1.221vivid22) vivid; urgency=medium
+
+  * Add qml-module-qtpurchasing to sdk-libs. Will be part of the
+    ubuntu-sdk-15.04.3 framework. (LP: #1527237)
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Thu, 17 Dec 2015 14:39:25 +0200
+
+ubuntu-touch-meta (1.221vivid21) vivid; urgency=medium
+
+  * Add qml-module-qtbluetooth to the touch seeds (sdk-libs). Will be part of
+    the ubuntu-sdk-15.04.3 framework.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Wed, 16 Dec 2015 16:25:01 +0100
+
+ubuntu-touch-meta (1.221vivid20) vivid; urgency=medium
+
+  * Remove the leftover ubuntu-application-api2-examples.
+  * Remove the deprecated friends packages.
+  * Add the language-pack-touch-pa language pack to the touch seeds.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Fri, 11 Dec 2015 16:05:23 +0100
+
+ubuntu-touch-meta (1.221vivid19) vivid; urgency=medium
+
+  * Remove the 15.10-dev1 frameworks from the stable seeds (LP: #1518393)
+  * Add the new ubuntu-sdk-15.04.3 frameworks.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Mon, 23 Nov 2015 12:09:22 +0100
+
+ubuntu-touch-meta (1.221vivid18) vivid; urgency=medium
+
+  * Replace obexd-[client,server] with bluez-obexd
+
+ -- Simon Fels <simon.fels@canonical.com>  Tue, 17 Nov 2015 10:33:16 +0100
+
+ubuntu-touch-meta (1.221vivid17) vivid; urgency=medium
+
+  * Add fonts-tlwg-kinnari to the touch seeds for Thai font support.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Mon, 16 Nov 2015 17:21:39 +0100
+
+ubuntu-touch-meta (1.221vivid16) vivid; urgency=medium
+
+  * Add the ubuntu-sdk-15.04.2 frameworks.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Tue, 10 Nov 2015 19:47:32 +0100
+
+ubuntu-touch-meta (1.221vivid15) vivid; urgency=medium
+
+  * Add qt5-image-formats-plugins to sdk-libs
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 19 Oct 2015 15:08:51 +0300
+
+ubuntu-touch-meta (1.221vivid14) vivid; urgency=medium
+
+  * Add libertine-demo to pocket-desktop.
+  * Remove libertine-tools as it's pulled in by libertine-demo.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Thu, 01 Oct 2015 13:57:12 +0200
+
+ubuntu-touch-meta (1.221vivid13) vivid; urgency=medium
+
+  * Add the ubuntu-sdk-15.04.1 frameworks.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Wed, 23 Sep 2015 17:10:58 +0200
+
+ubuntu-touch-meta (1.221vivid12) vivid; urgency=medium
+
+  * Add qtubuntu-sensors to the seeds as it's no longer pulled in as a
+    dependency.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Fri, 18 Sep 2015 11:09:22 +0200
+
+ubuntu-touch-meta (1.221vivid11) vivid; urgency=medium
+
+  * Add gstreamer1.0-plugins-ugly-amr to touch (LP: #1386553)
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Thu, 17 Sep 2015 18:05:47 +0200
+
+ubuntu-touch-meta (1.221vivid10) vivid; urgency=medium
+
+  * Add the new pocket-desktop seed for ubuntu-pd
+  * Create the new ubuntu-pocket-desktop meta-package
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Thu, 17 Sep 2015 11:24:55 +0200
+
+ubuntu-touch-meta (1.221vivid8) vivid; urgency=medium
+
+  * Add indicator-transfer-download-manager.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 02 Sep 2015 09:56:18 +0300
+
+ubuntu-touch-meta (1.221vivid7) vivid; urgency=medium
+
+  * Backport Michael Vogt's fix: add framework for ubuntu-sdk-15.10-dev1
+    (LP: #1456328)
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Mon, 24 Aug 2015 16:55:45 +0200
+
+ubuntu-touch-meta (1.221vivid6) vivid; urgency=medium
+
+  * Add iw to the touch seeds. Doesn't weight much and can be useful for
+    development and statistics
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Mon, 17 Aug 2015 20:41:10 +0200
+
+ubuntu-touch-meta (1.221vivid5) vivid; urgency=medium
+
+  * Add pulseaudio-module-trust-store to the touch seeds for trust-store
+    integration
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Mon, 17 Aug 2015 17:07:23 +0200
+
+ubuntu-touch-meta (1.221vivid4) vivid; urgency=medium
+
+  * Add new keyboard layouts to touch: ubuntu-keyboard-greek,
+    ubuntu-keyboard-icelandic, ubuntu-keyboard-norwegian-bokmal,
+    ubuntu-keyboard-romanian, ubuntu-keyboard-scottish-gaelic,
+    ubuntu-keyboard-slovenian and ubuntu-keyboard-ukrainian
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Mon, 22 Jun 2015 09:50:06 +0200
+
+ubuntu-touch-meta (1.221vivid3) vivid; urgency=medium
+
+  * Add telepathy-ofono-ril-mc-plugin to touch
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 22 May 2015 09:04:42 +0300
+
+ubuntu-touch-meta (1.221vivid2) vivid; urgency=medium
+
+  * Add qml-module-qtqml-models2 and qml-module-qtqml-statemachine
+    to sdk-libs
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 13 May 2015 10:32:22 +0300
+
+ubuntu-touch-meta (1.221vivid1) vivid; urgency=medium
+
+  * Add openvpn to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 24 Apr 2015 20:41:17 +0200
+
+ubuntu-touch-meta (1.221) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed hud from desktop
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 21 Apr 2015 13:56:13 +0200
+
+ubuntu-touch-meta (1.220) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed hud from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 21 Apr 2015 13:46:16 +0200
+
+ubuntu-touch-meta (1.219) vivid; urgency=medium
+
+  * Add 15.04 final frameworks.
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Fri, 10 Apr 2015 02:21:18 +0200
+
+ubuntu-touch-meta (1.218) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added apparmor-easyprof-ubuntu to desktop, touch
+  * Added libssl-dev to sdk-libs-dev
+  * Added qtpim5-dev to sdk-libs-dev
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 09 Apr 2015 11:19:24 +0200
+
+ubuntu-touch-meta (1.217) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added upstart-sysv to touch
+  * Removed upstart from touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 23 Mar 2015 20:47:24 +0100
+
+ubuntu-touch-meta (1.216) vivid; urgency=medium
+
+  [ Timo Jyrinki ]
+  * Refreshed dependencies
+  * Added liboxideqt-qmlplugin to sdk-libs
+  * Removed libqt5webkit5-dev from sdk-libs-dev (LP: #1362640)
+  * Removed qml-module-qtwebkit from sdk-libs
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 16 Mar 2015 10:11:26 +0100
+
+ubuntu-touch-meta (1.215) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-touch-customization-hooks from desktop
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Fri, 13 Mar 2015 17:20:09 +0100
+
+ubuntu-touch-meta (1.214) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added libqt5websockets5-dev to sdk-libs-dev
+  * Added qml-module-qt-websockets to sdk-libs
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 12 Mar 2015 15:51:44 +0100
+
+ubuntu-touch-meta (1.213) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed upstart from desktop, we use systemd there.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Thu, 12 Mar 2015 10:31:20 +0100
+
+ubuntu-touch-meta (1.212) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-lohit-deva to desktop, touch (LP: #1378184)
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 04 Mar 2015 15:08:30 +0100
+
+ubuntu-touch-meta (1.211) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added upstart to desktop, touch. This ensures that we keep upstart on
+    Touch even when we switch Ubuntu to systemd. (LP: #1428026)
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Wed, 04 Mar 2015 11:57:55 +0100
+
+ubuntu-touch-meta (1.210) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added qtdeclarative5-ubuntu-ui-extras0.2 to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Thu, 12 Feb 2015 23:35:41 -0200
+
+ubuntu-touch-meta (1.209) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-sdk-qmake-extras to sdk-libs-dev
+  * Removed ubuntu-sdk-qmake-extras from sdk-libs-tools
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Thu, 29 Jan 2015 08:58:59 +0100
+
+ubuntu-touch-meta (1.208) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added qt5-qmake-arm-linux-gnueabihf to sdk-libs-tools [amd64 i386]
+  * Added ubuntu-sdk-qmake-extras to sdk-libs-tools
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 26 Jan 2015 10:35:43 +0100
+
+ubuntu-touch-meta (1.207) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added oxideqt-codecs-extra to touch
+  * Removed oxideqt-codecs-extra from sdk-libs (LP: #1399597)
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 18 Dec 2014 10:57:34 +0000
+
+ubuntu-touch-meta (1.206) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added gstreamer0.10-pulseaudio to desktop, touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Mon, 15 Dec 2014 12:10:22 -0200
+
+ubuntu-touch-meta (1.205) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-keyboard-azerbaijani to touch
+  * Added ubuntu-keyboard-bosnian to touch
+  * Added ubuntu-keyboard-catalan to touch
+  * Added ubuntu-keyboard-croatian to touch
+  * Added ubuntu-keyboard-emoji to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Thu, 11 Dec 2014 21:05:36 -0200
+
+ubuntu-touch-meta (1.204) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added obexd-client to touch
+  * Added obexd-server to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 09 Dec 2014 23:52:13 -0200
+
+ubuntu-touch-meta (1.203) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-system-settings-wizard from touch
+
+ -- Michael Terry <mterry@ubuntu.com>  Thu, 04 Dec 2014 16:58:00 -0500
+
+ubuntu-touch-meta (1.202) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added intltool to sdk
+  * Added upstart-watchdog to touch
+  * Removed cmake from sdk-libs-dev
+  * Removed cmake-extras from sdk-libs-dev
+  * Removed intltool from sdk-libs-dev
+  * Removed python3 from sdk-libs-dev
+  * Removed qttools5-dev-tools from sdk-libs-dev
+  * add new ubuntu-sdk-libs-tools package
+
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Wed, 03 Dec 2014 11:45:49 +0100
+
+ubuntu-touch-meta (1.201) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Moved oxideqt-codecs-extra to sdk-libs (LP: #1395862)
+
+ -- Michael Vogt <mvo@ubuntu.com>  Fri, 28 Nov 2014 09:25:48 +0100
+
+ubuntu-touch-meta (1.200) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libmirclient8driver-android from touch
+  * Removed libmirplatform3driver-android from touch
+  * Added mir-graphics-drivers-desktop to desktop
+  * Added mir-graphics-drivers-android to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 26 Nov 2014 15:44:36 +0100
+
+ubuntu-touch-meta (1.199) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Moved oxideqt-codecs-extra to sdk-libs-recommends
+
+ -- Michael Vogt <mvo@ubuntu.com>  Fri, 21 Nov 2014 09:42:56 +0100
+
+ubuntu-touch-meta (1.198) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added qml-module-ubuntu-onlineaccounts to sdk-libs
+  * Removed qtdeclarative5-accounts-plugin from sdk-libs
+
+ -- Michael Vogt <mvo@ubuntu.com>  Fri, 21 Nov 2014 08:35:13 +0100
+
+ubuntu-touch-meta (1.197) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added intltool to sdk-libs-dev
+  * Added signon-apparmor-extension to desktop, touch
+  * Removed intltool from sdk
+  * Added qml-module-qtlocation to sdk-libs
+  * Added qml-module-qtpositioning to sdk-libs
+  * Removed qtdeclarative5-qtlocation-plugin from sdk-libs
+  * Removed qtdeclarative5-qtpositioning-plugin from sdk-libs
+
+ -- Michael Vogt <mvo@ubuntu.com>  Tue, 18 Nov 2014 08:57:05 +0100
+
+ubuntu-touch-meta (1.195) vivid; urgency=medium
+
+  * adjust update.cfg for vivid
+  * Refreshed dependencies
+  * Added gir1.2-ubuntu-app-launch-2 to desktop, touch
+  * Removed language-pack-touch-hi from touch
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Wed, 05 Nov 2014 08:33:45 +0100
+
+ubuntu-touch-meta (1.194) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed autopilot-qt5 from desktop, touch
+  * Removed autopilot-touch from desktop, touch
+  * Removed python3-autopilot from desktop, touch
+  * Removed python3-evdev from desktop, touch
+  * Removed qttestability-autopilot from desktop, touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 21 Oct 2014 17:42:55 +0200
+
+ubuntu-touch-meta (1.193) utopic; urgency=medium
+
+  * Add final 14.10 framework names.
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Wed, 15 Oct 2014 15:55:57 +0200
+
+ubuntu-touch-meta (1.192) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed account-plugin-evernote from touch (LP: #1380946)
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 15 Oct 2014 11:44:50 +0200
+
+ubuntu-touch-meta (1.191) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libmirclient8driver-android to touch
+  * Added libmirplatform3driver-android to touch
+  * Removed libmirclientplatform-android from touch
+  * Removed libmirplatformgraphics-android from touch
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 10 Oct 2014 22:28:09 +0100
+
+ubuntu-touch-meta (1.190) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added cmake-extras to sdk-libs-dev
+  * Removed signon-apparmor-extension from desktop, touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Fri, 03 Oct 2014 15:26:18 -0300
+
+ubuntu-touch-meta (1.189) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libqt5gui5-gles to touch [amd64 i386]
+  * Added libqt5quick5-gles to touch [amd64 i386]
+  * Removed libqt5core5a from sdk-libs
+  * Removed libqt5gui5 from sdk-libs [armhf]
+  * Removed libqt5gui5-gles from sdk-libs [amd64 i386]
+  * Removed libqt5qml5 from sdk-libs
+  * Removed libqt5quick5 from sdk-libs [armhf]
+  * Removed libqt5quick5-gles from sdk-libs [amd64 i386]
+  * Removed libqt5sql5 from sdk-libs
+  * Removed libqt5widgets5 from sdk-libs
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 29 Sep 2014 16:55:40 +0200
+
+ubuntu-touch-meta (1.188) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-takao-pgothic to desktop, touch
+  * Added indicator-display to touch
+  * Added libqt5gui5-gles to sdk-libs [amd64 i386]
+  * Added libqt5quick5-gles to sdk-libs [amd64 i386]
+  * Removed libqt5gui5 from sdk-libs [amd64 i386]
+  * Removed libqt5gui5-gles from touch [amd64 i386]
+  * Removed libqt5quick5 from sdk-libs [amd64 i386]
+  * Removed libqt5quick5-gles from touch [amd64 i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 29 Sep 2014 14:20:05 +0200
+
+ubuntu-touch-meta (1.187) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libqt5core5a to sdk-libs
+  * Added libqt5gui5 to sdk-libs
+  * Added libqt5qml5 to sdk-libs
+  * Added libqt5quick5 to sdk-libs
+  * Added libqt5sql5 to sdk-libs
+  * Added libqt5widgets5 to sdk-libs
+  * Added signon-apparmor-extension to desktop, touch
+
+ -- Michael Vogt <mvo@ubuntu.com>  Mon, 29 Sep 2014 08:59:17 +0200
+
+ubuntu-touch-meta (1.186) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed fonts-dejavu-extra from touch
+  * Removed fonts-freefont-ttf from touch
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Fri, 19 Sep 2014 12:58:28 -0700
+
+ubuntu-touch-meta (1.185) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added python3 to sdk-libs-dev
+  * Added ubuntu-ui-toolkit-doc to sdk-libs-dev
+  * Removed ubuntu-ui-toolkit-doc from sdk
+
+ -- Michael Vogt <mvo@ubuntu.com>  Wed, 10 Sep 2014 17:04:37 +0200
+
+ubuntu-touch-meta (1.184) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added google-mock to sdk-libs-dev
+  * Added libboost1.55-dev to sdk-libs-dev
+  * Added libjsoncpp-dev to sdk-libs-dev
+  * Added libjsoncpp0 to sdk-libs
+  * Added libnet-cpp-dev to sdk-libs-dev
+  * Added libnet-cpp1 to sdk-libs
+  * Added libprocess-cpp-dev to sdk-libs-dev
+  * Added libprocess-cpp2 to sdk-libs
+  * Added libproperties-cpp-dev to sdk-libs-dev
+
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 09 Sep 2014 10:14:14 +0200
+
+ubuntu-touch-meta (1.183) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-location-provider-here to touch
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Wed, 03 Sep 2014 23:54:02 +0200
+
+ubuntu-touch-meta (1.182) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-keyboard-serbian to desktop, touch
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 01 Sep 2014 12:50:43 +0200
+
+ubuntu-touch-meta (1.181) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added click-ubuntu-policy to desktop, touch
+  * Added debsig-verify to desktop, touch
+
+ -- Michael Vogt <mvo@ubuntu.com>  Wed, 20 Aug 2014 13:40:57 +0200
+
+ubuntu-touch-meta (1.180) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added autopilot-desktop to sdk
+  * Added intltool to sdk
+  * Added phablet-tools to sdk
+  * Added qml-module-qt-labs-settings to sdk-libs
+  * Added qtdeclarative5-ubuntu-push-plugin to sdk-libs
+  * Added ubuntu-device-flash to sdk
+  * Added ubuntu-ui-toolkit-autopilot to sdk
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 19 Aug 2014 16:39:46 +0200
+
+ubuntu-touch-meta (1.179) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added account-plugin-flickr to touch
+  * Added qtdeclarative5-ubuntu-content0.1 to sdk-libs
+  * Removed qtdeclarative5-ubuntu-content1 from sdk-libs
+  * Refreshed dependencies
+  * Added qtdeclarative5-ubuntu-content1 to sdk-libs
+  * Removed qtdeclarative5-ubuntu-content0.1 from sdk-libs
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 13 Aug 2014 11:29:28 -0400
+
+ubuntu-touch-meta (1.178) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ciborium to desktop, touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 05 Aug 2014 22:09:32 -0300
+
+ubuntu-touch-meta (1.177) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added autopilot-qt5 to desktop [armhf], touch [armhf]
+  * Added qttestability-autopilot to desktop [armhf], touch [armhf]
+  * Removed libautopilot-qt from desktop [armhf], touch [armhf]
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Mon, 04 Aug 2014 22:04:26 +0200
+
+ubuntu-touch-meta (1.176) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added autopilot-qt5 to desktop [amd64 i386], touch [amd64 i386]
+  * Added qttestability-autopilot to desktop [amd64 i386], touch [amd64
+    i386]
+  * Removed libautopilot-qt from desktop [amd64 i386], touch [amd64
+    i386]
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Mon, 04 Aug 2014 15:11:30 +0200
+
+ubuntu-touch-meta (1.175) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Replace fonts-arphic-ukai with fonts-wqy-microhei on desktop, touch
+    (LP: #1346766)
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Fri, 01 Aug 2014 10:22:21 +0200
+
+ubuntu-touch-meta (1.174) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added account-polld to desktop, touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 29 Jul 2014 20:36:25 -0300
+
+ubuntu-touch-meta (1.173) utopic; urgency=medium
+
+  [ Michal Sawicz ]
+  * Refreshed dependencies
+  * Added qtmir-android to touch
+
+ -- Robert Bruce Park <robert.park@canonical.com>  Tue, 29 Jul 2014 01:21:36 -0700
+
+ubuntu-touch-meta (1.172) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libmirclientplatform-android from desktop
+  * Removed libmirplatformgraphics-android from desktop
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Mon, 28 Jul 2014 20:29:58 -0700
+
+ubuntu-touch-meta (1.171) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libmirclientplatform-android to desktop, touch
+  * Added libmirplatformgraphics-android to desktop, touch
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Mon, 28 Jul 2014 15:57:13 -0700
+
+ubuntu-touch-meta (1.170) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added udisks2 to desktop, touch
+  * Removed libexiv2-12 from desktop, touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Mon, 28 Jul 2014 11:49:46 -0300
+
+ubuntu-touch-meta (1.169) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libubuntu-location-service1 from desktop, touch
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Wed, 23 Jul 2014 10:55:23 -0700
+
+ubuntu-touch-meta (1.168) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added qml-module-qtgraphicaleffects to sdk-libs
+  * Added qml-module-qtquick-layouts to sdk-libs
+  * Added qml-module-qtsensors to sdk-libs
+  * Added qml-module-qtwebkit to sdk-libs
+  * Removed libqt5qml-graphicaleffects from sdk-libs
+  * Removed libqt5webkit5-qmlwebkitplugin from sdk-libs
+  * Removed qtdeclarative5-qtsensors-plugin from sdk-libs
+  * Removed qtdeclarative5-quicklayouts-plugin from sdk-libs
+
+ -- Michael Vogt <mvo@ubuntu.com>  Tue, 22 Jul 2014 15:09:24 +0200
+
+ubuntu-touch-meta (1.167) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added eventstat to desktop
+  * Added fonts-nanum to desktop, touch
+  * Added forkstat to desktop
+  * Added health-check to desktop
+  * Added indicator-transfer to touch
+  * Added libnss-extrausers to desktop
+  * Added mir-test-tools to desktop
+  * Added mir-utils to desktop
+  * Added nuntium to desktop
+  * Added ofono-scripts to desktop
+  * Added pay-service to desktop
+  * Added powerstat to desktop
+  * Added pulseaudio-utils to desktop
+  * Added qtdeclarative5-ubuntu-telephony-phonenumber0.1 to sdk-libs
+  * Added smemstat to desktop
+  * Added ubuntu-application-api2-examples to desktop
+  * Added ubuntu-touch-customization-hooks to desktop
+  * Added urfkill to desktop
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 22 Jul 2014 01:00:27 -0300
+
+ubuntu-touch-meta (1.166) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libnss-extrausers to touch
+
+ -- Michael Terry <mterry@ubuntu.com>  Fri, 18 Jul 2014 10:50:20 -0400
+
+ubuntu-touch-meta (1.165) utopic; urgency=medium
+
+  * Add -dev3 framework for qml, which drops support for the friends API.
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Mon, 14 Jul 2014 10:48:14 -0700
+
+ubuntu-touch-meta (1.164) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added qtdeclarative5-friends0.2 to desktop, touch
+  * Removed friends from desktop, touch
+  * Removed friends-app from desktop, touch
+  * Removed qtdeclarative5-friends0.2 from sdk-libs
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Mon, 14 Jul 2014 09:53:18 -0700
+
+ubuntu-touch-meta (1.163) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed valgrind from desktop, touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 07 Jul 2014 19:32:30 +0200
+
+ubuntu-touch-meta (1.162) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added lsof to desktop, touch
+  * Added ltrace to desktop, touch
+  * Added strace to desktop, touch
+  * Added tcptraceroute to desktop, touch
+  * Added valgrind to desktop, touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 07 Jul 2014 15:43:25 +0200
+
+ubuntu-touch-meta (1.161) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added dbus-property-service to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 01 Jul 2014 15:21:43 +0200
+
+ubuntu-touch-meta (1.160) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libubuntu-location-service0 from desktop, touch
+  * Added libubuntu-location-service1 to desktop, touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 01 Jul 2014 15:34:44 +0800
+
+ubuntu-touch-meta (1.159) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libqt5keychain0 to sdk-libs
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 27 Jun 2014 12:09:56 +0200
+
+ubuntu-touch-meta (1.158) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libcontent-hub-dev to sdk-libs-dev
+  * Added libcontent-hub-doc to sdk
+  * Added libcontent-hub0 to sdk-libs
+  * Added pulseaudio-module-droid to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Thu, 26 Jun 2014 15:11:57 -0300
+
+ubuntu-touch-meta (1.157) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed grilo-plugins-0.2-mediascanner from desktop, touch
+  * Removed mediascanner from desktop, touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 23 Jun 2014 22:46:27 +0200
+
+ubuntu-touch-meta (1.156) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-system-settings-wizard to touch
+
+ -- Michael Terry <mterry@ubuntu.com>  Mon, 23 Jun 2014 14:25:06 -0400
+
+ubuntu-touch-meta (1.155) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added language-pack-touch-ast to touch
+  * Added language-pack-touch-bg to touch
+  * Added language-pack-touch-ca to touch
+  * Added language-pack-touch-da to touch
+  * Added language-pack-touch-eu to touch
+  * Added language-pack-touch-he to touch
+  * Added language-pack-touch-hi to touch
+  * Added language-pack-touch-ko to touch
+  * Added pulseaudio-utils to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Fri, 20 Jun 2014 12:40:41 -0300
+
+ubuntu-touch-meta (1.154) utopic; urgency=medium
+
+  * Add -dev2 frameworks to allow depending on qt 5.3.
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Wed, 18 Jun 2014 16:04:58 +0200
+
+ubuntu-touch-meta (1.153) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added packagekit to desktop
+  * Added packagekit-tools to desktop
+
+ -- Iain Lane <iain.lane@canonical.com>  Tue, 17 Jun 2014 17:58:25 +0100
+
+ubuntu-touch-meta (1.152) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-application-api2-examples to touch
+  * Removed libplatform-api1-hybris-tests from touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 17 Jun 2014 12:42:38 -0300
+
+ubuntu-touch-meta (1.151) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added language-pack-touch-bs to touch
+  * Added language-pack-touch-lt to touch
+  * Added language-pack-touch-ms to touch
+  * Added language-pack-touch-nl to touch
+  * Added language-pack-touch-oc to touch
+  * Added language-pack-touch-ro to touch
+  * Added language-pack-touch-sk to touch
+  * Added language-pack-touch-sv to touch
+  * Added language-pack-touch-tr to touch
+  * Added language-pack-touch-ug to touch
+  * Added libqt5sensors5-dev to sdk-libs-dev (LP: #1317885)
+  * Removed qtsensors5-dev from sdk-libs-dev
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 17 Jun 2014 13:45:33 +0200
+
+ubuntu-touch-meta (1.150) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-artwork to desktop
+
+ -- Iain Lane <iain.lane@canonical.com>  Mon, 16 Jun 2014 17:38:02 +0100
+
+ubuntu-touch-meta (1.149) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added language-pack-touch-cs to touch
+  * Added language-pack-touch-de to touch
+  * Added language-pack-touch-el to touch
+  * Added language-pack-touch-en to touch
+  * Added language-pack-touch-es to touch
+  * Added language-pack-touch-fi to touch
+  * Added language-pack-touch-fr to touch
+  * Added language-pack-touch-gd to touch
+  * Added language-pack-touch-gl to touch
+  * Added language-pack-touch-hu to touch
+  * Added language-pack-touch-id to touch
+  * Added language-pack-touch-it to touch
+  * Added language-pack-touch-ja to touch
+  * Added language-pack-touch-lv to touch
+  * Added language-pack-touch-nb to touch
+  * Added language-pack-touch-pl to touch
+  * Added language-pack-touch-pt to touch
+  * Added language-pack-touch-ru to touch
+  * Added language-pack-touch-sl to touch
+  * Added language-pack-touch-sr to touch
+  * Added language-pack-touch-uk to touch
+  * Added language-pack-touch-zh-hans to touch
+  * Added language-pack-touch-zh-hant to touch
+  * Removed language-pack-gnome-de-base from touch
+  * Removed language-pack-gnome-en-base from touch
+  * Removed language-pack-gnome-es-base from touch
+  * Removed language-pack-gnome-fr-base from touch
+  * Removed language-pack-gnome-pt-base from touch
+  * Removed language-pack-gnome-zh-hans-base from touch
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 16 Jun 2014 12:41:53 +0200
+
+ubuntu-touch-meta (1.148) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added eventstat to touch
+  * Added forkstat to touch
+  * Added health-check to touch
+  * Added powerstat to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 11 Jun 2014 12:35:32 +0200
+
+ubuntu-touch-meta (1.147) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added packagekit-tools to touch.  LP: #1322357.
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Tue, 10 Jun 2014 17:46:36 -0700
+
+ubuntu-touch-meta (1.146) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added smemstat to touch
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Tue, 10 Jun 2014 11:08:30 -0700
+
+ubuntu-touch-meta (1.145) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-app-launch-tools to desktop, touch
+  * Removed upstart-app-launch-tools from desktop, touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 04 Jun 2014 11:27:34 +0200
+
+ubuntu-touch-meta (1.144) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added oxideqt-codecs-extra to sdk-libs
+  * Removed ofono-scripts from desktop
+  * Removed oxideqt-codecs-extra from desktop, touch
+
+ -- Iain Lane <iain.lane@canonical.com>  Wed, 28 May 2014 17:12:36 +0100
+
+ubuntu-touch-meta (1.143) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added pay-service to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 28 May 2014 09:39:48 +0200
+
+ubuntu-touch-meta (1.142) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added nuntium to touch
+  * Removed dialer-app from desktop
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 23 May 2014 15:57:36 +0200
+
+ubuntu-touch-meta (1.141) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libtinyxml2-0.0.0 from desktop, touch
+  * Added libtinyxml2-2 to desktop, touch
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 23 May 2014 01:48:19 -0600
+
+ubuntu-touch-meta (1.140) utopic; urgency=medium
+
+  * Update to reflect desktop-next being renamed to desktop in
+    ubuntu-touch.utopic.
+
+ -- Iain Lane <iain.lane@canonical.com>  Thu, 22 May 2014 16:29:13 +0100
+
+ubuntu-touch-meta (1.139) utopic; urgency=medium
+
+  * Add 14.10-dev1 frameworks; LP: #1316552.
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Wed, 21 May 2014 17:57:42 +0200
+
+ubuntu-touch-meta (1.138) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libplatform-api1-hybris-tests to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Mon, 19 May 2014 17:18:47 -0300
+
+ubuntu-touch-meta (1.137) utopic; urgency=medium
+
+  * Arch restrict ubuntu-desktop-next to the architectures the packages are
+    available for.
+
+ -- Iain Lane <iain.lane@canonical.com>  Fri, 16 May 2014 17:42:38 +0100
+
+ubuntu-touch-meta (1.136) utopic; urgency=medium
+
+  * Add new ubuntu-desktop-next metapackage.
+
+ -- Iain Lane <iain.lane@canonical.com>  Fri, 16 May 2014 17:31:27 +0100
+
+ubuntu-touch-meta (1.135) utopic; urgency=medium
+
+  * Refreshed dependencies to make xnox happy :)
+  * Removed python-autopilot from touch
+  * Removed python-evdev from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 15 May 2014 15:58:53 +0200
+
+ubuntu-touch-meta (1.134) utopic; urgency=low
+
+  * Refreshed dependencies
+  * Added qtdeclarative5-ubuntu-mediascanner0.1 to sdk-libs
+  * Added qtdeclarative5-ubuntu-syncmonitor0.1 to sdk-libs
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 14 May 2014 18:37:11 +0200
+
+ubuntu-touch-meta (1.133) utopic; urgency=low
+
+  * Refreshed dependencies
+  * Added urfkill to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 14 May 2014 11:25:39 +0200
+
+ubuntu-touch-meta (1.132) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libqt53d5-gles to touch [amd64 i386]
+  * Added libqt5gui5-gles to touch [amd64 i386]
+  * Added libqt5location5-gles to touch [amd64 i386]
+  * Added libqt5multimediawidgets5-gles to touch [amd64 i386]
+  * Added libqt5opengl5-gles to touch [amd64 i386]
+  * Added libqt5quick5-gles to touch [amd64 i386]
+  * Added libqt5quickparticles5-gles to touch [amd64 i386]
+  * Added qml-module-qtmultimedia-gles to touch [amd64 i386]
+  * Added qtdeclarative5-qtlocation-plugin-gles to touch [amd64 i386]
+  * Added qtdeclarative5-ubuntu-ui-toolkit-plugin-gles to touch [amd64
+    i386]
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Sat, 10 May 2014 16:06:46 -0300
+
+ubuntu-touch-meta (1.131) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added qml-module-qtmultimedia to sdk-libs
+  * Removed qtdeclarative5-qtmultimedia-plugin from sdk-libs
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Fri, 09 May 2014 13:34:53 -0300
+
+ubuntu-touch-meta (1.130) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added qtdeclarative5-quicklayouts-plugin to sdk-libs
+  * Removed cordova-ubuntu-2.8 from sdk-libs
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 07 May 2014 19:32:13 +0200
+
+ubuntu-touch-meta (1.129) utopic; urgency=medium
+
+  * Add final 14.04 frameworks on top of the 14.04-dev1 ones (but keep the
+    -dev1 ones as we should be compatible); LP: #1310715.
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Tue, 06 May 2014 14:27:13 +0200
+
+ubuntu-touch-meta (1.128) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added fbset to touch
+  * Added libautopilot-qt to touch
+  * Added python-autopilot to touch
+  * Added python-evdev to touch
+  * Added python3-autopilot to touch
+  * Added python3-evdev to touch
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Fri, 02 May 2014 15:41:27 +0100
+
+ubuntu-touch-meta (1.127) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added media-hub to touch
+  * Added qtdeclarative5-ubuntu-download-manager0.1 to sdk-libs
+  * Added qtubuntu-media to touch
+  * Removed libqgsttools-p1-touch from touch
+  * Removed libqt5multimedia5-touch from touch
+  * Removed libqt5multimedia5-touch-plugins from touch
+  * Removed libqt5multimediaquick-p5-touch from touch
+  * Removed qtdeclarative5-qtmultimedia-touch-plugin from touch
+  * adjust update.cfg for utopic
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 30 Apr 2014 19:42:27 +0200
+
+ubuntu-touch-meta (1.126) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Removed click-update-manager from touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 15 Apr 2014 17:37:16 +0200
+
+ubuntu-touch-meta (1.125) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-push-client to touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 14 Apr 2014 13:07:45 +0200
+
+ubuntu-touch-meta (1.124) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-push-client from touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Fri, 11 Apr 2014 17:51:58 +0200
+
+ubuntu-touch-meta (1.123) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-push-client to touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 10 Apr 2014 15:44:53 +0200
+
+ubuntu-touch-meta (1.122) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added oxideqt-codecs-extra to touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 10 Apr 2014 08:39:07 +0200
+
+ubuntu-touch-meta (1.121) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added sync-monitor-uoa to touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 10 Apr 2014 08:13:45 +0200
+
+ubuntu-touch-meta (1.120) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added thumbnailer-service to touch
+
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Tue, 01 Apr 2014 16:53:30 -0400
+
+ubuntu-touch-meta (1.119) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added libunity-scopes-dev to sdk-libs-dev
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 26 Mar 2014 13:04:20 +0100
+
+ubuntu-touch-meta (1.118) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added qtdeclarative5-qtpositioning-plugin to sdk-libs
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 25 Mar 2014 19:06:39 +0100
+
+ubuntu-touch-meta (1.117) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Removed unity-scope-onlinemusic from touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 24 Mar 2014 12:53:00 +0100
+
+ubuntu-touch-meta (1.116) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added unity-scope-mediascanner2 to touch
+  * Added unity-scope-scopes to touch
+  * Removed libunity-scopes-json-def-phone from touch
+  * Removed unity-scope-home from touch
+  * Removed unity-scope-mediascanner from touch
+  * Removed unity-scope-video-remote from touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 24 Mar 2014 12:36:42 +0100
+
+ubuntu-touch-meta (1.115) trusty; urgency=medium
+
+  * Create ubuntu-sdk-14.04-qml-dev1, ubuntu-sdk-14.04-papi-dev1, and
+    ubuntu-sdk-14.04-html-dev1 frameworks, per
+    https://wiki.ubuntu.com/Click/Frameworks (reading it properly this
+    time).
+  * Refreshed dependencies
+  * Added suru-icon-theme to touch
+  * Removed ubuntu-mobile-icons from touch
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 17 Mar 2014 11:46:15 +0000
+
+ubuntu-touch-meta (1.114) trusty; urgency=medium
+
+  * Removed libqt5v8-5-dev from sdk-libs-dev, no longer exists as
+    Qt 5.2 switched to its own v4 engine.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Sat, 15 Mar 2014 12:19:53 +0400
+
+ubuntu-touch-meta (1.113) trusty; urgency=medium
+
+  * Rename ubuntu-sdk-14.04-dev framework to ubuntu-sdk-14.04-dev1, per
+    https://wiki.ubuntu.com/Click/Frameworks.
+  * Add appropriate Base-Name and Base-Version fields to all frameworks.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 14 Mar 2014 14:56:03 +0000
+
+ubuntu-touch-meta (1.112) trusty; urgency=medium
+
+  * Ship new ubuntu-sdk-14.04-dev framework
+
+ -- Didier Roche <didrocks@ubuntu.com>  Fri, 14 Mar 2014 15:32:09 +0100
+
+ubuntu-touch-meta (1.111) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added libmirclientplatform-android to touch
+  * Added libmirplatformgraphics-android to touch
+  * Added mir-utils to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 11 Mar 2014 00:32:15 -0300
+
+ubuntu-touch-meta (1.110) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added gstreamer1.0-plugins-bad-faad to touch
+  * Added gstreamer1.0-plugins-bad-videoparsers to touch
+  * Removed dbus-x11 from touch
+  * Removed gstreamer1.0-plugins-bad from touch
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 08 Mar 2014 01:17:10 +0000
+
+ubuntu-touch-meta (1.109) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added gstreamer0.10-plugins-good to touch
+  * Added libexiv2-12 to touch
+  * Added libmediainfo0 to touch
+  * Added libtinyxml2-0.0.0 to touch
+  * Added libzen0 to touch
+  * Removed camera-app from touch
+  * Removed gallery-app from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Sat, 22 Feb 2014 13:14:38 +0100
+
+ubuntu-touch-meta (1.108) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added click-update-manager to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Sat, 22 Feb 2014 13:06:40 +0100
+
+ubuntu-touch-meta (1.107) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Removed click-update-manager from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 19 Feb 2014 19:10:11 +0100
+
+ubuntu-touch-meta (1.106) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added cmake to sdk-libs-dev
+  * Added grilo-plugins-0.2-mediascanner to touch
+  * Added ubuntu-html5-theme-examples to sdk-libs-dev-recommends
+  * Removed ubuntu-html5-theme-examples from sdk-libs
+
+ -- Didier Roche <didrocks@ubuntu.com>  Fri, 07 Feb 2014 12:25:50 +0000
+
+ubuntu-touch-meta (1.105) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-keyboard-arabic to touch
+  * Added ubuntu-keyboard-chinese-pinyin to touch
+  * Added ubuntu-keyboard-czech to touch
+  * Added ubuntu-keyboard-danish to touch
+  * Added ubuntu-keyboard-dutch to touch
+  * Added ubuntu-keyboard-english to touch
+  * Added ubuntu-keyboard-finnish to touch
+  * Added ubuntu-keyboard-french to touch
+  * Added ubuntu-keyboard-german to touch
+  * Added ubuntu-keyboard-hebrew to touch
+  * Added ubuntu-keyboard-hungarian to touch
+  * Added ubuntu-keyboard-italian to touch
+  * Added ubuntu-keyboard-polish to touch
+  * Added ubuntu-keyboard-portuguese to touch
+  * Added ubuntu-keyboard-russian to touch
+  * Added ubuntu-keyboard-spanish to touch
+  * Added ubuntu-keyboard-swedish to touch
+  * Removed ubuntu-keyboard from touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 22 Jan 2014 14:22:46 +0100
+
+ubuntu-touch-meta (1.104) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added webapp-container to touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 20 Jan 2014 10:36:17 +0100
+
+ubuntu-touch-meta (1.103) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-html5-container to sdk-libs (LP: #1268699)
+  * Added ubuntu-html5-theme-examples to sdk-libs (LP: #1221919)
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Wed, 15 Jan 2014 12:24:46 +0100
+
+ubuntu-touch-meta (1.102) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added account-plugin-evernote to touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 14 Jan 2014 15:22:02 +0100
+
+ubuntu-touch-meta (1.101) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added usensord to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 14 Jan 2014 14:21:10 +0100
+
+ubuntu-touch-meta (1.100) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added mir-test-tools to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 10 Jan 2014 18:46:49 +0100
+
+ubuntu-touch-meta (1.099) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added qtdeclarative5-online-accounts-client0.1 to sdk-libs
+  * Added qtdeclarative5-ubuntu-content0.1 to sdk-libs
+  * Removed qtcreator-plugin-ubuntu-cordova from sdk
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 02 Jan 2014 16:52:14 -0500
+
+ubuntu-touch-meta (1.098) trusty; urgency=low
+
+  * Refreshed dependencies
+  * Removed qtdeclarative5-qtaudioengine-plugin from sdk-libs
+
+ -- Michael Terry <mterry@ubuntu.com>  Wed, 30 Oct 2013 09:33:18 -0700
+
+ubuntu-touch-meta (1.097) trusty; urgency=low
+
+  * Refreshed dependencies
+  * Revert the last uplaod, this was neither discussed with any of teh touch
+    teams, nor did it have a landing plan entry or any test run.
+  * Added qtdeclarative5-qtaudioengine-plugin to sdk-libs
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 25 Oct 2013 11:25:05 +0200
+
+ubuntu-touch-meta (1.096) trusty; urgency=low
+
+  * update.cfg: Switch to trusty.
+  * Refreshed dependencies
+  * Removed qtdeclarative5-qtaudioengine-plugin from sdk-libs
+
+ -- Michael Terry <mterry@ubuntu.com>  Thu, 24 Oct 2013 15:34:12 -0400
+
+ubuntu-touch-meta (1.095) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added qtdeclarative5-qtorganizer-plugin to sdk-libs
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 16 Oct 2013 20:38:45 +0200
+
+ubuntu-touch-meta (1.094) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-arphic-ukai to touch
+  * Added ubuntu-location-service-bin to touch
+  * Removed ubuntu-location-service-examples from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 15 Oct 2013 19:05:44 +0200
+
+ubuntu-touch-meta (1.093) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed qtdeclarative5-hud1.0 from sdk-libs; obsolete and dropping-letters
+    has been ported to new API.
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Tue, 15 Oct 2013 15:51:57 +0200
+
+ubuntu-touch-meta (1.092) saucy; urgency=low
+
+  * Drop coreapps-drivers daily PPA; not used anymore, everything converted to
+    Click.
+  * Refreshed dependencies
+  * Added qtdeclarative5-hud1.0 to sdk-libs
+  * Added qtdeclarative5-poppler1.0 to sdk-libs [armhf i386]
+  * Removed qtdeclarative5-poppler-qml-plugin from sdk-libs [armhf i386]
+
+ -- Loïc Minier <lool@dooz.org>  Tue, 15 Oct 2013 11:39:47 +0200
+
+ubuntu-touch-meta (1.091) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed ubuntu-filemanager-app from touch [armhf i386]; replaced with a
+    Click package.
+
+ -- Loïc Minier <lool@dooz.org>  Tue, 15 Oct 2013 01:18:17 +0200
+
+ubuntu-touch-meta (1.090) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed music-app from touch [armhf i386]
+  * Added ubuntu-touch-sounds to touch
+
+ -- Loïc Minier <lool@dooz.org>  Mon, 14 Oct 2013 18:44:26 +0200
+
+ubuntu-touch-meta (1.089) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed ubuntu-terminal-app from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 11 Oct 2013 19:10:38 +0200
+
+ubuntu-touch-meta (1.088) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed share-app from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 11 Oct 2013 10:56:24 +0200
+
+ubuntu-touch-meta (1.087) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed unity-lens-applications from touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 10 Oct 2013 14:56:52 +0200
+
+ubuntu-touch-meta (1.086) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed calendar-app from touch [armhf i386]
+  * Removed notes-app from touch
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Tue, 08 Oct 2013 03:27:49 +0200
+
+ubuntu-touch-meta (1.085) saucy; urgency=low
+
+  * Add /usr/share/click/frameworks/ubuntu-sdk-13.10.framework to
+    ubuntu-sdk-libs.
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Mon, 07 Oct 2013 20:23:12 +0200
+
+ubuntu-touch-meta (1.084) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added cameraplugin-aal to touch
+  * Added libqtubuntu-media-signals1 to touch
+  * Added qtdeclarative5-friends0.2 to sdk-libs
+  * Added qtdeclarative5-usermetrics0.1 to sdk-libs
+  * Added qtvideonode-plugin to touch
+  * Added upstart-app-launch-tools to touch
+  * Removed qtdeclarative5-friends-plugin from sdk-libs
+  * Removed rssreader-app from touch [armhf i386]
+  * Removed ubuntu-calculator-app from touch [armhf i386]
+  * Removed ubuntu-clock-app from touch [armhf i386]
+  * Removed ubuntu-weather-app from touch [armhf i386]
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Mon, 07 Oct 2013 19:55:21 +0200
+
+ubuntu-touch-meta (1.083) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added language-pack-gnome-de-base to touch
+  * Added language-pack-gnome-en-base to touch
+  * Added language-pack-gnome-es-base to touch
+  * Added language-pack-gnome-fr-base to touch
+  * Added language-pack-gnome-pt-base to touch
+  * Added language-pack-gnome-zh-hans-base to touch
+  * Removed language-pack-en from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 04 Oct 2013 20:11:42 +0200
+
+ubuntu-touch-meta (1.082) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added unity-scope-onlinemusic to touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 02 Oct 2013 17:22:36 +0200
+
+ubuntu-touch-meta (1.081) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added rssreader-app to touch [armhf i386]
+  * Removed ubuntu-rssreader-app from touch [armhf i386]
+
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 01 Oct 2013 09:26:33 +0200
+
+ubuntu-touch-meta (1.080) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added gstreamer1.0-hybris to touch [armhf i386]
+  * Added gstreamer1.0-plugins-bad to touch
+  * Added libqgsttools-p1-touch to touch
+  * Added libqt5multimedia5-plugins to sdk-libs
+  * Added libqt5multimedia5-touch to touch
+  * Added libqt5multimedia5-touch-plugins to touch
+  * Added libqt5multimediaquick-p5-touch to touch
+  * Added qtdeclarative5-qtmultimedia-touch-plugin to touch
+  * Removed gstreamer0.10-fluendo-mp3 from touch
+  * Removed gstreamer0.10-pulseaudio from touch
+  * Removed libqt5multimedia5-plugins from touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Mon, 30 Sep 2013 23:09:44 -0300
+
+ubuntu-touch-meta (1.079) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added policykit-desktop-privileges to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 27 Sep 2013 12:16:17 +0200
+
+ubuntu-touch-meta (1.078) saucy; urgency=low
+
+  * Fix seed_base to point at real seed.
+  * Refreshed dependencies
+  * Added cordova-ubuntu-2.8 to sdk-libs
+  * Added ubuntu-html5-theme to sdk-libs
+  * Removed cordova-ubuntu-2.8 from sdk
+  * Removed ubuntu-html5-theme from sdk
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Fri, 27 Sep 2013 11:15:13 +0200
+
+ubuntu-touch-meta (1.076) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Restructure seeds:
+  = Moved to sdk-libs Depends =
+  Removed libqt5qml-graphicaleffects from sdk
+  Removed libqt5script5 from touch
+  Removed libqt5sql5-sqlite from sdk
+  Removed qmlscene from sdk
+  Removed qtchooser from touch
+  Removed qtdeclarative5-accounts-plugin from sdk-recommends
+  Removed qtdeclarative5-folderlistmodel-plugin from sdk-recommends
+  Removed qtdeclarative5-friends-plugin from sdk-recommends, touch
+  Removed qtdeclarative5-localstorage-plugin from sdk-recommends
+  Removed qtdeclarative5-particles-plugin from sdk-recommends
+  Removed qtdeclarative5-qtaudioengine-plugin from sdk-recommends
+  Removed qtdeclarative5-qtlocation-plugin from touch
+  Removed qtdeclarative5-qtmultimedia-plugin from sdk-recommends
+  Removed qtdeclarative5-qtquick2-plugin from sdk-recommends
+  Removed qtdeclarative5-qtsensors-plugin from sdk-recommends
+  Removed qtdeclarative5-u1db1.0 from touch
+  Removed qtdeclarative5-ubuntu-ui-toolkit-plugin from sdk, touch
+  Removed qtdeclarative5-window-plugin from sdk-recommends
+  Removed qtdeclarative5-xmllistmodel-plugin from sdk-recommends
+  Removed ubuntu-ui-toolkit-theme from sdk
+  Removed libqt5webkit5-qmlwebkitplugin from sdk-recommends
+  Removed cordova-ubuntu-2.8 from sdk
+  Removed ubuntu-html5-theme from sdk
+
+  = Moved to sdk-libs-dev Depends =
+  Removed libqt5svg5-dev from sdk
+  Removed libqt5v8-5-dev from sdk
+  Removed libqt5webkit5-dev from sdk
+  Removed libqt5xmlpatterns5-dev from sdk
+  Removed qt3d5-dev from sdk
+  Removed qt5-default from sdk
+  Removed qtbase5-dev from sdk
+  Removed qtdeclarative5-dev from sdk
+  Removed qtdeclarative5-dev-tools from sdk
+  Removed qtlocation5-dev from sdk
+  Removed qtmultimedia5-dev from sdk
+  Removed qtscript5-dev from sdk
+  Removed qtsensors5-dev from sdk
+  Removed qttools5-dev from sdk
+  Removed qttools5-dev-tools from sdk
+
+  = Merge ubunut-touch.saucy updates =
+  * Added account-plugin-google to touch
+  * Added qtdeclarative5-poppler-qml-plugin to sdk-libs [armhf i386]
+  * Added qtdeclarative5-poppler1.0 to sdk-libs [amd64]
+  * Added unity-scope-video-remote to touch
+
+  = Merge -r100 =
+  * Added cordova-ubuntu-2.8 to sdk
+  * Added ubuntu-html5-theme to sdk
+  * Removed cordova-ubuntu-2.8 from sdk-libs
+  * Removed ubuntu-html5-theme from sdk-libs
+
+ -- Dmitrijs Ledkovs <dmitrij.ledkov@ubuntu.com>  Thu, 26 Sep 2013 10:07:46 +0100
+
+ubuntu-touch-meta (1.073) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added click-update-manager to touch
+  * Removed qtdeclarative5-qtgrilo0.1 from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 19 Sep 2013 19:31:28 +0200
+
+ubuntu-touch-meta (1.072) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added account-plugin-ubuntuone to touch
+  * Added libqt5script5 to touch (LP: #1225749)
+  * Added qtdeclarative5-qtgrilo0.1 to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 19 Sep 2013 13:09:08 +0200
+
+ubuntu-touch-meta (1.071) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added gstreamer1.0-pulseaudio to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 17 Sep 2013 18:03:26 -0300
+
+ubuntu-touch-meta (1.070) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added mtp-server to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 17 Sep 2013 14:48:44 +0200
+
+ubuntu-touch-meta (1.069) saucy; urgency=low
+
+  * Refreshed dependencies (LP: #1225936)
+  * Added cordova-ubuntu-2.8 to sdk
+  * Added ubuntu-html5-theme to sdk
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 16 Sep 2013 15:43:01 +0200
+
+ubuntu-touch-meta (1.068) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added libunity-scopes-json-def-phone to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 12 Sep 2013 20:20:10 +0200
+
+ubuntu-touch-meta (1.067) saucy; urgency=low
+
+  * Drop the phablet-team PPA
+  * Refreshed dependencies
+  * Removed demo-assets-music from touch [armhf i386]
+  * Removed demo-assets-scopes from touch [armhf i386]
+  * Removed demo-assets-shell from touch [armhf i386]
+  * Removed demo-assets-videos from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 11 Sep 2013 22:29:58 +0200
+
+ubuntu-touch-meta (1.066) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added content-hub to touch
+  * Added qtcreator-plugin-ubuntu-cordova to sdk
+  * Added unity-webapps-qml to touch
+  * Removed webapps-demo from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 11 Sep 2013 20:42:14 +0200
+
+ubuntu-touch-meta (1.065) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added openssh-server to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 10 Sep 2013 21:00:52 +0200
+
+ubuntu-touch-meta (1.064) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added qtdeclarative5-qtlocation-plugin to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 10 Sep 2013 17:34:15 +0200
+
+ubuntu-touch-meta (1.063) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added gstreamer0.10-fluendo-mp3 to touch
+  * Added gstreamer1.0-fluendo-mp3 to touch
+  * Added qtdeclarative5-friends-plugin to touch
+  * Set debian/source/format to 3.0 (native).
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Fri, 06 Sep 2013 17:22:53 +0200
+
+ubuntu-touch-meta (1.062) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added gstreamer1.0-plugins-good to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 05 Sep 2013 11:00:50 +0200
+
+ubuntu-touch-meta (1.061) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added qtdeclarative5-u1db1.0 to touch
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Tue, 03 Sep 2013 19:54:10 -0400
+
+ubuntu-touch-meta (1.060) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added ubuntu-touch-settings to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 02 Sep 2013 20:15:09 +0200
+
+ubuntu-touch-meta (1.059) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added mediascanner to touch
+  * Added unity-scope-mediascanner to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 30 Aug 2013 12:05:38 +0200
+
+ubuntu-touch-meta (1.058) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed libqtfolks1 from touch [armhf i386]
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Thu, 29 Aug 2013 10:50:14 -0300
+
+ubuntu-touch-meta (1.057) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added packagekit to touch
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 29 Aug 2013 14:15:03 +0100
+
+ubuntu-touch-meta (1.056) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added dialer-app to touch
+  * Added indicator-location to touch
+  * Added messaging-app to touch
+  * Removed phone-app from touch [armhf i386]
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Wed, 28 Aug 2013 19:15:12 -0300
+
+ubuntu-touch-meta (1.055) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed qtubuntu-media from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 27 Aug 2013 19:32:39 +0200
+
+ubuntu-touch-meta (1.054) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added gstreamer0.10-pulseaudio to touch
+  * Added libqt5multimedia5-plugins to touch
+  * Added libubuntu-location-service0 to touch
+  * Added pulseaudio to touch
+  * Added pulseaudio-module-bluetooth to touch
+  * Added rtkit to touch
+  * Added ubuntu-location-service-examples to touch
+  * Removed libandroid-audiosystem-asound2 from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 27 Aug 2013 12:00:45 +0200
+
+ubuntu-touch-meta (1.053) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added indicator-bluetooth to touch
+  * Added url-dispatcher to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 26 Aug 2013 17:56:37 +0200
+
+ubuntu-touch-meta (1.052) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added ubuntu-touch-customization-hooks to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 23 Aug 2013 18:32:23 +0200
+
+ubuntu-touch-meta (1.051) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed maliit-framework from touch
+  * Removed maliit-keyboard from touch
+  * Removed maliit-keyboard-data from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 22 Aug 2013 18:29:13 +0200
+
+ubuntu-touch-meta (1.050) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added indicator-network to touch
+  * Removed chewie from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 21 Aug 2013 13:01:34 +0200
+
+ubuntu-touch-meta (1.049) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added qtorganizer5-eds to touch
+  * Added ubuntu-keyboard to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 19 Aug 2013 10:39:38 +0200
+
+ubuntu-touch-meta (1.048) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added indicator-datetime to touch
+  * Added indicator-power to touch
+  * Added indicator-sound to touch
+  * Removed indicator-battery from touch [armhf i386]
+  * Removed indicator-time from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 16 Aug 2013 18:32:38 +0200
+
+ubuntu-touch-meta (1.047) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added bluetooth-touch to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 15 Aug 2013 16:06:21 +0200
+
+ubuntu-touch-meta (1.046) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added ofono-scripts to touch [amd64]
+  * Removed dropping-letters from touch [armhf i386]
+  * Removed stock-ticker-mobile-app from touch [armhf i386]
+  * Removed sudoku-app from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 12 Aug 2013 15:36:08 +0200
+
+ubuntu-touch-meta (1.045) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added autopilot-touch to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 06 Aug 2013 17:50:06 -0300
+
+ubuntu-touch-meta (1.044) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added apport-noui to touch
+
+ -- Evan Dandrea <ev@ubuntu.com>  Tue, 06 Aug 2013 13:15:39 +0100
+
+ubuntu-touch-meta (1.043) saucy; urgency=low
+
+  * update.cfg: Remove ubuntu-unity/next PPA; unity8 is now in the primary
+    archive.
+  * Refreshed dependencies
+  * Added unity8 to touch [amd64]
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 02 Aug 2013 16:44:08 +0100
+
+ubuntu-touch-meta (1.042) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added qtubuntu-media to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Thu, 01 Aug 2013 00:50:11 -0300
+
+ubuntu-touch-meta (1.041) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added apport to touch
+  * Added whoopsie to touch
+
+ -- Evan Dandrea <ev@ubuntu.com>  Tue, 30 Jul 2013 16:12:49 +0100
+
+ubuntu-touch-meta (1.040) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added click-apparmor to touch
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 24 Jul 2013 14:10:29 +0100
+
+ubuntu-touch-meta (1.039) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added unity-scope-click to touch
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Sat, 20 Jul 2013 21:24:47 -0400
+
+ubuntu-touch-meta (1.038) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added packagekit-plugin-click to touch
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 18 Jul 2013 17:11:06 +0100
+
+ubuntu-touch-meta (1.037) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added address-book-app to touch
+  * Removed ubuntu-qtlocation-plugin from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 17 Jul 2013 20:33:11 +0200
+
+ubuntu-touch-meta (1.036) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added wget to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 17 Jul 2013 16:36:28 +0200
+
+ubuntu-touch-meta (1.035) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added dropping-letters to touch [armhf i386]
+  * Added music-app to touch [armhf i386]
+  * Added stock-ticker-mobile-app to touch [armhf i386]
+  * Added ubuntu-rssreader-app to touch [armhf i386]
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 16 Jul 2013 17:01:52 -0300
+
+ubuntu-touch-meta (1.034) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed indicator-network from touch
+  * Removed indicator-sound from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 12 Jul 2013 16:52:12 +0200
+
+ubuntu-touch-meta (1.033) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added indicator-battery to touch [armhf i386]
+  * Added indicator-messages to touch
+  * Added indicator-network to touch
+  * Added indicator-sound to touch
+  * Added indicator-time to touch [armhf i386]
+  * Removed indicators-client from touch [armhf i386]
+  * Removed indicators-client-plugin-datetime from touch [armhf i386]
+  * Removed indicators-client-plugin-messaging from touch [armhf i386]
+  * Removed indicators-client-plugin-network from touch [armhf i386]
+  * Removed indicators-client-plugin-power from touch [armhf i386]
+  * Removed indicators-client-plugin-sound from touch [armhf i386]
+  * Removed unity-lens-music from touch
+  * Removed unity-lens-video from touch
+  * Removed unity-scopes-runner from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 12 Jul 2013 13:25:22 +0200
+
+ubuntu-touch-meta (1.032) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added calendar-app to touch [armhf i386]
+  * Removed ubuntu-calendar-app from touch [armhf i386]
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Fri, 12 Jul 2013 01:21:58 -0300
+
+ubuntu-touch-meta (1.031) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added ofono-scripts to touch [armhf i386]
+  * Added sudoku-app to touch [armhf i386]
+  * Removed sudokutouchgame from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 11 Jul 2013 17:03:17 +0200
+
+ubuntu-touch-meta (1.030) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added qtbase5-doc to sdk
+  * Added qtcreator-doc to sdk
+  * Added qtgraphicaleffects5-doc to sdk
+  * Added qtmultimedia5-doc to sdk
+  * Added qtscript5-doc to sdk
+  * Added qtsvg5-doc to sdk
+  * Added qttools5-doc to sdk
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 10 Jul 2013 13:21:12 +0200
+
+ubuntu-touch-meta (1.029) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added sudokutouchgame to touch [armhf i386]
+  * Added ufw to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Mon, 08 Jul 2013 18:03:58 -0300
+
+ubuntu-touch-meta (1.028) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added click to touch
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 08 Jul 2013 15:00:10 +0100
+
+ubuntu-touch-meta (1.027) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added qtubuntu-android to touch [amd64 i386]
+  * Added system-image-cli to touch
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Wed, 03 Jul 2013 14:20:49 -0400
+
+ubuntu-touch-meta (1.026) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added powerd to touch [amd64]
+  * Added qtubuntu-android to touch [armhf]
+  * Removed qtubuntu from touch
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 03 Jul 2013 19:33:42 +0200
+
+ubuntu-touch-meta (1.025) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added libhybris-utils to touch
+  * Added powerd to touch [i386]
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 02 Jul 2013 02:16:38 -0300
+
+ubuntu-touch-meta (1.024) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added ubuntu-touch-generic-initrd to touch [armhf]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 28 Jun 2013 16:34:19 +0200
+
+ubuntu-touch-meta (1.023) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added ubuntu-system-settings to touch
+  * Added ubuntu-system-settings-online-accounts to touch
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 20 Jun 2013 11:10:57 -0400
+
+ubuntu-touch-meta (1.022) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added demo-assets-scopes to touch [armhf i386]
+  * Added unity-lens-music to touch
+  * Added unity-lens-video to touch
+  * Added unity-scope-home to touch
+  * Added unity-scopes-runner to touch
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Thu, 20 Jun 2013 00:59:10 -0300
+
+ubuntu-touch-meta (1.021) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed unity-lens-people from touch [armhf i386]
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Wed, 19 Jun 2013 23:42:51 -0300
+
+ubuntu-touch-meta (1.020) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added camera-app to touch [amd64]
+  * Added fonts-dejavu-extra to touch
+  * Added gallery-app to touch [amd64]
+  * Added libandroid-audiosystem-asound2 to touch [i386]
+  * Added mediaplayer-app to touch [amd64]
+  * Added notes-app to touch [amd64]
+  * Added qtubuntu to touch [amd64]
+  * Added share-app to touch [amd64]
+  * Added webbrowser-app to touch [amd64]
+  * Removed qt5-default from touch
+  * Removed ttf-dejavu-extra from touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 14 Jun 2013 17:08:09 +0200
+
+ubuntu-touch-meta (1.019) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added ubuntu-filemanager-app to touch [armhf i386]
+  * Added ubuntu-terminal-app to touch [armhf i386]
+  * Added unity8 to touch [armhf i386]
+  * Removed qml-phone-shell from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 05 Jun 2013 21:39:23 +0200
+
+ubuntu-touch-meta (1.018) saucy; urgency=low
+
+  * Drop unused PPAs
+  * Refreshed dependencies
+  * Added libhybris to touch [amd64]
+  * Added libhybris-test to touch [amd64]
+  * Added ubuntu-touch-session to touch
+  * Removed ubuntu-session from touch [armhf i386]
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 05 Jun 2013 11:29:33 +0200
+
+ubuntu-touch-meta (1.017) saucy; urgency=low
+
+  * Only build package on amd64, armhf, and i386, matching update.cfg.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 04 Jun 2013 11:38:52 +0100
+
+ubuntu-touch-meta (1.016) saucy; urgency=low
+
+  * Refactor update.cfg slightly to be less repetitive; no functional
+    change.
+
+  * Refreshed dependencies
+  * Added android-tools-adbd to touch [amd64 i386]
+  * Added friends-app to touch [amd64]
+  * Added initramfs-tools-ubuntu-touch to touch [amd64 i386]
+  * Added libqt5qml-graphicaleffects to sdk
+  * Added lxc-android-config to touch [amd64 i386]
+  * Added mobile-broadband-provider-info to touch [amd64]
+  * Added qtdeclarative5-accounts-plugin to sdk-recommends
+  * Added qtdeclarative5-friends-plugin to sdk-recommends
+  * Added syncevolution to touch [amd64]
+  * Added ubuntu-ui-toolkit-doc to sdk
+  * Removed iputils-ping from touch [armhf i386]
+  * Removed isc-dhcp-client from touch [armhf i386]
+  * Removed libandroid-audiosystem-asound2 from touch [i386]
+  * Removed libqt5graphicaleffects5 from sdk
+  * Removed net-tools from touch [armhf i386]
+  * Removed powerd from touch [i386]
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 04 Jun 2013 11:12:27 +0100
+
+ubuntu-touch-meta (1.015) saucy; urgency=low
+
+  * Fix typo, demo-assets-video needs to be demo-assets-videos
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 03 Jun 2013 16:31:43 +0200
+
+ubuntu-touch-meta (1.014) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added demo-assets-shell to touch-armhf touch-i386
+  * Added demo-assets-video to touch-armhf touch-i386
+  * Added demo-assets-music to touch-armhf touch-i386
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 03 Jun 2013 10:55:15 +0200
+
+ubuntu-touch-meta (1.013) saucy; urgency=low
+
+  * sync with phablet seeds (omitting demo-assets-shell|video|music since they
+    are not in any saucy archive yet)
+  * Refreshed dependencies
+  * Added syncevolution to touch-armhf touch-i386
+  * Added mobile-broadband-provider-info to touch-armhf touch-i386
+  * Added ubuntu-mobile-icons to touch-armhf touch-i386
+  * Removed ubuntu-mobile from touch-armhf touch-i386
+  * Removed indicators-client-examples from touch-armhf touch-i386
+  * Removed demo-assets from touch-armhf touch-i386
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 03 Jun 2013 10:19:21 +0200
+
+ubuntu-touch-meta (1.012) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added lxc-android-config to touch-armhf
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 31 May 2013 18:59:30 +0200
+
+ubuntu-touch-meta (1.011) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added android-tools-adbd to touch-armhf
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 28 May 2013 15:42:40 +0200
+
+ubuntu-touch-meta (1.010) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added initramfs-tools-ubuntu-touch to touch-armhf
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 27 May 2013 13:33:11 +0200
+
+ubuntu-touch-meta (1.009) saucy; urgency=low
+
+  * Rereshed dependencies
+  * Added libqt5sql5-sqlite to sdk
+  * Added libqt5webkit5-qmlwebkitplugin to sdk-recommends
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Wed, 22 May 2013 11:41:54 +0200
+
+ubuntu-touch-meta (1.008) saucy; urgency=low
+
+  * Rereshed dependencies
+  * Added friends-app to touch
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 10 May 2013 13:49:21 +0200
+
+ubuntu-touch-meta (1.007) saucy; urgency=low
+
+  * aaaand ... manually move all recommends back to depends since the image is
+    currently built with --no-install-recommends
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 03 May 2013 02:31:38 +0200
+
+ubuntu-touch-meta (1.006) saucy; urgency=low
+
+  * manually move all depends to recommends, else we can't migrate from
+    proposed due to dependencies in PPAs
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 02 May 2013 02:08:36 +0200
+
+ubuntu-touch-meta (1.005) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added bluez to touch
+  * Added maliit-keyboard to touch
+  * Added maliit-keyboard-data to touch
+  * Added nano to touch
+  * Added software-properties-common to touch
+  * Removed nemo-keyboard from touch
+  * Removed ubuntu-ui-toolkit-examples from touch
+  * manually add all missing bits to touch-i386 and touch-armhf from
+    http://bazaar.launchpad.net/~ubuntu-core-dev/ubuntu-seeds/ubuntu-touch.saucy/view/head:/touch
+    so we can start building from PPAs
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Thu, 02 May 2013 00:29:01 +0200
+
+ubuntu-touch-meta (1.004) raring; urgency=low
+
+  * Add qtcreator-plugin-ubuntu to sdk (LP: #1163125)
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Tue, 02 Apr 2013 11:17:34 +0300
+
+ubuntu-touch-meta (1.003) raring; urgency=low
+
+  * Refreshed dependencies for updated sdk seed with ubuntu-ui-toolkit changes
+    in raring-proposed.
+  * Added qtdeclarative5-folderlistmodel-plugin to sdk-recommends
+  * Added qtdeclarative5-localstorage-plugin to sdk-recommends
+  * Added qtdeclarative5-particles-plugin to sdk-recommends
+  * Added qtdeclarative5-qtaudioengine-plugin to sdk-recommends
+  * Added qtdeclarative5-qtmultimedia-plugin to sdk-recommends
+  * Added qtdeclarative5-qtquick2-plugin to sdk-recommends
+  * Added qtdeclarative5-qtsensors-plugin to sdk-recommends
+  * Added qtdeclarative5-window-plugin to sdk-recommends
+  * Added qtdeclarative5-xmllistmodel-plugin to sdk-recommends
+
+ -- Loïc Minier <lool@dooz.org>  Thu, 21 Mar 2013 03:04:16 +0100
+
+ubuntu-touch-meta (1.002) raring; urgency=low
+
+  * Add ubuntu-sdk metapackage; taken over from ubuntu-ui-toolkit.
+
+ -- Loïc Minier <loic.minier@ubuntu.com>  Thu, 21 Mar 2013 02:01:26 +0100
+
+ubuntu-touch-meta (1.001) raring; urgency=low
+
+  * Initial release
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 19 Mar 2013 16:04:11 +0100

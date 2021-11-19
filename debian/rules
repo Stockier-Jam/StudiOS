@@ -1,0 +1,10 @@
+#! /usr/bin/make -f
+
+%:
+	dh --with germinate $@
+
+override_dh_auto_build:
+	germinate-update-metapackage --vcs
+
+override_dh_auto_clean:
+	-rm -f *-amd64 *-arm64 *-armhf

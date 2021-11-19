@@ -1,0 +1,95 @@
+Source: ubuntu-touch-meta
+Section: metapackages
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+
+Package: ubuntu-sdk
+Architecture: amd64 arm64 armhf i386
+Depends: ubuntu-sdk-libs-dev, ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu SDK
+ This package depends on all the packages of the Ubuntu SDK:
+  - Runtime libraries
+  - Development headers
+  - Qt Creator
+  - Demos and examples
+
+Package: ubuntu-sdk-libs
+Architecture: amd64 arm64 armhf i386
+Multi-Arch: same
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu SDK Runtime libraries
+ This package depends on all the packages of the Ubuntu SDK:
+  - Runtime libraries
+
+Package: ubuntu-sdk-libs-dev
+Architecture: amd64 arm64 armhf i386
+Multi-Arch: same
+Depends: ubuntu-sdk-libs, ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu SDK
+ This package depends on all the packages of the Ubuntu SDK:
+  - Development headers
+
+Package: ubuntu-sdk-libs-tools
+Architecture: amd64 arm64 armhf i386
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu SDK Build Tools
+ This package depends on all the packages of the Ubuntu SDK:
+  - Build tools
+
+Package: ubuntu-touch-core
+Architecture: amd64 arm64 armhf i386
+Depends: ubuntu-sdk-libs, ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu touch system core
+ This package depends on all of the core packages in the Ubuntu touch system
+ .
+ It is safe to remove this package if some of the touch system packages are
+ not desired.
+
+Package: ubuntu-touch
+Architecture: amd64 arm64 armhf i386
+Depends: ubuntu-touch-core, ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu touch system
+ This package depends on all of the packages in the Ubuntu touch system
+ .
+ It is safe to remove this package if some of the touch system packages are
+ not desired.
+
+Package: ubuntu-touch-hybris
+Architecture: amd64 arm64 armhf i386
+Depends: ubuntu-touch, ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu touch system hybris
+ This package depends on all of the packages in the Ubuntu touch system
+ including libhybris and hybris parts (for lxc android)
+ .
+ It is safe to remove this package if some of the touch system packages are
+ not desired.
+
+Package: ubuntu-touch-mainline
+Architecture: amd64 arm64 armhf i386
+Depends: ubuntu-touch, ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu touch system hybris
+ This package depends on all of the packages in the Ubuntu touch system
+ including mainline parts
+ .
+ It is safe to remove this package if some of the touch system packages are
+ not desired.
+
+Package: ubuntu-desktop-next
+Architecture: amd64 armhf i386
+Depends: ubuntu-sdk-libs, ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu Desktop system - Unity 8 edition
+ This package depends on the Unity 8 desktop environment and the applications
+ designed to work well with it.
+ .
+ It is safe to remove this package if some of these packages are not desired.
