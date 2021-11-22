@@ -4,6 +4,7 @@
 	dh --with germinate $@
 
 override_dh_auto_build:
+	wget --spider --tries 1 'http://repo.ubports.com/dists/xenial/main/binary-amd64/Packages'
 	germinate-update-metapackage --vcs
 
 override_dh_auto_clean:
