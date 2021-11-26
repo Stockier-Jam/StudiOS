@@ -1,4 +1,4 @@
-include platform.xenial
+include platform.focal
 feature no-follow-recommends
 sdk-libs: required
 sdk-libs-dev: sdk-libs build-essential
@@ -10,4 +10,3 @@ touch-hybris: touch-core touch
 touch-mainline: touch-core touch
 touch-tests: touch
 supported: touch
-pocket-desktop: touch

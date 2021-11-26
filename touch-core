@@ -1,10 +1,10 @@
 Task-Per-Derivative: 1
 Task-Section: user
-Task-Description: Ubuntu touch core
-Task-Extended-Description: This task provides the core Ubuntu touch environment.
-Task-Key: ubuntu-touch-core
-Task-Name: ubuntu-touch-core
-Task-Metapackage: ubuntu-touch-core
+Task-Description: UBports touch core
+Task-Extended-Description: This task provides the core UBports touch environment.
+Task-Key: ubports-touch-core
+Task-Name: ubports-touch-core
+Task-Metapackage: ubports-touch-core
 
  * Feature: no-follow-recommends
 
@@ -143,7 +143,7 @@ Task-Metapackage: ubuntu-touch-core
  * packagekit-tools
  * pulseaudio-utils # pactl
  * fbset # to dynamically detect framebuffer / screen size for phablet-screenshot
- * gir1.2-ubuntu-app-launch-2
+ * gir1.2-lomiriapplaunch-0
  * iw
 
 # Platform API testing utils (sensors, gps, etc)

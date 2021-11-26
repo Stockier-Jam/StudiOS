@@ -1,10 +1,10 @@
 Task-Per-Derivative: 1
 Task-Section: user
-Task-Description: Ubuntu touch hybris
-Task-Extended-Description: This task provides the Ubuntu touch environment, with libhybris support
-Task-Key: ubuntu-touch-hybris
-Task-Name: ubuntu-touch-hybris
-Task-Metapackage: ubuntu-touch-hybris
+Task-Description: UBports touch hybris
+Task-Extended-Description: This task provides the UBports touch environment, with libhybris support
+Task-Key: ubports-touch-hybris
+Task-Name: ubports-touch-hybris
+Task-Metapackage: ubports-touch-hybris
 
  * Feature: no-follow-recommends
 

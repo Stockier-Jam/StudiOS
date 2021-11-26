@@ -1,10 +1,10 @@
 Task-Per-Derivative: 1
 Task-Section: user
-Task-Description: Ubuntu touch mainline
-Task-Extended-Description: This task provides the Ubuntu touch environment, with mainline support
-Task-Key: ubuntu-touch-mainline
-Task-Name: ubuntu-touch-mainline
-Task-Metapackage: ubuntu-touch-mainline
+Task-Description: UBports touch mainline
+Task-Extended-Description: This task provides the UBports touch environment, with mainline support
+Task-Key: ubports-touch-mainline
+Task-Name: ubports-touch-mainline
+Task-Metapackage: ubports-touch-mainline
 
  * Feature: no-follow-recommends
 

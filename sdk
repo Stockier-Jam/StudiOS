@@ -1,10 +1,10 @@
 Task-Per-Derivative: 1
 Task-Section: user
-Task-Description: Ubuntu SDK
-Task-Extended-Description: This task provides the Ubuntu SDK.
-Task-Key: ubuntu-touch
-Task-Name: ubuntu-sdk
-Task-Metapackage: ubuntu-sdk
+Task-Description: UBports SDK
+Task-Extended-Description: This task provides the UBports SDK.
+Task-Key: ubports-touch
+Task-Name: ubports-sdk
+Task-Metapackage: ubports-sdk
 
 = Documentation =
 
@@ -23,11 +23,11 @@ Task-Metapackage: ubuntu-sdk
  * qtxmlpatterns5-doc
  * libcontent-hub-doc
 
-= Ubuntu UI Toolkit =
+= Lomiri UI Toolkit =
 
- * ubuntu-ui-toolkit-doc
- * ubuntu-ui-toolkit-examples
- * ubuntu-ui-toolkit-autopilot
+ * lomiri-ui-toolkit-doc
+ * lomiri-ui-toolkit-examples
+ * lomiri-ui-toolkit-autopilot
 
 = Tools =
 

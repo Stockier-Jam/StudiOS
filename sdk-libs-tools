@@ -1,17 +1,17 @@
 Task-Per-Derivative: 1
 Task-Section: user
-Task-Description: Ubuntu SDK Development Tools
-Task-Extended-Description: This task provides the Ubuntu SDK development tools
-Task-Key: ubuntu-touch
-Task-Name: ubuntu-sdk-libs-tools
-Task-Metapackage: ubuntu-sdk-libs-tools
+Task-Description: UBports SDK Development Tools
+Task-Extended-Description: This task provides the UBports SDK development tools
+Task-Key: ubports-touch
+Task-Name: ubports-sdk-libs-tools
+Task-Metapackage: ubports-sdk-libs-tools
 
 = Native arch tools =
 
  * qttools5-dev-tools
  * cmake
  * cmake-extras
- * ubuntu-ui-toolkit-doc
+ * lomiri-ui-toolkit-doc
  * (ubuntu-html5-theme-examples)
  * intltool
  # for autopilot
