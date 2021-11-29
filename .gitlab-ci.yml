@@ -1,8 +1,12 @@
-image: ubports/build-essential:focal
+image: registry.gitlab.com/ubports/infrastructure/gitlab-ci-build/focal
+variables:
+  DEBIAN_FRONTEND: noninteractive
 
 build-focal:
   stage: build
   script:
+    - apt-get update
+    - apt-get -y install git devscripts germinate debootstrap
     - git clone https://github.com/ubports/ubuntu-touch-meta.git build
     - cd build
     - git checkout ubports/focal
@@ -14,10 +18,11 @@ build-focal:
 
 publish-focal:
   stage: deploy
-  image: ubports/git-push
-  only:
-    - focal
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "focal"'
   script:
+    - apt-get update
+    - apt-get -y install git
     - cd build
     - sed "s/UNRELEASED/focal/g" -i debian/changelog
     - git config --global user.email "developers@ubports.com"
