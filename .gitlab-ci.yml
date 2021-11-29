@@ -7,7 +7,7 @@ build-focal:
   script:
     - apt-get update
     - apt-get -y install git devscripts germinate debootstrap
-    - git clone https://github.com/ubports/ubuntu-touch-meta.git build
+    - git clone https://gitlab.com/ubports/core/ubuntu-touch-meta.git build
     - cd build
     - git checkout ubports/focal
     - ./update
@@ -28,8 +28,8 @@ publish-focal:
     - git config --global user.email "developers@ubports.com"
     - git config --global user.name "UBports developers"
     - git add -A
-    - git commit -m "Automatic germinate refresh from gitlab"
-    - DISABLE_FORCE_PUSH=1 CI_COMMIT_SHA=HEAD git-push git@github.com:ubports/ubuntu-touch-meta.git ubports/focal
+    - git commit -m "Automatic germinate refresh from ${CI_PROJECT_NAME} CI (${CI_COMMIT_SHORT_SHA})" || true
+    - git push "https://ubuntu-touch-meta:${UBUNTU_TOUCH_META_TOKEN}@gitlab.com/ubports/core/ubuntu-touch-meta.git" ubports/focal
   cache:
     policy: pull
     paths:
