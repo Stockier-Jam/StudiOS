@@ -1,10 +1,10 @@
 Task-Per-Derivative: 1
 Task-Section: user
-Task-Description: UBports SDK Libraries
-Task-Extended-Description: This task provides the UBports SDK runtime libraries.
-Task-Key: ubports-touch
-Task-Name: ubports-sdk-libs
-Task-Metapackage: ubports-sdk-libs
+Task-Description: Ubuntu SDK Libraries
+Task-Extended-Description: This task provides the Ubuntu SDK runtime libraries.
+Task-Key: ubuntu-touch
+Task-Name: ubuntu-sdk-libs
+Task-Metapackage: ubuntu-sdk-libs
 
  * Feature: no-follow-recommends
 
