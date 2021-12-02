@@ -5,8 +5,12 @@ sdk-libs-dev: sdk-libs build-essential
 sdk-libs-tools: sdk-libs-dev
 sdk: sdk-libs-dev
 touch-core: minimal sdk-libs
+touch-core-hybris: touch-core
+touch-core-mainline: touch-core
+touch-core-android9plus: touch-core
 touch: touch-core
-touch-hybris: touch-core touch
-touch-mainline: touch-core touch
+touch-hybris: touch-core touch-core-hybris touch
+touch-mainline: touch-core touch-core-mainline touch
+touch-android9plus: touch-core touch-core-android9plus touch
 touch-tests: touch
 supported: touch

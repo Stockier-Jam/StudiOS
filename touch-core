@@ -20,8 +20,6 @@ Task-Metapackage: ubuntu-touch-core
  * powerd
  * urfkill
  * telepathy-gabble
- * telepathy-ofono
- * telepathy-ofono-ril-mc-plugin
  * libmessaging-menu0
  * signon-plugin-oauth2
  * signon-apparmor-extension
@@ -137,8 +135,6 @@ Task-Metapackage: ubuntu-touch-core
 
 == Utils ==
 
- * ofono
- * ofono-scripts
  * mir-utils	# screencast
  * packagekit-tools
  * pulseaudio-utils # pactl
