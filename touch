@@ -9,9 +9,6 @@ Task-Metapackage: ubuntu-touch
  * Feature: no-follow-recommends
 
 == init ==
-# We need to keep that until we switch Touch to systemd
- * upstart-sysv
- * ntpdate                     # will be obsoleted by systemd-timesyncd
 
 == Core ==
 
