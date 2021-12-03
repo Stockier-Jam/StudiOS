@@ -1,6 +1,7 @@
 image: registry.gitlab.com/ubports/infrastructure/gitlab-ci-build/focal
 variables:
   DEBIAN_FRONTEND: noninteractive
+  UBUNTU_TOUCH_META_TOKEN: $UBUNTU_TOUCH_META_TOKEN
 
 build-focal:
   stage: build
