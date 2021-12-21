@@ -108,10 +108,6 @@ Task-Metapackage: ubuntu-touch-core
  * libmediainfo0v5             # camera/gallery
  * libqtubuntu-media-signals1  # camera/gallery
 
-== Anbox ==
- * anbox-ubuntu-touch
- * android-tools-adb
-
 == Debug ==
 
  * nano
