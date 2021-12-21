@@ -39,9 +39,6 @@ Task-Metapackage: ubuntu-touch-core
  * ufw
  * wget
  * bluetooth-touch
-# TODO: needs porting to systemd, and move upstart-sysv dep to upstart
-# does not currently work on desktop-next images anyway
-#* ubuntu-touch-customization-hooks
  * pulseaudio
  * pulseaudio-module-bluetooth
  * pulseaudio-module-trust-store
