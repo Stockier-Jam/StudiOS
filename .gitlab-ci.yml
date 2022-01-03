@@ -13,8 +13,7 @@ build-focal:
     - cd build
     - git checkout ubports/focal
     - ./update
-  cache:
-    policy: push
+  artifacts:
     paths:
       - build
 
@@ -32,7 +31,3 @@ publish-focal:
     - git add -A
     - git commit -m "Automatic germinate refresh from ${CI_PROJECT_NAME} CI (${CI_COMMIT_SHORT_SHA})" || true
     - git push "https://ubuntu-touch-meta:${UBUNTU_TOUCH_META_TOKEN}@gitlab.com/ubports/core/ubuntu-touch-meta.git" ubports/focal
-  cache:
-    policy: pull
-    paths:
-      - build
