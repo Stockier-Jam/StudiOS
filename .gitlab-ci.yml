@@ -1,18 +1,19 @@
 image: registry.gitlab.com/ubports/infrastructure/gitlab-ci-build/focal
 variables:
   DEBIAN_FRONTEND: noninteractive
-  UBUNTU_TOUCH_META_TOKEN: $UBUNTU_TOUCH_META_TOKEN
-  GIT_STRATEGY: none
 
 build-focal:
   stage: build
   script:
     - apt-get update
     - apt-get -y install git devscripts germinate debootstrap
-    - git clone https://gitlab.com/ubports/core/ubuntu-touch-meta.git build
+    - git clone --branch ubports/focal https://gitlab.com/ubports/core/ubuntu-touch-meta.git build
     - cd build
-    - git checkout ubports/focal
+    - mkdir ./seeds
+    - git clone .. ./seeds/ubuntu-touch.focal
+    - git clone --depth 1 --branch focal https://git.launchpad.net/~ubuntu-core-dev/ubuntu-seeds/+git/platform ./seeds/platform.focal
     - ./update
+    - rm -rf ./seeds
   artifacts:
     paths:
       - build
@@ -21,6 +22,9 @@ publish-focal:
   stage: deploy
   rules:
     - if: '$CI_COMMIT_BRANCH == "focal"'
+  variables:
+    UBUNTU_TOUCH_META_TOKEN: $UBUNTU_TOUCH_META_TOKEN
+    GIT_STRATEGY: none
   script:
     - apt-get update
     - apt-get -y install git
