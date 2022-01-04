@@ -1,7 +1,6 @@
 image: registry.gitlab.com/ubports/infrastructure/gitlab-ci-build/focal
 variables:
   DEBIAN_FRONTEND: noninteractive
-  UBUNTU_TOUCH_META_TOKEN: $UBUNTU_TOUCH_META_TOKEN
 
 build-focal:
   stage: build
@@ -23,6 +22,9 @@ publish-focal:
   stage: deploy
   rules:
     - if: '$CI_COMMIT_BRANCH == "focal"'
+  variables:
+    UBUNTU_TOUCH_META_TOKEN: $UBUNTU_TOUCH_META_TOKEN
+    GIT_STRATEGY: none
   script:
     - apt-get update
     - apt-get -y install git
