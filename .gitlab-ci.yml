@@ -12,7 +12,7 @@ build-focal:
     - mkdir ./seeds
     - git clone .. ./seeds/ubuntu-touch.focal
     - git clone --depth 1 --branch focal https://git.launchpad.net/~ubuntu-core-dev/ubuntu-seeds/+git/platform ./seeds/platform.focal
-    - ./update
+    - DEBFULLNAME="UBports developers" DEBEMAIL="developers@ubports.com" ./update
     - rm -rf ./seeds
   artifacts:
     paths:
