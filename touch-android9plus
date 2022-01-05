@@ -10,9 +10,51 @@ Task-Metapackage: ubuntu-touch-android9plus
 
 == Core Device Specific ==
 
- * mir-graphics-drivers-desktop
- * ubuntu-touch-session-wayland
+# Touch uses the android-based mir platform backends by default
+ * mir-graphics-drivers-android2
+ * qtmir-android
+ * ubuntu-touch-session-mir
+
+== Core ==
+
+ * libhybris
+ * hybris-usb
+ * libhybris-test
+ * libhybris-utils
+# Copyrights of the AOSP portion of the image
+ * android-copyright
+
  * libsensorfw-qt5-configs
  * libsensorfw-qt5-plugins
  * libqt5sensors5-sensorfw
  * libqt5feedback5-hfd
+
+ * jumpercable
+# Workaround some conflicts with Android's TLS slots causing some apps to
+# crash on Qt 5.12. See the package's description for how it works.
+ * tls-padding
+
+== Multimedia ==
+
+# A QtMultimedia camera plugin that talks to Android by using hybris
+ * cameraplugin-aal
+ * gstreamer1.0-hybris
+
+# Pulseaudio module that talks to audio chip via Audio HAL
+ * pulseaudio-module-droid-discover
+
+== Apps ==
+
+ * qtubuntu-android
+
+== Container Related ==
+
+ * android-tools-adbd
+ * lxc-android-config
+ * dbus-property-service
+
+== NFC ==
+
+ * nfcd
+ * nfcd-repowerd-plugin
+ * nfcd-binder-plugin
