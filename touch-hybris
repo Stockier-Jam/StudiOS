@@ -45,9 +45,7 @@ Task-Metapackage: ubuntu-touch-hybris
  * nemo-qtmultimedia-plugins
 
 # Pulseaudio module that talks to audio chip via Audio HAL
- * pulseaudio-module-droid
- * pulseaudio-modules-droid-24
- * pulseaudio-modules-droid-glue-24
+ * pulseaudio-module-droid-discover
 
 == Apps ==
 
