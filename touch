@@ -85,7 +85,7 @@ Task-Metapackage: ubuntu-touch
 == Shell ==
 
  * ubuntu-touch-session
- * unity8
+ * lomiri
  * ayatana-indicator-bluetooth
  * ayatana-indicator-datetime
  * ayatana-indicator-display
