@@ -114,7 +114,7 @@ Task-Metapackage: ubuntu-touch
  * sync-monitor-uoa
  * ubuntu-touch-settings
  * lomiri-system-settings
- * ubuntu-system-settings-online-accounts
+ * lomiri-system-settings-online-accounts
  * ubuntu-system-settings-libertine
 # Modifies some policykit policies to ensure that actions work the way we want
 # them.
