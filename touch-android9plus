@@ -42,6 +42,9 @@ Task-Metapackage: ubuntu-touch-android9plus
 
 # Pulseaudio module that talks to audio chip via Audio HAL
  * pulseaudio-module-droid-discover
+ * /^pulseaudio-modules-droid(|-glue|-hidl)-28$/
+ * /^pulseaudio-modules-droid(|-glue|-hidl)-29$/
+ * /^pulseaudio-modules-droid(|-glue|-hidl)-30$/
 
 == Apps ==
 

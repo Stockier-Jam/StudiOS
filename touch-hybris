@@ -46,6 +46,7 @@ Task-Metapackage: ubuntu-touch-hybris
 
 # Pulseaudio module that talks to audio chip via Audio HAL
  * pulseaudio-module-droid-discover
+ * /^pulseaudio-modules-droid(|-glue|-hidl)-24$/
 
 == Apps ==
 
