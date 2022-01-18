@@ -79,6 +79,7 @@ Task-Metapackage: ubuntu-touch
  * suru-icon-theme
  * upstart-watchdog
  * bluez-obexd
+ * fm-radio-service
 # note: drop this here once we put it back into touch-core
  * ubuntu-touch-customization-hooks
  * system-image-cli
