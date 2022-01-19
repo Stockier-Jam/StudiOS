@@ -11,7 +11,7 @@ Task-Metapackage: ubuntu-touch-mainline
 == Core Device Specific ==
 
  * mir-graphics-drivers-desktop
- * ubuntu-touch-session-wayland
+ * ubuntu-touch-session-mir
  * libsensorfw-qt5-configs
  * libsensorfw-qt5-plugins
  * libqt5sensors5-sensorfw
