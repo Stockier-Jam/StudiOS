@@ -90,6 +90,8 @@ Task-Metapackage: ubuntu-touch-core
  * timekeeper
  * ubports-qa-scripts
  * qtubuntu-appmenutheme      # Provides theme and platform features to Qt apps
+# Filesystem
+ * f2fs-tools
 
 == Multimedia ==
 
