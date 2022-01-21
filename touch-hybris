@@ -29,7 +29,7 @@ Task-Metapackage: ubuntu-touch-hybris
 # Copyrights of the AOSP portion of the image
  * android-copyright
  * qtubuntu-sensors
- * jumpercable
+
 # Workaround some conflicts with Android's TLS slots causing some apps to
 # crash on Qt 5.12. See the package's description for how it works.
  * tls-padding

@@ -29,7 +29,6 @@ Task-Metapackage: ubuntu-touch-android9plus
  * libqt5sensors5-sensorfw
  * libqt5feedback5-hfd
 
- * jumpercable
 # Workaround some conflicts with Android's TLS slots causing some apps to
 # crash on Qt 5.12. See the package's description for how it works.
  * tls-padding
