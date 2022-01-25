@@ -114,7 +114,10 @@ Task-Metapackage: ubuntu-touch
  * sync-monitor-uoa
  * ubuntu-touch-settings
  * lomiri-system-settings
+ * lomiri-system-settings-cellular
  * lomiri-system-settings-online-accounts
+ * lomiri-system-settings-phone
+ * lomiri-system-settings-security-privacy
  * ubuntu-system-settings-libertine
 # Modifies some policykit policies to ensure that actions work the way we want
 # them.
