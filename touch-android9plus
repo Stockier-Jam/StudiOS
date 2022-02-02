@@ -45,10 +45,6 @@ Task-Metapackage: ubuntu-touch-android9plus
  * /^pulseaudio-modules-droid(|-glue|-hidl)-29$/
  * /^pulseaudio-modules-droid(|-glue|-hidl)-30$/
 
-== Apps ==
-
- * qtubuntu-android
-
 == Container Related ==
 
  * android-tools-adbd

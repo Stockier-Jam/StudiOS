@@ -124,6 +124,7 @@ Task-Metapackage: ubuntu-touch
  * policykit-desktop-privileges
  * qtdeclarative5-ubuntu-ui-extras0.2
  * qtorganizer5-eds
+ * qtubuntu-android
  # * ubuntu-touch-coreapps
 
 = Multimedia =
