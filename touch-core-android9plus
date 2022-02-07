@@ -17,3 +17,5 @@ Task-Metapackage: ubuntu-touch-core-android9plus
 
  * ofono-sailfish
  * ofono-sailfish-scripts
+ * ofono-ril-plugin
+ * ofono-ril-binder-plugin
