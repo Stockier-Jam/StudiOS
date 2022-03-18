@@ -52,9 +52,14 @@ Task-Metapackage: ubuntu-touch-hybris
 
  * ubuntu-application-api3-touch
 
+== USB gadget ==
+
+ * usb-moded
+ * usb-moded-ubports-config
+ * adbd
+
 == Container Related ==
 
- * android-tools-adbd
  * lxc-android-config
  * dbus-property-service
 
