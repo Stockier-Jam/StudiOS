@@ -45,9 +45,14 @@ Task-Metapackage: ubuntu-touch-android9plus
  * /^pulseaudio-modules-droid(|-glue|-hidl)-29$/
  * /^pulseaudio-modules-droid(|-glue|-hidl)-30$/
 
+== USB gadget ==
+
+ * usb-moded
+ * usb-moded-ubports-config
+ * adbd
+
 == Container Related ==
 
- * android-tools-adbd
  * lxc-android-config
  * dbus-property-service
 
