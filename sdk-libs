@@ -11,8 +11,7 @@ Task-Metapackage: ubuntu-sdk-libs
 = Qt 5 APIs =
 
  * libqt5keychain0
-# TODO: Currently hard-depend on non-ES version of Qt, which won't work on phones.
-# * libqt5multimedia5-plugins
+ * libqt5multimedia5-plugins
  * libqt5sql5-sqlite
  * libqt5script5
  * qml-module-qt-labs-folderlistmodel
