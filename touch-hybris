@@ -20,6 +20,9 @@ Task-Metapackage: ubuntu-touch-hybris
  * qtmir-android
  * ubuntu-touch-session-mir
 
+# Add hybris based sensorfw plugin
+ * libsensorfw-qt5-hybris
+
 == Core ==
 
  * libhybris
@@ -28,7 +31,6 @@ Task-Metapackage: ubuntu-touch-hybris
  * libhybris-utils
 # Copyrights of the AOSP portion of the image
  * android-copyright
- * qtubuntu-sensors
 
 # Workaround some conflicts with Android's TLS slots causing some apps to
 # crash on Qt 5.12. See the package's description for how it works.
