@@ -49,10 +49,6 @@ Task-Metapackage: ubuntu-sdk-libs
 = Additional third party Qt APIs =
  * qml-module-io-thp-pyotherside
  * qml-module-org-kde-kirigami2
- * qml-module-qmltermwidget1.0
- * qtdeclarative5-archives0.1
- * qtdeclarative5-nemo-qml-plugin-folderlistmodel
- * qtdeclarative5-placesmodel0.1
 
 = Lomiri Components =
 
