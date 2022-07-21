@@ -55,15 +55,15 @@ Task-Metapackage: ubuntu-sdk-libs
  * libcontent-hub0
  * qml-module-lomiri-components
  * qml-module-ubuntu-mediascanner0.1
- * qml-module-ubuntu-onlineaccounts
- * qml-module-ubuntu-onlineaccounts-client    # replaces qtdeclarative5-online-accounts-client0.1
+ * qml-module-lomiri-onlineaccounts           # replaces qml-module-ubuntu-onlineaccounts
+ * qml-module-lomiri-onlineaccounts-client    # replaces qtdeclarative5-online-accounts-client0.1
  * qtdeclarative5-poppler1.0
- * qtdeclarative5-u1db1.0
- * qtdeclarative5-ubuntu-content1
+ * qml-module-u1db                            # replaces qtdeclarative5-u1db1.0
+ * qml-module-lomiri-content                  # replaces qtdeclarative5-ubuntu-content1
  * qml-module-lomiri-download-manager
- * qtdeclarative5-ubuntu-push-plugin
- * qtdeclarative5-ubuntu-syncmonitor0.1
- * qtdeclarative5-ubuntu-telephony-phonenumber0.1
+ * qml-module-lomiri-pushnotifications        # replaces qtdeclarative5-ubuntu-push-plugin
+ * qml-module-lomiri-syncmonitor0.1           # replaces qtdeclarative5-ubuntu-syncmonitor0.1
+ * qml-module-lomiri-telephony-phonenumber0.1 # replaces qtdeclarative5-ubuntu-telephony-phonenumber0.1
  * qtdeclarative5-usermetrics0.1
  * lomiri-ui-toolkit-theme
 
