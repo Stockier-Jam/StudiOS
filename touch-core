@@ -30,6 +30,7 @@ Task-Metapackage: ubuntu-touch-core
  * software-properties-common
  * mobile-broadband-provider-info
  * click
+ * click-service
  * click-ubuntu-policy
  * debsig-verify
  * packagekit
