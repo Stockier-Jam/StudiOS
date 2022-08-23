@@ -54,7 +54,7 @@ Task-Metapackage: ubuntu-touch-core
 # across thread contexts.
  * libqtubuntu-media-signals1
  # can take advantage to fine-tune removals; also useful for debugging
- * ubuntu-app-launch-tools
+ * lomiri-app-launch-tools
  * usensord
  * libtinyxml2-2v5              # camera/gallery
  * libzen0v5                    # camera/gallery
