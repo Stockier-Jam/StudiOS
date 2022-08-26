@@ -45,7 +45,7 @@ Task-Metapackage: ubuntu-touch-core
  * pulseaudio-module-trust-store
  * rtkit
  * content-hub
- * ubuntu-location-service-bin
+ * lomiri-location-service-bin
  * mtp-server
 # Plugin for showing camera viewfinder in Qt as well as the video surface in
 # the media-player
@@ -58,7 +58,7 @@ Task-Metapackage: ubuntu-touch-core
  * usensord
  * libtinyxml2-2v5              # camera/gallery
  * libzen0v5                    # camera/gallery
- * ubuntu-push-client
+ * lomiri-push-service
  * account-polld               # ubuntu-push-client account notifications
 # MMS support
  * nuntium
