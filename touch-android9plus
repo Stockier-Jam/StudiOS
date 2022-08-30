@@ -42,6 +42,7 @@ Task-Metapackage: ubuntu-touch-android9plus
  * /^pulseaudio-modules-droid(|-glue|-hidl)-28$/
  * /^pulseaudio-modules-droid(|-glue|-hidl)-29$/
  * /^pulseaudio-modules-droid(|-glue|-hidl)-30$/
+ * audiosystem-passthrough
 
 == USB gadget ==
 
