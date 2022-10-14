@@ -10,6 +10,7 @@ Task-Metapackage: ubuntu-touch-core-android9plus
 
 == Core ==
 
+ * bluebinder
  * telepathy-ofono
  * telepathy-ofono-on-ring-ril-mc-plugin
 
