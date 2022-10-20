@@ -67,6 +67,22 @@ Task-Metapackage: ubuntu-sdk-libs
  * qtdeclarative5-usermetrics0.1
  * lomiri-ui-toolkit-theme
 
+= Deprecated Components for Backwards Compatibility =
+
+ * qml-module-ubuntu-components
+ * qml-module-ubuntu-layouts
+ * qml-module-ubuntu-performancemetrics
+ * qml-module-ubuntu-metrics
+ * ubuntu-ui-toolkit-theme
+ * qml-module-ubuntu-web-compat
+ * qml-module-ubuntu-connectivity
+ * qml-module-ubuntu-content
+ * qml-module-ubuntu-downloadmanager
+ * qml-module-ubuntu-pushnotifications
+ * qml-module-ubuntu-onlineaccounts
+ * qml-module-ubuntu-onlineaccounts-client
+ * qml-module-ubuntu-onlineaccounts2
+
 = HTML5 Toolkit =
 
  * ubuntu-html5-theme

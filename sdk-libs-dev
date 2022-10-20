@@ -32,6 +32,14 @@ Task-Metapackage: ubuntu-sdk-libs-dev
  # delivers the ubuntu-click
  * ubuntu-sdk-qmake-extras
 
+= Lomiri Components =
+
+ * qml-module-lomiri-test
+
+= Deprecated Components for Backwards Compatibility =
+
+ * qml-module-ubuntu-test
+
 = Other APIs =
 
  * libboost1.58-dev
