@@ -13,6 +13,7 @@ Task-Metapackage: ubuntu-touch-core
  * isc-dhcp-client
  * net-tools
  * network-manager
+ * wpasupplicant
  * bluez
  * ca-certificates
  * alsa-base
