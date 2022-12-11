@@ -44,6 +44,7 @@ Task-Metapackage: ubuntu-sdk-libs-dev
 
  * libboost1.58-dev
  * kirigami2-dev
+ * libqzxing-dev
 
 = Scope facing APIs =
 
