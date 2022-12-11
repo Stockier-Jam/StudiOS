@@ -100,6 +100,8 @@ Task-Metapackage: ubuntu-touch-core
  * libqt5sensors5-sensorfw
 # Human feedback support
  * libqt5feedback5-hfd
+# QR Code parsing support
+ * libqzxing3
 
 == Multimedia ==
 
