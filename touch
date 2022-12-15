@@ -100,6 +100,7 @@ Task-Metapackage: ubuntu-touch
  * indicator-transfer-download-manager
  * lomiri-url-dispatcher
  * lomiri-thumbnailer-service
+ * biometryd-bin
 
 == Apps ==
 
