@@ -33,6 +33,9 @@ Task-Metapackage: ubuntu-touch-android9plus
 
 == Multimedia ==
 
+# GStreamer support for OMX over hybris
+ * gst-hybris
+
 # A QtMultimedia camera plugin that talks to Android by using hybris
  * cameraplugin-aal
  * gstreamer1.0-hybris
