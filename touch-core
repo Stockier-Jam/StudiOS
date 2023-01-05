@@ -130,6 +130,7 @@ Task-Metapackage: ubuntu-touch-core
  * powerstat
  * health-check
  * tree
+ * android-tools-adb
 # Tools added for debugging which should be removed in non-developer builds
  * strace
  * lsof
