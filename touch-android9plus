@@ -66,3 +66,7 @@ Task-Metapackage: ubuntu-touch-android9plus
 == Hardware acceleration ==
  * haliumqsgcontext
  * mechanicd
+
+== Waydroid ==
+
+ * waydroid
