@@ -73,3 +73,7 @@ Task-Metapackage: ubuntu-touch-hybris
  * nfcd
  * nfcd-repowerd-plugin
  * nfcd-binder-plugin
+
+== Hardware acceleration ==
+ * haliumqsgcontext
+ * mechanicd

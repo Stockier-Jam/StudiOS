@@ -62,3 +62,7 @@ Task-Metapackage: ubuntu-touch-android9plus
  * nfcd
  * nfcd-repowerd-plugin
  * nfcd-binder-plugin
+
+== Hardware acceleration ==
+ * haliumqsgcontext
+ * mechanicd
