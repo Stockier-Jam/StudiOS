@@ -115,10 +115,6 @@ Task-Metapackage: ubuntu-touch-core
  * libmediainfo0v5             # camera/gallery
  * libqtubuntu-media-signals1  # camera/gallery
 
-== Anbox ==
- * anbox-ubuntu-touch
- * android-tools-adb
-
 == Debug ==
 
  * nano
@@ -131,6 +127,7 @@ Task-Metapackage: ubuntu-touch-core
  * powerstat
  * health-check
  * tree
+ * android-tools-adb
 # Tools added for debugging which should be removed in non-developer builds
  * strace
  * lsof
