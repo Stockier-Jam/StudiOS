@@ -67,6 +67,7 @@ Task-Metapackage: ubuntu-touch-android9plus
  * haliumqsgcontext
  * mechanicd
 
-== Waydroid ==
+== App support ==
 
  * waydroid
+ * xwayland-hybris
