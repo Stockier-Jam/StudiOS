@@ -13,6 +13,7 @@ Task-Metapackage: ubuntu-touch-mainline
  * mir-graphics-drivers-desktop
  * ubuntu-touch-session-mir
 
-== Waydroid ==
+== App support ==
 
  * waydroid
+ * xwayland
