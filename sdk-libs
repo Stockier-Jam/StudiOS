@@ -90,5 +90,5 @@ Task-Metapackage: ubuntu-sdk-libs
 
 = Tools =
 
- * qmlscene
+ * qmlscene-ubports
  * qtchooser

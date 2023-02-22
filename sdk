@@ -31,7 +31,7 @@ Task-Metapackage: ubuntu-sdk
 
 = Tools =
 
- * qmlscene
+ * qmlscene-ubports
  * qtcreator
  * qtcreator-plugin-ubuntu
  * phablet-tools
