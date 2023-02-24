@@ -120,7 +120,7 @@ Task-Metapackage: ubuntu-touch
  * lomiri-system-settings-phone
  * lomiri-system-settings-security-privacy
  * lomiri-system-settings-system-update
- * ubuntu-system-settings-libertine
+ * lomiri-system-settings-libertine
 # Modifies some policykit policies to ensure that actions work the way we want
 # them.
  * policykit-desktop-privileges
