@@ -77,3 +77,6 @@ Task-Metapackage: ubuntu-touch-hybris
 == Hardware acceleration ==
  * haliumqsgcontext
  * mechanicd
+
+== App support ==
+ * xwayland-hybris
