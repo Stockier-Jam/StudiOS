@@ -145,6 +145,10 @@ Task-Metapackage: ubuntu-touch
 
  * /^language-pack-touch-/
 
+== Miscellaneous ==
+
+ * deviceinfo-extras
+
 # Gles disabled as we dont have emulator nor gles builds
 #== X86 Emulator ==
 #
