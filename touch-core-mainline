@@ -17,3 +17,4 @@ Task-Metapackage: ubuntu-touch-core-mainline
 
  * ofono
  * ofono-scripts
+ * ofono-apndb-plugin
