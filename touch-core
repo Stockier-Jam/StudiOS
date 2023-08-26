@@ -30,6 +30,7 @@ Task-Metapackage: ubuntu-touch-core
  * gir1.2-accounts-1.0
  * software-properties-common
  * mobile-broadband-provider-info
+ * lineageos-apndb
  * click
  * click-service
  * click-ubuntu-policy
