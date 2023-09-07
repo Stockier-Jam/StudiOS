@@ -28,6 +28,9 @@ Task-Metapackage: ubuntu-touch
  * lomiri-keyboard-arabic
  * lomiri-keyboard-azerbaijani
  * lomiri-keyboard-belarusian
+ * lomiri-keyboard-bengali
+ * lomiri-keyboard-bengali-avro
+ * lomiri-keyboard-bengali-probhat
  * lomiri-keyboard-bosnian
  * lomiri-keyboard-catalan
  * lomiri-keyboard-chinese-chewing
