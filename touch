@@ -92,6 +92,7 @@ Task-Metapackage: ubuntu-touch
 
  * ubuntu-touch-session
  * lomiri
+ * adbd-approver
  * ayatana-indicator-bluetooth
  * ayatana-indicator-datetime
  * ayatana-indicator-display
