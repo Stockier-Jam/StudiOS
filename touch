@@ -108,7 +108,6 @@ Task-Metapackage: ubuntu-touch
  * lomiri-url-dispatcher
  * lomiri-thumbnailer-service
  * biometryd-bin
- * lomiri-polkit-agent
 
 == Apps ==
 
