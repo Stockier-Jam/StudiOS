@@ -2,27 +2,35 @@ image: registry.gitlab.com/ubports/infrastructure/gitlab-ci-build/focal
 variables:
   DEBIAN_FRONTEND: noninteractive
 
-build-focal:
+build:
   stage: build
+  rules:
+  - if: '$CI_COMMIT_BRANCH == "main"'
+  - if: '$CI_COMMIT_BRANCH =~ /^ubports\//' # e.g. ubports/focal, ubports/24.9.x
+  - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
   script:
     - apt-get update
     - apt-get -y install git devscripts germinate debootstrap
-    - git clone --branch ubports/focal https://gitlab.com/ubports/core/ubuntu-touch-meta.git build
-    - cd build
-    - mkdir ./seeds
-    - git clone .. ./seeds/ubuntu-touch.focal
-    - git clone --depth 1 --branch focal https://git.launchpad.net/~ubuntu-core-dev/ubuntu-seeds/+git/platform ./seeds/platform.focal
-    - DEBFULLNAME="UBports developers" DEBEMAIL="developers@ubports.com" ./update
+    - |
+      git clone \
+        --branch ${CI_COMMIT_BRANCH:-${CI_MERGE_REQUEST_TARGET_BRANCH_NAME}} \
+        https://gitlab.com/ubports/core/ubuntu-touch-meta.git \
+        ./build
+    - |
+      DEBFULLNAME="UBports developers" DEBEMAIL="developers@ubports.com" \
+        ./update-meta-repo.sh ./build
+    - cd ./build
     - rm -rf ./seeds
     - git diff --color=always
   artifacts:
     paths:
       - build
 
-publish-focal:
+publish:
   stage: deploy
   rules:
-    - if: '$CI_COMMIT_BRANCH == "focal"'
+    - if: '$CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_COMMIT_BRANCH =~ /^ubports\//' # e.g. ubports/focal, ubports/24.9.x
   variables:
     UBUNTU_TOUCH_META_TOKEN: $UBUNTU_TOUCH_META_TOKEN
     GIT_STRATEGY: none
@@ -30,9 +38,17 @@ publish-focal:
     - apt-get update
     - apt-get -y install git
     - cd build
-    - sed "s/UNRELEASED/focal/g" -i debian/changelog
+    - |
+      base_dist="$(python3 -c '
+      import configparser
+
+      config = configparser.ConfigParser()
+      config.read("update.cfg.in")
+      print(config["DEFAULT"]["dist"])
+      ')"
+    - sed "s/UNRELEASED/${base_dist}/g" -i debian/changelog
     - git config --global user.email "developers@ubports.com"
     - git config --global user.name "UBports developers"
     - git add -A
     - git commit -m "Automatic germinate refresh from ${CI_PROJECT_NAME} CI (${CI_COMMIT_SHORT_SHA})" || true
-    - git push "https://ubuntu-touch-meta:${UBUNTU_TOUCH_META_TOKEN}@gitlab.com/ubports/core/ubuntu-touch-meta.git" ubports/focal
+    - git push "https://ubuntu-touch-meta:${UBUNTU_TOUCH_META_TOKEN}@gitlab.com/ubports/core/ubuntu-touch-meta.git" $CI_COMMIT_BRANCH
