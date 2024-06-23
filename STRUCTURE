@@ -1,4 +1,4 @@
-include platform.focal
+include platform.noble
 feature no-follow-recommends
 sdk-libs: required
 sdk-libs-dev: sdk-libs build-essential
