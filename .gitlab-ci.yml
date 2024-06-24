@@ -36,7 +36,7 @@ publish:
     GIT_STRATEGY: none
   script:
     - apt-get update
-    - apt-get -y install git
+    - apt-get -y install git python3
     - cd build
     - |
       base_dist="$(python3 -c '
