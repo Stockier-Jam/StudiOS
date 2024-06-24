@@ -32,7 +32,6 @@ publish:
     - if: '$CI_COMMIT_BRANCH == "main"'
     - if: '$CI_COMMIT_BRANCH =~ /^ubports\//' # e.g. ubports/focal, ubports/24.9.x
   variables:
-    UBUNTU_TOUCH_META_TOKEN: $UBUNTU_TOUCH_META_TOKEN
     GIT_STRATEGY: none
   script:
     - apt-get update
