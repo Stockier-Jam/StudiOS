@@ -80,7 +80,6 @@ Task-Metapackage: ubuntu-touch
  * account-plugin-nextcloud
  * account-polld-plugins-go
  * suru-icon-theme
- * upstart-watchdog
  * bluez-obexd
  * fm-radio-service
 # note: drop this here once we put it back into touch-core
@@ -103,8 +102,8 @@ Task-Metapackage: ubuntu-touch
  * ayatana-indicator-power
  * ayatana-indicator-session
  * ayatana-indicator-sound
- * indicator-transfer
- * indicator-transfer-download-manager
+ * lomiri-indicator-transfer
+ * lomiri-indicator-transfer-download-manager
  * lomiri-url-dispatcher
  * lomiri-thumbnailer-service
  * biometryd-bin
@@ -116,7 +115,7 @@ Task-Metapackage: ubuntu-touch
  * qml-module-ubuntu-web-compat # Compatibility API for Ubuntu.Web component
  * dialer-app
  * messaging-app
- * address-book-app
+ * lomiri-addressbook-app
  * mediaplayer-app
  * syncevolution
  * sync-monitor-uoa
@@ -131,7 +130,7 @@ Task-Metapackage: ubuntu-touch
 # Modifies some policykit policies to ensure that actions work the way we want
 # them.
  * policykit-desktop-privileges
- * qtdeclarative5-ubuntu-ui-extras0.2
+ * qml-module-lomiri-components-extras
  * qtorganizer5-eds
  * qtubuntu-android
  # * ubuntu-touch-coreapps

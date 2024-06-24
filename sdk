@@ -34,7 +34,5 @@ Task-Metapackage: ubuntu-sdk
  * qmlscene-ubports
  * qtcreator
  * qtcreator-plugin-ubuntu
- * phablet-tools
- * ubuntu-device-flash
  * autopilot-desktop
  * intltool

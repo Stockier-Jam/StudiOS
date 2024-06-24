@@ -15,8 +15,8 @@ Task-Metapackage: ubuntu-touch-hybris
 # the wrong one (e.g. X11 or mesa based ones)
 
 # Touch uses the android-based mir platform backends by default
- * mir-graphics-drivers-android
- * mir-graphics-drivers-android-caf
+ * mir1-graphics-drivers-android
+ * mir1-graphics-drivers-android-caf
  * qtmir-android
  * ubuntu-touch-session-mir
 
