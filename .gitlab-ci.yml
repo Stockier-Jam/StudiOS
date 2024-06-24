@@ -14,7 +14,7 @@ build:
     - |
       git clone \
         --branch ${CI_COMMIT_BRANCH:-${CI_MERGE_REQUEST_TARGET_BRANCH_NAME}} \
-        https://gitlab.com/ubports/core/ubuntu-touch-meta.git \
+        https://gitlab.com/ubports/development/core/ubuntu-touch-meta.git \
         ./build
     - |
       DEBFULLNAME="UBports developers" DEBEMAIL="developers@ubports.com" \
@@ -50,4 +50,4 @@ publish:
     - git config --global user.name "UBports developers"
     - git add -A
     - git commit -m "Automatic germinate refresh from ${CI_PROJECT_NAME} CI (${CI_COMMIT_SHORT_SHA})" || true
-    - git push "https://ubuntu-touch-meta:${UBUNTU_TOUCH_META_TOKEN}@gitlab.com/ubports/core/ubuntu-touch-meta.git" $CI_COMMIT_BRANCH
+    - git push "https://ubuntu-touch-meta:${UBUNTU_TOUCH_META_TOKEN}@gitlab.com/ubports/development/core/ubuntu-touch-meta.git" $CI_COMMIT_BRANCH
