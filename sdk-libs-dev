@@ -26,9 +26,6 @@ Task-Metapackage: ubuntu-sdk-libs-dev
  * qtconnectivity5-dev
  * qtscript5-dev
 
- # forces Qt5 as the default; conflicts with Qt4 -- XXX should be a Recommends?
- * qt5-default
-
  # delivers the ubuntu-click
  * ubuntu-sdk-qmake-extras
 

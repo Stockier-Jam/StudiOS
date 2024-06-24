@@ -11,7 +11,7 @@ Task-Metapackage: ubuntu-touch-android9plus
 == Core Device Specific ==
 
 # Touch uses the android-based mir platform backends by default
- * mir-graphics-drivers-android2
+ * mir1-graphics-drivers-android2
  * qtmir-android
  * ubuntu-touch-session-mir
 

@@ -18,9 +18,8 @@ Task-Metapackage: ubuntu-touch-core
  * ca-certificates
  * alsa-base
  * alsa-utils
- * powerd
+ * repowerd
  * urfkill
- * telepathy-gabble
  * libmessaging-menu0
  * signon-plugin-oauth2
  * signon-apparmor-extension
@@ -46,7 +45,7 @@ Task-Metapackage: ubuntu-touch-core
  * pulseaudio-module-bluetooth
  * pulseaudio-module-trust-store
  * rtkit
- * content-hub
+ * lomiri-content-hub
  * lomiri-location-service-bin
  * mtp-server
 # Plugin for showing camera viewfinder in Qt as well as the video surface in
@@ -58,8 +57,8 @@ Task-Metapackage: ubuntu-touch-core
  # can take advantage to fine-tune removals; also useful for debugging
  * lomiri-app-launch-tools
  * hfd-service
- * libtinyxml2-2v5              # camera/gallery
- * libzen0v5                    # camera/gallery
+ * libtinyxml2-10               # camera/gallery
+ * libzen0t64                   # camera/gallery
  * lomiri-push-service
  * account-polld               # ubuntu-push-client account notifications
 # MMS support
@@ -88,7 +87,7 @@ Task-Metapackage: ubuntu-touch-core
  * libertine-tools
  * python3-libertine-chroot
  * xmir
- * libsmbclient
+ * libsmbclient0
  * xauth
  * timekeeper
  * ubports-qa-scripts
@@ -107,13 +106,11 @@ Task-Metapackage: ubuntu-touch-core
 == Multimedia ==
 
  * gstreamer1.0-pulseaudio
- * gstreamer1.0-fluendo-mp3    # MP3 support
  * gstreamer1.0-plugins-good
- * gstreamer1.0-plugins-bad-faad # for h264parse/faad / streaming
- * gstreamer1.0-plugins-bad-videoparsers # for h264parse/faad / streaming
- * gstreamer1.0-plugins-ugly-amr # AMR support
- * gstreamer0.10-plugins-good
- * gstreamer0.10-pulseaudio
+# Unfortunately gst1.0-plugins-bad-{faad,videoparsers} split no longer exists.
+ * gstreamer1.0-plugins-bad # for h264parse/faad / streaming
+# Same goes for gst1.0-plugins-ugly-amr
+ * gstreamer1.0-plugins-ugly # AMR support
  * media-hub                   # centralized media playback
  * qtubuntu-media              # for media-hub
  * libmediainfo0v5             # camera/gallery
@@ -131,7 +128,7 @@ Task-Metapackage: ubuntu-touch-core
  * powerstat
  * health-check
  * tree
- * android-tools-adb
+ * adb
 # Tools added for debugging which should be removed in non-developer builds
  * strace
  * lsof
@@ -140,7 +137,7 @@ Task-Metapackage: ubuntu-touch-core
 
 == Utils ==
 
- * mir-utils	# screencast
+ * mir1-utils	# screencast
  * packagekit-tools
  * pulseaudio-utils # pactl
  * fbset # to dynamically detect framebuffer / screen size for phablet-screenshot
