@@ -2,6 +2,10 @@ image: ubuntu:noble
 variables:
   DEBIAN_FRONTEND: noninteractive
 
+default:
+  tags:
+    - ubports
+
 build:
   stage: build
   rules:
