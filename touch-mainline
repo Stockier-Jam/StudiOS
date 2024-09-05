@@ -10,7 +10,7 @@ Task-Metapackage: ubuntu-touch-mainline
 
 == Core Device Specific ==
 
- * mir-graphics-drivers-desktop
+ * mir1-graphics-drivers-desktop
  * ubuntu-touch-session-mir
 
 == App support ==
