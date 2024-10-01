@@ -22,7 +22,7 @@ build-focal:
 publish-focal:
   stage: deploy
   rules:
-    - if: '$CI_COMMIT_BRANCH == "focal"'
+    - if: '$CI_COMMIT_BRANCH == "ubports/focal"'
   variables:
     UBUNTU_TOUCH_META_TOKEN: $UBUNTU_TOUCH_META_TOKEN
     GIT_STRATEGY: none
