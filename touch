@@ -114,12 +114,12 @@ Task-Metapackage: ubuntu-touch
  * morph-browser
  * morph-webapp-container # container
  * qml-module-ubuntu-web-compat # Compatibility API for Ubuntu.Web component
- * dialer-app
- * messaging-app
+ * lomiri-dialer-app
+ * lomiri-messaging-app
  * lomiri-addressbook-app
- * mediaplayer-app
+ * lomiri-mediaplayer-app
  * syncevolution
- * sync-monitor-uoa
+ * lomiri-sync-monitor-loa
  * ubuntu-touch-settings
  * lomiri-system-settings
  * lomiri-system-settings-cellular
