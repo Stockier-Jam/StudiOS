@@ -48,6 +48,9 @@ Task-Metapackage: ubuntu-touch-core
  * lomiri-content-hub
  * lomiri-location-service-bin
  * mtp-server
+ * avahi-daemon
+ * avahi-dnsconfd
+ * avahi-autoipd
 # Plugin for showing camera viewfinder in Qt as well as the video surface in
 # the media-player
  * qtvideonode-plugin
