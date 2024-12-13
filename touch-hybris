@@ -53,10 +53,6 @@ Task-Metapackage: ubuntu-touch-hybris
  * pulseaudio-module-droid-discover
  * /^pulseaudio-modules-droid(|-glue|-hidl)-24$/
 
-== Apps ==
-
- * ubuntu-application-api3-touch
-
 == USB gadget ==
 
  * usb-moded

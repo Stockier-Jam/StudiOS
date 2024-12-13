@@ -143,6 +143,3 @@ Task-Metapackage: ubuntu-touch-core
  * fbset # to dynamically detect framebuffer / screen size for phablet-screenshot
  * gir1.2-lomiriapplaunch-0
  * iw
-
-# Platform API testing utils (sensors, gps, etc)
- * ubuntu-application-api3-examples
