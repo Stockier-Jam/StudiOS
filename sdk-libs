@@ -67,6 +67,9 @@ Task-Metapackage: ubuntu-sdk-libs
  * qml-module-usermetrics
  * lomiri-ui-toolkit-theme
 
+= Additional third party APIs =
+ * libqzxing3
+
 = Deprecated Components for Backwards Compatibility =
 
  * qml-module-ubuntu-components
