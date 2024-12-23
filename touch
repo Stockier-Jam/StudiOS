@@ -12,7 +12,7 @@ Task-Metapackage: ubuntu-touch
 
 == Core ==
 
- * ttf-ubuntu-font-family
+ * fonts-ubuntu
  * fonts-beng
  * fonts-emojione
  * fonts-khmeros
@@ -97,12 +97,12 @@ Task-Metapackage: ubuntu-touch
  * ayatana-indicator-datetime
  * ayatana-indicator-display
  * ayatana-indicator-keyboard
- * indicator-location
  * ayatana-indicator-messages
  * lomiri-indicator-network
  * ayatana-indicator-power
  * ayatana-indicator-session
  * ayatana-indicator-sound
+ * lomiri-indicator-location
  * lomiri-indicator-transfer
  * lomiri-indicator-transfer-download-manager
  * lomiri-url-dispatcher
@@ -142,12 +142,6 @@ Task-Metapackage: ubuntu-touch
 == Themes ==
 
  * lomiri-sounds
-
-== language support ==
-# these are trimmed for the touch seeds and only get built if they have at
-# least 70% coverage, so we want them all
-
- * /^language-pack-touch-/
 
 == Miscellaneous ==
 

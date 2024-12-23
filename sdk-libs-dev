@@ -26,9 +26,6 @@ Task-Metapackage: ubuntu-sdk-libs-dev
  * qtconnectivity5-dev
  * qtscript5-dev
 
- # delivers the ubuntu-click
- * ubuntu-sdk-qmake-extras
-
 = Lomiri Components =
 
  * qml-module-lomiri-test
@@ -39,7 +36,11 @@ Task-Metapackage: ubuntu-sdk-libs-dev
 
 = Other APIs =
 
- * libboost1.58-dev
+# Note that libboost-dev contains only headers and none of .so files for
+# linking (they live in e.g. libboost-atomic-dev). This means only header-only
+# part of Boost is part of SDK.
+ * libboost-dev
+
  * kirigami2-dev
  * libqzxing-dev
 
@@ -54,4 +55,3 @@ Task-Metapackage: ubuntu-sdk-libs-dev
 = Documentation and example code =
 
  * lomiri-ui-toolkit-doc
- * (ubuntu-html5-theme-examples)

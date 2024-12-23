@@ -32,7 +32,5 @@ Task-Metapackage: ubuntu-sdk
 = Tools =
 
  * qmlscene-ubports
- * qtcreator
- * qtcreator-plugin-ubuntu
  * autopilot-desktop
  * intltool

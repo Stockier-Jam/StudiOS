@@ -12,7 +12,6 @@ Task-Metapackage: ubuntu-sdk-libs-tools
  * cmake
  * cmake-extras
  * lomiri-ui-toolkit-doc
- * (ubuntu-html5-theme-examples)
  * intltool
  # for autopilot
  * python3
