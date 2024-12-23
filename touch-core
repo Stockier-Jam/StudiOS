@@ -32,10 +32,8 @@ Task-Metapackage: ubuntu-touch-core
  * lineageos-apndb
  * click
  * click-service
- * click-ubuntu-policy
  * debsig-verify
  * packagekit
- * packagekit-plugin-click
  * click-apparmor
  * apparmor-easyprof-ubuntu
  * ufw
@@ -69,7 +67,6 @@ Task-Metapackage: ubuntu-touch-core
  * openvpn
 # Credential storage
  * gnome-keyring
- * libp11-kit-gnome-keyring
  * libpam-gnome-keyring
  # * davfs2
  * bash-completion
@@ -86,7 +83,6 @@ Task-Metapackage: ubuntu-touch-core
  * aethercast
  * libertine-tools
  * python3-libertine-chroot
- * xmir
  * libsmbclient0
  * xauth
  * timekeeper
@@ -95,7 +91,6 @@ Task-Metapackage: ubuntu-touch-core
 # Filesystem
  * f2fs-tools
 # Sensor support
- * libsensorfw-qt5-configs
  * libsensorfw-qt5-plugins
  * libqt5sensors5-sensorfw
 # Human feedback support

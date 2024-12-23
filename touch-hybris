@@ -29,8 +29,6 @@ Task-Metapackage: ubuntu-touch-hybris
  * hybris-usb
  * libhybris-test
  * libhybris-utils
-# Copyrights of the AOSP portion of the image
- * android-copyright
 
 # Workaround some conflicts with Android's TLS slots causing some apps to
 # crash on Qt 5.12. See the package's description for how it works.
@@ -43,11 +41,6 @@ Task-Metapackage: ubuntu-touch-hybris
 
 # A QtMultimedia camera plugin that talks to Android by using hybris
  * cameraplugin-aal
- * gstreamer1.0-hybris
-
-# Alternative method to talks to camera via GStreamer
- * gstreamer1.0-droid
- * nemo-qtmultimedia-plugins
 
 # Pulseaudio module that talks to audio chip via Audio HAL
  * pulseaudio-module-droid-discover
@@ -64,7 +57,6 @@ Task-Metapackage: ubuntu-touch-hybris
 == Container Related ==
 
  * lxc-android-config
- * dbus-property-service
 
 == NFC ==
 

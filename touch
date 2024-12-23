@@ -143,12 +143,6 @@ Task-Metapackage: ubuntu-touch
 
  * lomiri-sounds
 
-== language support ==
-# these are trimmed for the touch seeds and only get built if they have at
-# least 70% coverage, so we want them all
-
- * /^language-pack-touch-/
-
 == Miscellaneous ==
 
  * deviceinfo-extras

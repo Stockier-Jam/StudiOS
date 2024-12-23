@@ -26,9 +26,6 @@ Task-Metapackage: ubuntu-sdk-libs-dev
  * qtconnectivity5-dev
  * qtscript5-dev
 
- # delivers the ubuntu-click
- * ubuntu-sdk-qmake-extras
-
 = Lomiri Components =
 
  * qml-module-lomiri-test
@@ -58,4 +55,3 @@ Task-Metapackage: ubuntu-sdk-libs-dev
 = Documentation and example code =
 
  * lomiri-ui-toolkit-doc
- * (ubuntu-html5-theme-examples)
