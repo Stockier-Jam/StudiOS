@@ -17,7 +17,7 @@ Task-Metapackage: ubuntu-touch-hybris
 # Touch uses the android-based mir platform backends by default
  * mir1-graphics-drivers-android
  * mir1-graphics-drivers-android-caf
- * qtmir-android
+ * qtmir-qt5-mir1
  * ubuntu-touch-session-mir
 
 # Add hybris based sensorfw plugin

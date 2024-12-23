@@ -12,7 +12,7 @@ Task-Metapackage: ubuntu-touch
 
 == Core ==
 
- * ttf-ubuntu-font-family
+ * fonts-ubuntu
  * fonts-beng
  * fonts-emojione
  * fonts-khmeros
@@ -97,12 +97,12 @@ Task-Metapackage: ubuntu-touch
  * ayatana-indicator-datetime
  * ayatana-indicator-display
  * ayatana-indicator-keyboard
- * indicator-location
  * ayatana-indicator-messages
  * lomiri-indicator-network
  * ayatana-indicator-power
  * ayatana-indicator-session
  * ayatana-indicator-sound
+ * lomiri-indicator-location
  * lomiri-indicator-transfer
  * lomiri-indicator-transfer-download-manager
  * lomiri-url-dispatcher
