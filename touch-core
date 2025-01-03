@@ -83,6 +83,7 @@ Task-Metapackage: ubuntu-touch-core
  * aethercast
  * libertine-tools
  * python3-libertine-chroot
+ * snapd
  * libsmbclient0
  * xauth
  * timekeeper
