@@ -69,4 +69,4 @@ Task-Metapackage: ubuntu-touch-hybris
  * mechanicd
 
 == App support ==
- * xwayland-hybris
+ * xwayland
