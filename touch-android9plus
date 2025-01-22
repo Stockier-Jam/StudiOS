@@ -67,4 +67,4 @@ Task-Metapackage: ubuntu-touch-android9plus
 == App support ==
 
  * waydroid
- * xwayland-hybris
+ * xwayland
