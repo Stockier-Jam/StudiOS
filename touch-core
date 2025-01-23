@@ -88,7 +88,7 @@ Task-Metapackage: ubuntu-touch-core
  * xauth
  * timekeeper
  * ubports-qa-scripts
- * qtubuntu-appmenutheme      # Provides theme and platform features to Qt apps
+ * qtlomiri-appmenutheme      # Provides theme and platform features to Qt apps
 # Filesystem
  * f2fs-tools
 # Sensor support
