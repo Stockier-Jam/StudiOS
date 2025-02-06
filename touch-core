@@ -100,7 +100,6 @@ Task-Metapackage: ubuntu-touch-core
 
 == Multimedia ==
 
- * gstreamer1.0-pulseaudio
  * gstreamer1.0-plugins-good
 # Unfortunately gst1.0-plugins-bad-{faad,videoparsers} split no longer exists.
  * gstreamer1.0-plugins-bad # for h264parse/faad / streaming

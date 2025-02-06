@@ -69,15 +69,14 @@ Task-Metapackage: ubuntu-touch
  * lomiri-keyboard-korean
  * lomiri-keyboard-lithuanian
  * lomiri-keyboard-bulgarian
- * account-plugin-facebook
- * account-plugin-flickr
- * account-plugin-google
- * account-plugin-owncloud
- * account-plugin-tools
- * account-plugin-twitter
- * account-plugin-nextcloud
- * account-plugin-vk
- * account-plugin-nextcloud
+ * lomiri-online-accounts-plugin-facebook
+ * lomiri-online-accounts-plugin-flickr
+ * lomiri-online-accounts-plugin-google
+ * lomiri-online-accounts-plugin-owncloud
+ * lomiri-online-accounts-plugin-tools
+ * lomiri-online-accounts-plugin-nextcloud
+ * lomiri-online-accounts-plugin-vk
+ * lomiri-online-accounts-plugin-x
  * account-polld-plugins-go
  * suru-icon-theme
  * bluez-obexd

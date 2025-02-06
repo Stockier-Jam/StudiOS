@@ -62,7 +62,7 @@ Task-Metapackage: ubuntu-sdk-libs
  * qml-module-lomiri-downloadmanager
  * qml-module-lomiri-pushnotifications        # replaces qtdeclarative5-ubuntu-push-plugin
  * qml-module-lomiri-syncmonitor
- * qml-module-lomiri-telephony-phonenumber0.1 # replaces qtdeclarative5-ubuntu-telephony-phonenumber0.1
+ * qml-module-lomiri-telephony-phonenumber
  * qml-module-usermetrics
  * lomiri-ui-toolkit-theme
 
