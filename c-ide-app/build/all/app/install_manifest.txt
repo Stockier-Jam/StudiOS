@@ -1,0 +1,6 @@
+/./manifest.json
+//c-ide-app.apparmor
+//assets/logo.svg
+//src/example.py
+//qml/Main.qml
+//c-ide-app.desktop

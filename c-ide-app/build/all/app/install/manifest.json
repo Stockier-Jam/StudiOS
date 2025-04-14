@@ -1,0 +1,15 @@
+{
+    "name": "c-ide-app.yourname",
+    "description": "Python ide for conce devices",
+    "architecture": "all",
+    "title": "C-IDE",
+    "hooks": {
+        "c-ide-app": {
+            "apparmor": "c-ide-app.apparmor",
+            "desktop":  "c-ide-app.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Your FullName <email@domain.org>",
+    "framework" : "ubuntu-sdk-20.04.1"
+}
