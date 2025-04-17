@@ -16,6 +16,12 @@ MainView {
     height: units.gu(75)
 
     property string currentFilePath: ""
+    property bool darkMode: true
+
+    property color backgroundColor: darkMode ? "#1c1c1c" : "#f0f0f0"
+    property color textColor: darkMode ? "white" : "black"
+    property color boxColor: darkMode ? "#333333" : "#dddddd"
+    property color borderColor: darkMode ? "#666666" : "#aaaaaa"
 
     Page {
         id: main
@@ -30,7 +36,6 @@ MainView {
             anchors.fill: parent
             spacing: units.gu(1)
 
-            // Toolbar Row Layout
             RowLayout {
                 Layout.fillWidth: true
                 spacing: units.gu(1)
@@ -73,19 +78,21 @@ MainView {
                     }
                 }
 
-                // Button to toggle snippet list visibility
                 Button {
                     text: "Insert Functions"
                     Layout.fillWidth: true
-                    onClicked: {
-                        snippetListView.visible = !snippetListView.visible
-                    }
+                    onClicked: snippetListView.visible = !snippetListView.visible
+                }
+
+                Button {
+                    text: darkMode ? "Light Mode" : "Dark Mode"
+                    Layout.fillWidth: true
+                    onClicked: darkMode = !darkMode
                 }
             }
 
-            // Code Editor Section
             Rectangle {
-                color: "#1c1c1c"
+                color: backgroundColor
                 Layout.fillWidth: true
                 Layout.fillHeight: true
 
@@ -95,21 +102,20 @@ MainView {
                     wrapMode: TextArea.WrapAnywhere
                     font.family: "monospace"
                     placeholderText: "# Write your Python code here"
-                    color: "white"
+                    color: textColor
                     font.pixelSize: 14
                 }
             }
 
-            // Snippet List Section (Initially hidden)
             Rectangle {
-                color: "#1c1c1c"
+                color: backgroundColor
                 Layout.fillWidth: true
-                Layout.preferredHeight: units.gu(7) // Adjusted height
+                Layout.preferredHeight: units.gu(7)
 
                 ListView {
                     id: snippetListView
                     anchors.fill: parent
-                    visible: false // Initially hidden
+                    visible: false
                     model: ListModel {
                         ListElement { name: "If Statement"; snippet: "if condition:\n    # your code here\nelse:\n    # your code here" }
                         ListElement { name: "Function"; snippet: "def function_name():\n    # your code here" }
@@ -128,13 +134,13 @@ MainView {
                         Rectangle {
                             width: parent.width
                             height: parent.height
-                            color: "#333333"
-                            border.color: "#666666"
+                            color: boxColor
+                            border.color: borderColor
 
                             Text {
                                 anchors.centerIn: parent
                                 text: model.name
-                                color: "white"
+                                color: textColor
                                 font.pixelSize: 14
                             }
 
@@ -142,7 +148,7 @@ MainView {
                                 anchors.fill: parent
                                 onClicked: {
                                     insertSnippet(model.snippet)
-                                    snippetListView.visible = false // Hide the list after selection
+                                    snippetListView.visible = false
                                 }
                             }
                         }
@@ -150,10 +156,15 @@ MainView {
                 }
             }
 
-            // Terminal Section
+            Rectangle {
+                width: parent.width
+                height: 1
+                color: "white"
+            }
+
             Rectangle {
                 id: terminalBox
-                color: "#1c1c1c"
+                color: backgroundColor
                 Layout.fillWidth: true
                 Layout.preferredHeight: units.gu(20)
                 clip: true
@@ -171,7 +182,7 @@ MainView {
                         Text {
                             id: terminalOutput
                             text: ""
-                            color: "white"
+                            color: textColor
                             wrapMode: Text.Wrap
                             font.family: "monospace"
                             font.pixelSize: 14
@@ -190,8 +201,8 @@ MainView {
                         placeholderText: "Enter command"
                         font.family: "monospace"
                         font.pixelSize: 14
-                        color: "white"
-                        background: Rectangle { color: "#333333" }
+                        color: textColor
+                        background: Rectangle { color: boxColor }
 
                         onAccepted: {
                             python.call("example.run_code_with_input", [editor.text, terminalInput.text], function(result) {
@@ -202,29 +213,19 @@ MainView {
                     }
                 }
             }
-
-            // White Separator Line Above the Terminal Output Box
-            Rectangle {
-                width: parent.width
-                height: 1
-                color: "white"
-                anchors.top: terminalBox.top // Correct anchor to position the white line above the terminal output
-            }
         }
 
-        // Python bridge
         Python {
             id: python
             Component.onCompleted: {
-                addImportPath(Qt.resolvedUrl('../src/')) // location of python backend file
-                importModule_sync("example")             // import functions from python backend file
+                addImportPath(Qt.resolvedUrl('../src/'))
+                importModule_sync("example")
             }
             onError: {
                 console.log("Python error: " + traceback)
             }
         }
 
-        // Open File Dialog
         FileDialog {
             id: fileDialog
             title: "Open Python File"
@@ -237,7 +238,6 @@ MainView {
             }
         }
 
-        // Save File Dialog
         FileDialog {
             id: saveDialog
             title: "Save Python File"
@@ -250,12 +250,10 @@ MainView {
         }
     }
 
-    // Helper function to insert snippets into the editor
     function insertSnippet(snippet) {
-        var cursorPos = editor.cursorPosition; // Get the current cursor position
+        var cursorPos = editor.cursorPosition;
         editor.text = editor.text.substring(0, cursorPos) + snippet + editor.text.substring(cursorPos);
-        editor.cursorPosition = cursorPos + snippet.length; // Move the cursor after the inserted snippet
+        editor.cursorPosition = cursorPos + snippet.length;
     }
 }
-
 
