@@ -1,0 +1,9 @@
+/./manifest.json
+//c-ide-app.apparmor
+//assets/logo.svg:Zone.Identifier
+//assets/logo.svg
+//src/example.py
+//src/example.py:Zone.Identifier
+//qml/Main.qml:Zone.Identifier
+//qml/Main.qml
+//c-ide-app.desktop
