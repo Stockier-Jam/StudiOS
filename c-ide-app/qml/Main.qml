@@ -90,10 +90,12 @@ MainView {
 
                 Button {
                     text: "Run"
-                    Layout.fillWidth: true
                     onClicked: {
-                        python.call("example.run_code_with_input", [editor.text, terminalInput.text], function(result) {
-                            terminalOutput.text = result
+                        console.log("Running code...")
+                        terminalOutput.text = ""
+                        terminalOutput.text += "\nRunning...\n" // ✅ See if it triggers
+                        python.call("example.start_code", [editor.text], function(result) {
+                            terminalOutput.text += result
                         })
                     }
                 }
@@ -235,8 +237,10 @@ MainView {
                         background: Rectangle { color: boxColor }
 
                         onAccepted: {
-                            python.call("example.run_code_with_input", [editor.text, terminalInput.text], function(result) {
-                                terminalOutput.text = result
+                            console.log("input: ", terminalInput.text)
+                            python.call("example.send_input", [terminalInput.text], function(result) {
+                                console.log("🔧 result from Python:", result)
+                                terminalOutput.text += terminalInput.text + result
                             })
                             terminalInput.text = ""
                         }
