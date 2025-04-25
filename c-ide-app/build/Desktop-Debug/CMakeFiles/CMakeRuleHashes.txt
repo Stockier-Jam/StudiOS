@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+422fb04b1b64861f545efdc826066154 CMakeFiles/c-ide-app.desktop
+0dcebc5421649f328c14e41c4c2a2eab po/CMakeFiles/c-ide-app.yourname.pot

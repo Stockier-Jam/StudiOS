@@ -1,0 +1,15 @@
+/home/nick/app/StudiOS/c-ide-app/build/CMakeFiles/c-ide-app.desktop.dir
+/home/nick/app/StudiOS/c-ide-app/build/CMakeFiles/c-ide-app_FILES.dir
+/home/nick/app/StudiOS/c-ide-app/build/CMakeFiles/edit_cache.dir
+/home/nick/app/StudiOS/c-ide-app/build/CMakeFiles/rebuild_cache.dir
+/home/nick/app/StudiOS/c-ide-app/build/CMakeFiles/list_install_components.dir
+/home/nick/app/StudiOS/c-ide-app/build/CMakeFiles/install.dir
+/home/nick/app/StudiOS/c-ide-app/build/CMakeFiles/install/local.dir
+/home/nick/app/StudiOS/c-ide-app/build/CMakeFiles/install/strip.dir
+/home/nick/app/StudiOS/c-ide-app/build/po/CMakeFiles/c-ide-app.yourname.pot.dir
+/home/nick/app/StudiOS/c-ide-app/build/po/CMakeFiles/edit_cache.dir
+/home/nick/app/StudiOS/c-ide-app/build/po/CMakeFiles/rebuild_cache.dir
+/home/nick/app/StudiOS/c-ide-app/build/po/CMakeFiles/list_install_components.dir
+/home/nick/app/StudiOS/c-ide-app/build/po/CMakeFiles/install.dir
+/home/nick/app/StudiOS/c-ide-app/build/po/CMakeFiles/install/local.dir
+/home/nick/app/StudiOS/c-ide-app/build/po/CMakeFiles/install/strip.dir

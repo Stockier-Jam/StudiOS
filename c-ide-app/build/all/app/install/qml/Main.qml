@@ -57,6 +57,7 @@ MainView {
                     onClicked: {
                         editor.text = ""
                         currentFilePath = ""
+                        terminalOutput.text = ""
                     }
                 }
                 Button {
@@ -96,7 +97,99 @@ MainView {
                     color: "#1c1c1c"
                 }
                 font.pixelSize: 14
-            }
+
+                focus: true
+                Keys.onPressed: function(event){
+                    if (event.text === "("){
+                        event.accepted = true
+                        console.log("theres a (")
+                        var pos = editor.cursorPosition
+                        editor.insert(pos, "()")
+                        editor.cursorPosition = pos + 1
+}
+                    if (event.key === Qt.Key_Space) {
+                        event.accepted = true;
+                        var cursorPos = editor.cursorPosition;
+                        editor.insert(cursorPos, " ");
+                        editor.cursorPosition = cursorPos + 1;
+                    }
+
+                    if (event.text === "'") {
+                        event.accepted = true;
+                        var cursorPos = editor.cursorPosition;
+                        editor.insert(cursorPos, "''");
+                        editor.cursorPosition = cursorPos + 1;
+                    }
+
+                    if (event.text === "\"") {
+                        event.accepted = true;
+                        var cursorPos = editor.cursorPosition;
+                        editor.insert(cursorPos, "\"\"");
+                        editor.cursorPosition = cursorPos + 1;
+                    }
+
+
+                    if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
+                                            event.accepted = true;
+
+                                            var cursorPos = editor.cursorPosition;
+                                            var fullText = editor.text;
+
+                                            // Find the start of the current line
+                                            var lastNewlineIndex = fullText.lastIndexOf("\n", cursorPos - 1);
+                                            var lineStart = (lastNewlineIndex === -1) ? 0 : lastNewlineIndex + 1;
+                                            var lineEnd = cursorPos;
+                                            var currentLine = fullText.slice(lineStart, lineEnd);
+
+                                            // Get indentation (spaces at the beginning of the current line)
+                                            var indentation = currentLine.match(/^(\s*)/)[0];
+
+                                            // Check if current line ends with ":"
+                                            var addIndent = currentLine.trim().endsWith(":");
+
+                                            // Optional keywords (Python-style or your own)
+                                            var keywords = ["if", "for", "while", "def", "class", "switch", "case"];
+                                            var trimmedLine = currentLine.trim();
+                                            for (var i = 0; i < keywords.length; i++) {
+                                                if (trimmedLine.startsWith(keywords[i]) && (trimmedLine.endsWith(":")) ){
+                                                    addIndent = true;
+                                                    break;
+                                                }
+                                                else
+                                                    addIndent = false;
+                                            }
+
+                                            // Build insert text
+                                            var insertText = "\n" + indentation;
+                                            if (addIndent) {
+                                                insertText += "    "; // Add extra indent
+                                            }
+
+                                            // Update text with new content
+                                            var textBefore = fullText.slice(0, cursorPos);
+                                            var textAfter = fullText.slice(cursorPos);
+                                            editor.text = textBefore + insertText + textAfter;
+
+                                            // Move cursor to after the insert
+                                            Qt.callLater(function() {
+                                                editor.cursorPosition = cursorPos + insertText.length;
+                                            });
+                                        }
+                                        if (event.key === Qt.Key_Space) {
+                                            event.accepted = true;
+
+                                            cursorPos = editor.cursorPosition;
+                                            fullText = editor.text;
+
+
+                                        }
+                                }
+
+                    }
+
+
+
+
             // Terminal Section (Output + Input Together)
             Rectangle {
                 id: terminalBox

@@ -15,9 +15,10 @@
 '''
 
 import sys
-sys.dont_write_bytecode = True
+sys.dont_write_bytecode = True #Prevent creation of .pyc files to avoid permission issues
 import io
 import traceback
+
 
 def run_code_with_input(code, user_input=""):
     # Ensure user input ends with a newline so input() works

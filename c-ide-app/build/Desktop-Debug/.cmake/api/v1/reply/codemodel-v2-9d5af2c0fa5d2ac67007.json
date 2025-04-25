@@ -1,0 +1,98 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b313d5ae88bc406451d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "po",
+					"jsonFile" : "directory-po-Debug-228a6ae4fae013275cd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "po",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "c-ide-app",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "c-ide-app.desktop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c-ide-app.desktop-Debug-c9d69f7afa91ca42cb08.json",
+					"name" : "c-ide-app.desktop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c-ide-app.yourname.pot::@fde6a12a88756396f0e5",
+					"jsonFile" : "target-c-ide-app.yourname.pot-Debug-2a2b941b0657c4f96c5b.json",
+					"name" : "c-ide-app.yourname.pot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "c-ide-app_FILES::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c-ide-app_FILES-Debug-51ad19adad5b88783b88.json",
+					"name" : "c-ide-app_FILES",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nick/app/StudiOS/c-ide-app/build/Desktop-Debug",
+		"source" : "/home/nick/app/StudiOS/c-ide-app"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
