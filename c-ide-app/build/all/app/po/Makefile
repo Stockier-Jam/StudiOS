@@ -57,10 +57,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/julez/StudiOS/c-ide-app
+CMAKE_SOURCE_DIR = /home/nick/app/StudiOS/c-ide-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/julez/StudiOS/c-ide-app/build/all/app
+CMAKE_BINARY_DIR = /home/nick/app/StudiOS/c-ide-app/build/all/app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -E cmake_progress_start /home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles /home/julez/StudiOS/c-ide-app/build/all/app/po//CMakeFiles/progress.marks
-	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles 0
+	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -E cmake_progress_start /home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles /home/nick/app/StudiOS/c-ide-app/build/all/app/po//CMakeFiles/progress.marks
+	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/clean
+	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/preinstall
+	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/preinstall
+	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 po/CMakeFiles/c-ide-app.yourname.pot.dir/rule:
-	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/CMakeFiles/c-ide-app.yourname.pot.dir/rule
+	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/CMakeFiles/c-ide-app.yourname.pot.dir/rule
 .PHONY : po/CMakeFiles/c-ide-app.yourname.pot.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ c-ide-app.yourname.pot: po/CMakeFiles/c-ide-app.yourname.pot.dir/rule
 
 # fast build rule for target.
 c-ide-app.yourname.pot/fast:
-	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f po/CMakeFiles/c-ide-app.yourname.pot.dir/build.make po/CMakeFiles/c-ide-app.yourname.pot.dir/build
+	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(MAKE) $(MAKESILENT) -f po/CMakeFiles/c-ide-app.yourname.pot.dir/build.make po/CMakeFiles/c-ide-app.yourname.pot.dir/build
 .PHONY : c-ide-app.yourname.pot/fast
 
 # Help Target
@@ -199,6 +199,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

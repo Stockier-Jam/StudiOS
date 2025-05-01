@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/julez/StudiOS/c-ide-app
+CMAKE_SOURCE_DIR = /home/nick/app/StudiOS/c-ide-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/julez/StudiOS/c-ide-app/build/all/app
+CMAKE_BINARY_DIR = /home/nick/app/StudiOS/c-ide-app/build/all/app
 
 # Utility rule file for c-ide-app_FILES.
 
@@ -78,6 +78,6 @@ CMakeFiles/c-ide-app_FILES.dir/clean:
 .PHONY : CMakeFiles/c-ide-app_FILES.dir/clean
 
 CMakeFiles/c-ide-app_FILES.dir/depend:
-	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julez/StudiOS/c-ide-app /home/julez/StudiOS/c-ide-app /home/julez/StudiOS/c-ide-app/build/all/app /home/julez/StudiOS/c-ide-app/build/all/app /home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles/c-ide-app_FILES.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/app/StudiOS/c-ide-app /home/nick/app/StudiOS/c-ide-app /home/nick/app/StudiOS/c-ide-app/build/all/app /home/nick/app/StudiOS/c-ide-app/build/all/app /home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles/c-ide-app_FILES.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/c-ide-app_FILES.dir/depend
 
