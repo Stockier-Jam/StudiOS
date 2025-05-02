@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/app/StudiOS/c-ide-app
+CMAKE_SOURCE_DIR = /home/julez/StudiOS/c-ide-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/app/StudiOS/c-ide-app/build/all/app
+CMAKE_BINARY_DIR = /home/julez/StudiOS/c-ide-app/build/all/app
 
 # Utility rule file for c-ide-app.yourname.pot.
 
@@ -67,10 +67,10 @@ include po/CMakeFiles/c-ide-app.yourname.pot.dir/compiler_depend.make
 include po/CMakeFiles/c-ide-app.yourname.pot.dir/progress.make
 
 po/CMakeFiles/c-ide-app.yourname.pot:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
-	cd /home/nick/app/StudiOS/c-ide-app/build/all/app/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/nick/app/StudiOS/c-ide-app c-ide-app.desktop.in
-	cd /home/nick/app/StudiOS/c-ide-app/build/all/app/po && /usr/bin/xgettext -o c-ide-app.yourname.pot -D /home/nick/app/StudiOS/c-ide-app/po -D /home/nick/app/StudiOS/c-ide-app/build/all/app/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=ctr:1c,2 --keyword=dctr:2c,3 --keyword=N_ --keyword=_ --keyword=dtr:2 --keyword=dtr:2,3 --keyword=tag --keyword=tag:1c,2 --package-name='c-ide-app.yourname' --sort-by-file ../qml/Main.qml c-ide-app.desktop.in.h
-	cd /home/nick/app/StudiOS/c-ide-app/build/all/app/po && /opt/cmake/bin/cmake -E copy c-ide-app.yourname.pot /home/nick/app/StudiOS/c-ide-app/po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
+	cd /home/julez/StudiOS/c-ide-app/build/all/app/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/julez/StudiOS/c-ide-app c-ide-app.desktop.in
+	cd /home/julez/StudiOS/c-ide-app/build/all/app/po && /usr/bin/xgettext -o c-ide-app.yourname.pot -D /home/julez/StudiOS/c-ide-app/po -D /home/julez/StudiOS/c-ide-app/build/all/app/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=ctr:1c,2 --keyword=dctr:2c,3 --keyword=N_ --keyword=_ --keyword=dtr:2 --keyword=dtr:2,3 --keyword=tag --keyword=tag:1c,2 --package-name='c-ide-app.yourname' --sort-by-file ../qml/Main.qml c-ide-app.desktop.in.h
+	cd /home/julez/StudiOS/c-ide-app/build/all/app/po && /opt/cmake/bin/cmake -E copy c-ide-app.yourname.pot /home/julez/StudiOS/c-ide-app/po
 
 c-ide-app.yourname.pot: po/CMakeFiles/c-ide-app.yourname.pot
 c-ide-app.yourname.pot: po/CMakeFiles/c-ide-app.yourname.pot.dir/build.make
@@ -81,10 +81,10 @@ po/CMakeFiles/c-ide-app.yourname.pot.dir/build: c-ide-app.yourname.pot
 .PHONY : po/CMakeFiles/c-ide-app.yourname.pot.dir/build
 
 po/CMakeFiles/c-ide-app.yourname.pot.dir/clean:
-	cd /home/nick/app/StudiOS/c-ide-app/build/all/app/po && $(CMAKE_COMMAND) -P CMakeFiles/c-ide-app.yourname.pot.dir/cmake_clean.cmake
+	cd /home/julez/StudiOS/c-ide-app/build/all/app/po && $(CMAKE_COMMAND) -P CMakeFiles/c-ide-app.yourname.pot.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/c-ide-app.yourname.pot.dir/clean
 
 po/CMakeFiles/c-ide-app.yourname.pot.dir/depend:
-	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/app/StudiOS/c-ide-app /home/nick/app/StudiOS/c-ide-app/po /home/nick/app/StudiOS/c-ide-app/build/all/app /home/nick/app/StudiOS/c-ide-app/build/all/app/po /home/nick/app/StudiOS/c-ide-app/build/all/app/po/CMakeFiles/c-ide-app.yourname.pot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julez/StudiOS/c-ide-app /home/julez/StudiOS/c-ide-app/po /home/julez/StudiOS/c-ide-app/build/all/app /home/julez/StudiOS/c-ide-app/build/all/app/po /home/julez/StudiOS/c-ide-app/build/all/app/po/CMakeFiles/c-ide-app.yourname.pot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/c-ide-app.yourname.pot.dir/depend
 

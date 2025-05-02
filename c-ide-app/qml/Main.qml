@@ -92,8 +92,11 @@ MainView {
                     text: "Run"
                     Layout.fillWidth: true
                     onClicked: {
-                        python.call("example.run_code_with_input", [editor.text, terminalInput.text], function(result) {
-                            terminalOutput.text = result
+                        console.log("Running code...")
+                        terminalOutput.text = ""
+                        terminalOutput.text += "Running...\n" // ✅ See if it triggers
+                        python.call("example.start_code", [editor.text], function(result) {
+                            terminalOutput.text += result
                         })
                     }
                 }
@@ -335,8 +338,11 @@ MainView {
                         background: Rectangle { color: boxColor }
 
                         onAccepted: {
-                            python.call("example.run_code_with_input", [editor.text, terminalInput.text], function(result) {
-                                terminalOutput.text = result
+                            console.log("input: ", terminalInput.text)
+                            python.call("example.send_input", [terminalInput.text], function(result) {
+                                console.log("input: ", terminalInput.text)
+                                console.log("🔧 result from Python:", result)
+                                terminalOutput.text += terminalInput.text + result
                             })
                             terminalInput.text = ""
                         }
@@ -409,6 +415,10 @@ MainView {
     onError: {
         console.log("Python error: " + traceback)
     }
+    onReceived: function(result) {
+            console.log("✅ Python result: " + result)
+            textArea.text += result + "\n"
+        }
 }
 
 // In the FileDialog onAccepted signal:
