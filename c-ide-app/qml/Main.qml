@@ -92,7 +92,7 @@ MainView {
                     text: "Run"
                     Layout.fillWidth: true
                     onClicked: {
-                        python.call("example.run_code_with_input", [editor.text, terminalInput.text], function(result) {
+                        python.call("example.start_code", [editor.text], function(result) {
                             terminalOutput.text = result
                         })
                     }
@@ -335,7 +335,7 @@ MainView {
                         background: Rectangle { color: boxColor }
 
                         onAccepted: {
-                            python.call("example.run_code_with_input", [editor.text, terminalInput.text], function(result) {
+                            python.call("example.send_input", [terminalInput.text], function(result) {
                                 terminalOutput.text = result
                             })
                             terminalInput.text = ""

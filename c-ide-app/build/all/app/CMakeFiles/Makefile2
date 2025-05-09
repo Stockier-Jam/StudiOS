@@ -54,10 +54,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/app/StudiOS/c-ide-app
+CMAKE_SOURCE_DIR = /home/julez/StudiOS/c-ide-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/app/StudiOS/c-ide-app/build/all/app
+CMAKE_BINARY_DIR = /home/julez/StudiOS/c-ide-app/build/all/app
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -100,14 +100,14 @@ po/clean: po/CMakeFiles/c-ide-app.yourname.pot.dir/clean
 CMakeFiles/c-ide-app.desktop.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-ide-app.desktop.dir/build.make CMakeFiles/c-ide-app.desktop.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-ide-app.desktop.dir/build.make CMakeFiles/c-ide-app.desktop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles --progress-num=1 "Built target c-ide-app.desktop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles --progress-num=1 "Built target c-ide-app.desktop"
 .PHONY : CMakeFiles/c-ide-app.desktop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/c-ide-app.desktop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/c-ide-app.desktop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles 0
 .PHONY : CMakeFiles/c-ide-app.desktop.dir/rule
 
 # Convenience name for target.
@@ -126,14 +126,14 @@ CMakeFiles/c-ide-app.desktop.dir/clean:
 CMakeFiles/c-ide-app_FILES.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-ide-app_FILES.dir/build.make CMakeFiles/c-ide-app_FILES.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-ide-app_FILES.dir/build.make CMakeFiles/c-ide-app_FILES.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles --progress-num= "Built target c-ide-app_FILES"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles --progress-num= "Built target c-ide-app_FILES"
 .PHONY : CMakeFiles/c-ide-app_FILES.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/c-ide-app_FILES.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/c-ide-app_FILES.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles 0
 .PHONY : CMakeFiles/c-ide-app_FILES.dir/rule
 
 # Convenience name for target.
@@ -152,14 +152,14 @@ CMakeFiles/c-ide-app_FILES.dir/clean:
 po/CMakeFiles/c-ide-app.yourname.pot.dir/all:
 	$(MAKE) $(MAKESILENT) -f po/CMakeFiles/c-ide-app.yourname.pot.dir/build.make po/CMakeFiles/c-ide-app.yourname.pot.dir/depend
 	$(MAKE) $(MAKESILENT) -f po/CMakeFiles/c-ide-app.yourname.pot.dir/build.make po/CMakeFiles/c-ide-app.yourname.pot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles --progress-num=2 "Built target c-ide-app.yourname.pot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles --progress-num=2 "Built target c-ide-app.yourname.pot"
 .PHONY : po/CMakeFiles/c-ide-app.yourname.pot.dir/all
 
 # Build rule for subdir invocation for target.
 po/CMakeFiles/c-ide-app.yourname.pot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/CMakeFiles/c-ide-app.yourname.pot.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles 0
 .PHONY : po/CMakeFiles/c-ide-app.yourname.pot.dir/rule
 
 # Convenience name for target.
