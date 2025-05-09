@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/app/StudiOS/c-ide-app
+CMAKE_SOURCE_DIR = /home/julez/StudiOS/c-ide-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/app/StudiOS/c-ide-app/build/all/app
+CMAKE_BINARY_DIR = /home/julez/StudiOS/c-ide-app/build/all/app
 
 # Utility rule file for c-ide-app.desktop.
 
@@ -67,9 +67,9 @@ include CMakeFiles/c-ide-app.desktop.dir/compiler_depend.make
 include CMakeFiles/c-ide-app.desktop.dir/progress.make
 
 CMakeFiles/c-ide-app.desktop:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into c-ide-app.desktop..."
-	LC_ALL=C /usr/bin/intltool-merge -d -u /home/nick/app/StudiOS/c-ide-app/po /home/nick/app/StudiOS/c-ide-app/c-ide-app.desktop.in c-ide-app.desktop
-	sed -i 's/c-ide-app-//g' /home/nick/app/StudiOS/c-ide-app/build/all/app/c-ide-app.desktop
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into c-ide-app.desktop..."
+	LC_ALL=C /usr/bin/intltool-merge -d -u /home/julez/StudiOS/c-ide-app/po /home/julez/StudiOS/c-ide-app/c-ide-app.desktop.in c-ide-app.desktop
+	sed -i 's/c-ide-app-//g' /home/julez/StudiOS/c-ide-app/build/all/app/c-ide-app.desktop
 
 c-ide-app.desktop: CMakeFiles/c-ide-app.desktop
 c-ide-app.desktop: CMakeFiles/c-ide-app.desktop.dir/build.make
@@ -84,6 +84,6 @@ CMakeFiles/c-ide-app.desktop.dir/clean:
 .PHONY : CMakeFiles/c-ide-app.desktop.dir/clean
 
 CMakeFiles/c-ide-app.desktop.dir/depend:
-	cd /home/nick/app/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/app/StudiOS/c-ide-app /home/nick/app/StudiOS/c-ide-app /home/nick/app/StudiOS/c-ide-app/build/all/app /home/nick/app/StudiOS/c-ide-app/build/all/app /home/nick/app/StudiOS/c-ide-app/build/all/app/CMakeFiles/c-ide-app.desktop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/julez/StudiOS/c-ide-app/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julez/StudiOS/c-ide-app /home/julez/StudiOS/c-ide-app /home/julez/StudiOS/c-ide-app/build/all/app /home/julez/StudiOS/c-ide-app/build/all/app /home/julez/StudiOS/c-ide-app/build/all/app/CMakeFiles/c-ide-app.desktop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/c-ide-app.desktop.dir/depend
 

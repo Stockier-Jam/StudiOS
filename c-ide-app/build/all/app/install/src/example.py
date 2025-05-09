@@ -14,58 +14,168 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
+import pyotherside
 import sys
-sys.dont_write_bytecode = True #Prevent creation of .pyc files to avoid permission issues
 import io
 import traceback
-import os
+from queue import Queue
+import code
+import builtins # used to intercept calls to input()
+import threading
+import time
 
-def run_code_with_input(code, user_input=""):
-    # Ensure user input ends with a newline so input() works
-    if not user_input.endswith("\n"):
-        user_input += "\n"
+class InteractiveRunner(code.InteractiveConsole):
+    def __init__(self, code_text):
+        super().__init__(locals={})
+        self.code_lines = code_text.splitlines()
+        self.stdin_queue = Queue()
+        self.output = io.StringIO()
+        self.error = io.StringIO()
+        self.waiting_for_input = False
+        self.is_done = False
+        self.buffer = []  # For multiline input
+        self.current_line = 0
+        self.input_handled_event = threading.Event()
+        self.lock = threading.Lock()
 
-    # Redirect stdin to simulate user input
-    sys.stdin = io.StringIO(user_input)
+    def patched_input(self, prompt=""):
+        # Write directly to real stdout, not the captured one
+        sys.stdout.write(prompt)
+        sys.stdout.flush()
 
-    # Redirect stdout and stderr to capture output
-    stdout = io.StringIO()
-    stderr = io.StringIO()
+        #self.waiting_for_input = True
+        self.input_handled_event.clear()
 
-    # Backup original streams
-    original_stdout = sys.stdout
-    original_stderr = sys.stderr
-    original_stdin = sys.stdin
+        user_input = self.stdin_queue.get()
+        #self.waiting_for_input = False
+        self.input_handled_event.set()
+        #self.output.write(f"user input: {user_input}")
 
-    sys.stdout = stdout
-    sys.stderr = stderr
+        return user_input
 
-    try:
-        exec(code, {})
-    except Exception:
-        traceback.print_exc(file=stderr)
 
-    # Restore original streams
-    sys.stdout = original_stdout
-    sys.stderr = original_stderr
-    sys.stdin = original_stdin
+    def run(self):
+        sys_stdout, sys_stderr, sys_stdin = sys.stdout, sys.stderr, sys.stdin
+        sys.stdout = self.output
+        sys.stderr = self.error
+        sys.stdin = self
 
-    output = stdout.getvalue()
-    error = stderr.getvalue()
+        original_input = builtins.input
+        builtins.input = self.patched_input
 
-    if error:
-        return f"⚠️ Error:\n{error}"
+        try:
+            while self.current_line < len(self.code_lines):
+
+                line = self.code_lines[self.current_line]
+                self.buffer.append(line)
+                source = "\n".join(self.buffer)
+
+                more = self.runsource(source, "<input>", "single")
+
+                if not more:
+                    #self.output.write(f"Not more: {line}")
+                    self.buffer.clear()
+                    self.current_line = self.current_line + 1
+                    continue
+
+                time.sleep(0.05)
+
+        except EOFError:
+            # Handle EOFError if input reaches EOF or other terminal issues
+            self.output.write("[ERROR] EOFError encountered while running the source.\n")
+        except Exception as e:
+            # Catch other exceptions and log them
+            self.error.write(f"[ERROR] Exception in runsource(): {e}\n")
+            traceback.print_exc(file=self.error)
+            self.is_done = True
+
+        finally:
+            captured_stdout = self.output.getvalue()
+            captured_stderr = self.error.getvalue()
+
+            # Flush all prints to output buffer before resetting stdout
+            sys.stdout.flush()
+            sys.stderr.flush()
+
+            # Save current output(before resetting stdout)
+            captured_stdout = self.output.getvalue()
+            captured_stderr = self.error.getvalue()
+
+            # Rewind buffers before reset (safeguard)
+            self.output.seek(0)
+            self.error.seek(0)
+
+            # Reset streams
+            sys.stdout = sys_stdout
+            sys.stderr = sys_stderr
+            sys.stdin = sys_stdin
+            builtins.input = original_input
+
+            self.output = io.StringIO()
+            self.output.write(captured_stdout)
+            self.error = io.StringIO()
+            self.error.write(captured_stderr)
+
+
+    def submit_input(self, user_input):
+        self.stdin_queue.put(user_input)
+
+    def get_output(self):
+        out = self.output.getvalue()
+        err = self.error.getvalue()
+        return out
+        #self.output = io.StringIO()
+        #self.error = io.StringIO()
+        #if err:
+        #    return f"⚠️ Error:\n{err}"
+        #if not out:
+        #    return "Waiting for input..."
+
+        #return out
+
+
+# Global session store
+runner_instance = None
+
+
+def start_code(code):
+    global runner_instance
+    runner_instance = InteractiveRunner(code)
+
+    thread = threading.Thread(target=runner_instance.run)
+    thread.daemon = True
+    thread.start()
+
+    output = runner_instance.get_output()
     return output
+
+def send_input(user_input):
+    if user_input:
+        global runner_instance
+        if runner_instance is not None and not runner_instance.is_done:
+            runner_instance.submit_input(user_input)
+
+            #Wait until the input has been handled by the existing thread
+            runner_instance.input_handled_event.wait(timeout=3)
+            time.sleep(0.1)
+
+            return runner_instance.get_output()
+        return "No active session or program has finished"
 
 
 def save_file(file_path, content):
     try:
-        os.makedirs(os.path.dirname(file_path), exist_ok=True)
-        with open(file_path, 'w') as file:
+        dir_name = os.path.dirname(file_path)
+        if dir_name:
+            os.makedirs(dir_name, exist_ok=True)
+        with open(file_path, 'w', encoding='utf-8') as file:
             file.write(content)
+        print(f"Saved successfully to: {file_path}")
         return "File saved successfully!"
     except Exception as e:
+        print(f"Error saving: {e}")
         return f"Error saving file: {str(e)}"
+
 
 def load_file(file_path):
     try:

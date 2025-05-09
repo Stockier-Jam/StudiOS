@@ -1,4 +1,4 @@
-# Install script for directory: /home/nick/app/StudiOS/c-ide-app/po
+# Install script for directory: /home/julez/StudiOS/c-ide-app/po
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
